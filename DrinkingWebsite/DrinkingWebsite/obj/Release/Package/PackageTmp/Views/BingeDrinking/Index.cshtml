@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/blog.css" rel="stylesheet" />
+
+<div class="container" style="margin-top:40px;">
+    <div class="nav1-scroller py-1 mb-2" style="border-bottom: .1875rem solid gray;">
+        <nav1 class="nav1 d-flex justify-content-start" style="font-size:1.125rem;">
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","AboutAddiction")">Alcoholism</a><span class="p-2">|</span>
+
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","Reasons")">Reasons Why People Drink</a><span class="p-2">|</span>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","Causes")">Causes and Risk Factors</a>
+            <a class="p-2" style="color: #fff !important;background-color:gray;" href="@Url.Action("Index","BingeDrinking")">Binge Drinking</a>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","StaySober")">Stay Sober</a><span class="p-2">|</span>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","DataChart")">Drinking factsheet</a>
+        </nav1>
+    </div>
+</div>
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-12 blog-main">
+            <h2 class="blog-post-title">
+                Binge Drinking
+            </h2>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <p class="lead">Despite its seemingly harmless surface, binge drinking can have long-term health implications that far outweigh the short-term negative aspects. Women binge drink more than four drinks in one sitting, while men have more than six. Despite differences in amounts, binge drinking is still fuelled by the same reasons. </p>
+            </div>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3>People who binge drink</h3>
+                <hr>
+                <ul>
+                    <li class="lead">Drink occasionally but not every day</li>
+                    <li class="lead">They might be unaware of their own limitations</li>
+                    <li class="lead">The goal isn't necessarily to drink heavily</li>
+                    <li class="lead">Drink too much because of peer pressure</li>
+                    <li class="lead">Might feel awkward in social situations.</li>
+                </ul>
+            </div>
+            
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3>Reasons for Binge Drinking</h3>
+                <h3>You wanted to have a great time</h3>
+                <hr><p class="lead">The more drinks, the better the time? The answer is no. Despite drinking culture telling us to "drink until you drop", it is often the opposite that happens. You should consider all the fun you're going to have the next day when you're hungover and suffering the consequences. </p>
+                <h3>Feeling lonely, anxious and in need of a confidence boost</h3>
+                <hr>
+                <p class="lead">The feeling of social anxiety is the leading reason we set a rapid pace. You may be more relaxed and confident after drinking a couple of drinks. It's important to remember, however, that this is a temporary fix for a long-term problem, and you will find yourself back at square one once the alcohol wears off. You can seek assistance if you suspect that you drink to hide such issues. </p>
+                <h3>You wanted to be accepted</h3>
+                <hr />
+                <p class="lead">Often, we are tempted to follow the crowd rather than stand out from the crowd. It's worth pondering who you're putting time into if being accepted means a wicked hangover and a bunch of regrets.</p>
+                <h3>Peer pressure</h3>
+                <hr />
+                <p class="lead">Binge drinking can be discouraged by peer pressure. Your friends may try to put you under pressure to drink more than you should, so turn the tables and question them calmly. While they may simply be trying to make you have fun, you can make them see the impact of their behaviour by calling out their actions.</p>
+                <h3>You did not realize that you were binge drinking</h3>
+                <hr />
+                <p class="lead">Drinking too much alcohol can be a bit of a grey area. The night may start off slowly, but suddenly this fun activity can become risky quickly. Pace yourself by drinking one glass of water for every one you drink. Between every alcoholic drink, drink a glass of water, which will also slow down your consumption as well as sober you up.</p>
+            </div>           
+        </div><!-- /.blog-main -->
+       
+    </div><!-- /.row -->
+
+</main>
+
+
+
