@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Care</title>
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+    <link rel="bookmark" type="image/x-icon" href="~/images/logo.ico"/>
+    <link rel="shortcut icon" href="~/images/logo.ico">
+    <link rel="icon" href="~/images/logo.ico">
+    <link rel="stylesheet" href="~/Content/b.css">
+    <link rel="stylesheet" href="~/Content/carousel.css">
+    <link rel="stylesheet" href="~/Content/Index.css">
+</head>
+<style>
+    .m {
+        width: 960px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link {
+        color: #405d7e;
+        font-weight: bold;
+    }
+      .nav-link:hover {
+        color: #a99911 !important;
+    }
+    body {
+        background-color: #fff !important;
+    }
+    .bg-white {
+        background-color: #f8f9fa !important;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255,102,203) !important;
+    }
+</style>
+<body>
+    @* 主页的navigation bar *@
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/logo.png" style="width:150px;height:60px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home Page<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "AboutAddiction")">About addiction</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Resources")">Resources</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Urgent Help</a>
+                </li>
+            </ul>
+            <!--<div class="form-inline mt-2 mt-md-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Urgent help<span class="sr-only">(current)</span></a>
+                    </li>-->
+            @*<li class="nav-item">
+                    <a class="nav-link" href="#"> Log in</a>
+                </li>*@
+            @*<li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>*@
+            <!--</ul>
+            </div>-->
+            @*<form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>*@
+        </div>
+    </nav>    
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("应用程序名称", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                        <li>@Html.ActionLink("关于", "About", "Home")</li>
+                        <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+    @RenderBody()
+
+    <!--<div class="container body-content">
+
+        <hr />-->
+    @*<footer>
+            <p>&copy; @DateTime.Now.Year -</p>
+        </footer>*@
+    <!--</div>-->
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)*@
+</body>
+
+</html>
