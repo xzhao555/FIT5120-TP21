@@ -4,7 +4,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\chenx\Desktop\lscf4\5120\interation1\DWV04\DrinkingWebsite\DrinkingWebsite\bin\app.publish\</_PublishTargetUrl>
+    <_PublishTargetUrl>F:\chengxu\QuitDrinkWebsite\DrinkingWebsite\DrinkingWebsite\bin\app.publish\</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -14,10 +14,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/DrinkingWebsite.dll">
-      <publishTime>08/27/2021 00:39:56</publishTime>
+      <publishTime>09/10/2021 02:31:09</publishTime>
     </File>
     <File Include="bin/DrinkingWebsite.pdb">
-      <publishTime>08/27/2021 00:39:56</publishTime>
+      <publishTime>09/10/2021 02:31:09</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -227,73 +227,73 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/29/2018 13:29:50</publishTime>
     </File>
     <File Include="Content/b.css">
-      <publishTime>08/19/2021 09:29:41</publishTime>
+      <publishTime>08/19/2021 09:29:42</publishTime>
     </File>
     <File Include="Content/blog.css">
-      <publishTime>08/26/2021 00:06:54</publishTime>
+      <publishTime>08/26/2021 00:06:56</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Content/carousel.css">
-      <publishTime>08/19/2021 09:09:28</publishTime>
+      <publishTime>08/19/2021 09:09:30</publishTime>
     </File>
     <File Include="Content/global.css">
-      <publishTime>08/19/2021 08:35:31</publishTime>
+      <publishTime>08/19/2021 08:35:32</publishTime>
     </File>
     <File Include="Content/Index.css">
-      <publishTime>08/19/2021 09:55:43</publishTime>
+      <publishTime>08/19/2021 09:55:44</publishTime>
     </File>
     <File Include="Content/signin.css">
-      <publishTime>08/25/2021 09:04:17</publishTime>
+      <publishTime>08/25/2021 09:04:18</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Content/video-js.min.css">
-      <publishTime>08/22/2021 12:04:01</publishTime>
+      <publishTime>08/22/2021 12:04:02</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>08/18/2021 23:12:54</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="images/banner.jpg">
       <publishTime>08/25/2021 22:41:10</publishTime>
@@ -302,7 +302,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 09:36:20</publishTime>
     </File>
     <File Include="images/banner1.jpg">
-      <publishTime>08/26/2021 19:51:09</publishTime>
+      <publishTime>08/26/2021 19:51:10</publishTime>
+    </File>
+    <File Include="images/banner2.png">
+      <publishTime>09/10/2021 00:58:04</publishTime>
     </File>
     <File Include="images/banner2016.jpg">
       <publishTime>08/19/2021 08:41:55</publishTime>
@@ -310,128 +313,227 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="images/banner2016.png">
       <publishTime>08/19/2021 09:36:20</publishTime>
     </File>
+    <File Include="images/banner3.jpg">
+      <publishTime>09/10/2021 00:58:04</publishTime>
+    </File>
+    <File Include="images/banner4.jpg">
+      <publishTime>09/10/2021 00:58:04</publishTime>
+    </File>
+    <File Include="images/Betterhealth.png">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="images/DirectLine.jpg">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="images/drink.jpg">
+      <publishTime>09/09/2021 21:25:17</publishTime>
+    </File>
     <File Include="images/Drinking.jpg">
       <publishTime>08/18/2021 23:24:44</publishTime>
     </File>
+    <File Include="images/health-direct.png">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
     <File Include="images/img1.jpg">
-      <publishTime>08/25/2021 19:56:27</publishTime>
+      <publishTime>08/25/2021 19:56:28</publishTime>
+    </File>
+    <File Include="images/Lifeline.jpeg">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="images/logo.ico">
+      <publishTime>08/31/2021 08:48:58</publishTime>
     </File>
     <File Include="images/logo.png">
-      <publishTime>08/25/2021 16:57:48</publishTime>
+      <publishTime>08/25/2021 16:57:50</publishTime>
     </File>
     <File Include="images/new1.jpg">
-      <publishTime>08/26/2021 09:22:34</publishTime>
+      <publishTime>08/26/2021 09:22:36</publishTime>
     </File>
     <File Include="images/new2.jpg">
-      <publishTime>08/26/2021 14:13:11</publishTime>
+      <publishTime>08/26/2021 14:13:12</publishTime>
     </File>
     <File Include="images/new3.jpg">
-      <publishTime>08/26/2021 15:08:56</publishTime>
+      <publishTime>08/26/2021 15:08:58</publishTime>
     </File>
     <File Include="images/new4.jpg">
-      <publishTime>08/26/2021 21:47:26</publishTime>
+      <publishTime>08/26/2021 21:47:28</publishTime>
+    </File>
+    <File Include="images/OnTrack.JPG">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="images/phone.png">
+      <publishTime>09/10/2021 00:49:39</publishTime>
     </File>
     <File Include="images/QuitDrinking.mp4">
-      <publishTime>08/25/2021 23:26:02</publishTime>
+      <publishTime>09/06/2021 21:28:06</publishTime>
+    </File>
+    <File Include="images/THERIGHTMIX.png">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="images/YoDaa.jpeg">
+      <publishTime>09/06/2021 21:16:11</publishTime>
+    </File>
+    <File Include="logo.ico">
+      <publishTime>08/31/2021 08:49:09</publishTime>
     </File>
     <File Include="Scripts/banner.js">
-      <publishTime>08/19/2021 08:36:33</publishTime>
+      <publishTime>08/19/2021 08:36:34</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.min.js">
-      <publishTime>08/19/2021 09:13:00</publishTime>
+      <publishTime>08/19/2021 09:13:02</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>08/18/2021 23:12:58</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/echarts.min.js">
-      <publishTime>08/26/2021 22:48:05</publishTime>
+      <publishTime>08/26/2021 22:48:06</publishTime>
     </File>
     <File Include="Scripts/jquery-1.8.3.min.js">
-      <publishTime>08/19/2021 08:36:33</publishTime>
+      <publishTime>08/19/2021 08:36:34</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.js">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.min.js">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.min.map">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.slim.js">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.slim.min.js">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery-3.4.1.slim.min.map">
-      <publishTime>08/18/2021 23:12:59</publishTime>
+      <publishTime>08/18/2021 23:13:00</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>08/18/2021 23:13:04</publishTime>
+      <publishTime>08/18/2021 23:13:06</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>08/18/2021 23:13:04</publishTime>
+      <publishTime>08/18/2021 23:13:06</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>08/18/2021 23:13:04</publishTime>
+      <publishTime>08/18/2021 23:13:06</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>08/18/2021 23:13:04</publishTime>
+      <publishTime>08/18/2021 23:13:06</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/css/styles.css">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/answer.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/back.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/confirm.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/correct.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/delete.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/forward.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/incorrect.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/img/start.png">
+      <publishTime>09/07/2021 23:31:26</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/init.js">
+      <publishTime>09/09/2021 18:06:55</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/js/jquery.jquizzy.js">
+      <publishTime>09/09/2021 18:18:15</publishTime>
+    </File>
+    <File Include="Scripts/jquizzy/js/jquery.js">
+      <publishTime>09/07/2021 23:31:26</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.8.3.js">
-      <publishTime>08/18/2021 23:13:03</publishTime>
+      <publishTime>08/18/2021 23:13:04</publishTime>
+    </File>
+    <File Include="Scripts/switch/css/demo.css">
+      <publishTime>09/09/2021 21:30:08</publishTime>
+    </File>
+    <File Include="Scripts/switch/css/reset.css">
+      <publishTime>09/09/2021 21:10:19</publishTime>
+    </File>
+    <File Include="Scripts/switch/css/style.css">
+      <publishTime>09/09/2021 23:19:41</publishTime>
+    </File>
+    <File Include="Scripts/switch/js/modernizr.js">
+      <publishTime>09/09/2021 21:10:19</publishTime>
     </File>
     <File Include="Scripts/video.min.js">
-      <publishTime>08/22/2021 12:04:18</publishTime>
+      <publishTime>08/22/2021 12:04:20</publishTime>
     </File>
     <File Include="Views/AboutAddiction/Index.cshtml">
-      <publishTime>08/26/2021 23:14:59</publishTime>
+      <publishTime>09/10/2021 03:24:56</publishTime>
+    </File>
+    <File Include="Views/AboutAlcohol/Index.cshtml">
+      <publishTime>09/10/2021 04:25:30</publishTime>
     </File>
     <File Include="Views/BingeDrinking/Index.cshtml">
-      <publishTime>08/26/2021 23:15:24</publishTime>
+      <publishTime>09/10/2021 03:25:24</publishTime>
     </File>
     <File Include="Views/Causes/Index.cshtml">
-      <publishTime>08/26/2021 23:15:44</publishTime>
+      <publishTime>09/10/2021 03:25:58</publishTime>
     </File>
     <File Include="Views/DataChart/Index.cshtml">
-      <publishTime>08/26/2021 23:16:06</publishTime>
+      <publishTime>09/10/2021 03:26:22</publishTime>
+    </File>
+    <File Include="Views/Error/Index.cshtml">
+      <publishTime>09/10/2021 03:26:46</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/27/2021 00:35:57</publishTime>
+      <publishTime>09/10/2021 04:06:32</publishTime>
+    </File>
+    <File Include="Views/Question/Index.cshtml">
+      <publishTime>09/10/2021 04:09:36</publishTime>
     </File>
     <File Include="Views/Reasons/Index.cshtml">
-      <publishTime>08/26/2021 23:16:23</publishTime>
+      <publishTime>09/10/2021 03:27:22</publishTime>
+    </File>
+    <File Include="Views/Resources/Index.cshtml">
+      <publishTime>09/10/2021 04:35:18</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/31/2021 10:22:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/27/2021 00:19:20</publishTime>
+      <publishTime>09/10/2021 03:54:40</publishTime>
     </File>
     <File Include="Views/SignIn/Index.cshtml">
-      <publishTime>08/26/2021 19:49:29</publishTime>
+      <publishTime>09/10/2021 03:27:56</publishTime>
     </File>
     <File Include="Views/StaySober/Index.cshtml">
-      <publishTime>08/27/2021 00:35:19</publishTime>
+      <publishTime>09/10/2021 03:28:52</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>08/18/2021 23:12:54</publishTime>
+      <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/26/2021 23:26:40</publishTime>
+      <publishTime>09/10/2021 03:36:10</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -1,0 +1,73 @@
+﻿
+@{ ViewBag.Title = "Index";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+<link href="~/Content/blog.css" rel="stylesheet" />
+
+<div class="container" style="margin-top:60px;">
+    <div class="nav1-scroller py-1 mb-2" style="border-bottom: .1875rem solid #e0a200;">
+        <nav1 class="nav1 d-flex justify-content-start" style="font-size:1.125rem;">
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","AboutAddiction")">Alcoholism</a>
+
+            <a class="p-2" style="color: #fff !important; background-color: #f0ad00;" href="@Url.Action("Index","Reasons")">Reasons Why People Drink</a>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","Causes")">Causes and Risk Factors</a><span class="p-2">|</span>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","BingeDrinking")">Binge Drinking</a><span class="p-2">|</span>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","StaySober")">Stay Sober</a><span class="p-2">|</span>
+            <a class="p-2" style="color: #2A4E5F !important;" href="@Url.Action("Index","DataChart")">Drinking factsheet</a>
+        </nav1>
+    </div>
+</div>
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-12 blog-main">
+            <h2 class="blog-post-title">
+                Reasons Why People Drink
+            </h2>
+
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <p class="lead">Alcohol abuse is caused by many factors. It is possible for people to become dependent on alcohol for one reason and then for another. The effects of alcohol abuse can be triggered by difficult times - death in the family or a job loss. </p>
+                <p class="lead">Many factors contribute to people beginning to drink, but the most common reasons are:</p>
+            </div>
+
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Relieve stress</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">When you use alcohol to deal with daily life stresses, you may increase your risk of becoming alcoholic. Drinking produces feelings of pleasure since alcohol is sedative and depressant. Nevertheless, frequent alcohol consumption can lead to tolerance, which requires drinking more to achieve the same results.</p>
+            </div>
+
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Feel good</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Some people may benefit from consuming alcohol as a way to escape reality. You feel relieved of the stress that may be underlying your mind. Continuously abusing alcohol can, however, develop into an alcohol addiction. </p>
+            </div>
+
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Cope with loss</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Grieving over the loss of a close friend or family member can be mentally, physically, and emotionally draining. You can use alcohol to cope with grief and to get through difficult times. A drinking problem can arise even temporarily from relying on alcohol. </p>
+            </div>
+
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Overcome anxiety</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Naturally anxious people worry perpetually as a result of their anxiety. In social situations, drinking reduces inhibitions as well as makes an individual more comfortable. It may, however, lead to more addictive behaviours over time. </p>
+            </div>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Lack of Connection</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Alcohol is often used by people due to a lack of adequate connection to others. A drink could either help them fill the void or help forge new bonds. However, this is usually not the case. </p>
+            </div>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Shame</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Many people find it difficult to cope with shame, and it is also one of the most traumatic emotions. In addition to temporarily masking shame with false feelings caused by alcohol, it can also cause many individuals to engage in reckless or foolish behavior that can cause more and further shame, creating a downward spiral. </p>
+            </div>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <h3 class="h3">Trauma</h3>
+                <span style="margin-bottom: 1.5rem; display: block; width: 10%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead">Almost every person who receives alcohol treatment has been traumatized. Trauma is a form of pain that occurs when a victim does not have a sympathetic witness. Resolving unresolved trauma is crucial to the recovery of many people. </p>
+            </div>
+        </div><!-- /.blog-main -->
+
+    </div><!-- /.row -->
+
+</main>
