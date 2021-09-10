@@ -96,12 +96,14 @@
     function GetSumScore() {
         var resultArr = 0,
             flag = false;
+        console.log(answers);
+        console.log(userAnswers);
         for (i = 0; i < answers.length; i++) {
             if (answers[i] == 5) {
-                resultArr += userAnswers[i];
+                resultArr += userAnswers[i]-1;
             }
             if (answers[i] == 3) {
-                resultArr += userAnswers[i]*2;
+                resultArr += (userAnswers[i]-1)*2;
             }            
         }
         return resultArr;

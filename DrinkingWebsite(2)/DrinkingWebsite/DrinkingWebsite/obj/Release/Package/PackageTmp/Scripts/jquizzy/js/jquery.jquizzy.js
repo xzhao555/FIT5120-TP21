@@ -96,12 +96,14 @@
     function GetSumScore() {
         var resultArr = 0,
             flag = false;
+        console.log(answers);
+        console.log(userAnswers);
         for (i = 0; i < answers.length; i++) {
             if (answers[i] == 5) {
-                resultArr += userAnswers[i];
+                resultArr += userAnswers[i]-1;
             }
             if (answers[i] == 3) {
-                resultArr += userAnswers[i]*2;
+                resultArr += (userAnswers[i]-1)*2;
             }            
         }
         return resultArr;
@@ -114,14 +116,12 @@
         function judgeSkills(score) {
             console.log(score);
             var returnString;
-            if (score < 8)
+            if (score <= 7)
                 return config.resultComments.perfect;
             else if (score >= 8 && score <= 15)
                 return config.resultComments.excellent;
-            else if (score >= 16 && score <= 19)
-                return config.resultComments.good;
-            else if (score >= 20)
-                return config.resultComments.average;
+            else if (score >= 16)
+                return config.resultComments.good;           
         }
     progressKeeper.hide();
     notice.hide();
@@ -247,7 +247,7 @@
 		  //shareButton += '<a href="https://www.facebook.com/connect/prompt_feed.php?display=touch&message='+config.socialStatus.replace("{score}", score)+' @ '+config.shortURL+'" class="share-button-fb" target="_blank" ><img src="'+config.facebookImage+'" /></a><div class="jquizzy-clear"></div>';		  
 		  //}
 
-        resultSet = '<h2 class="qTitle">' + judgeSkills(GetSumScore()) + ' You scored ' + GetSumScore() + '</h2>' + shareButton+ resultSet + '<div class="jquizzy-clear"></div>';
+        resultSet = '<h2 class="qTitle">'+' You scored ' + GetSumScore() + judgeSkills(GetSumScore()) +  '</h2>' + shareButton+ resultSet + '<div class="jquizzy-clear"></div>';
         superContainer.find('.result-keeper').html(resultSet).show(500);
         superContainer.find('.resultsview-qhover').hide();
         superContainer.find('.result-row').hover(function() {

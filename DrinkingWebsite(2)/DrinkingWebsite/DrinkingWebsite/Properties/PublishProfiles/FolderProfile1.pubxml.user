@@ -14,10 +14,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/DrinkingWebsite.dll">
-      <publishTime>09/10/2021 02:31:09</publishTime>
+      <publishTime>09/10/2021 11:57:01</publishTime>
     </File>
     <File Include="bin/DrinkingWebsite.pdb">
-      <publishTime>09/10/2021 02:31:09</publishTime>
+      <publishTime>09/10/2021 11:57:01</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -304,6 +304,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="images/banner1.jpg">
       <publishTime>08/26/2021 19:51:10</publishTime>
     </File>
+    <File Include="images/banner2.jpg">
+      <publishTime>09/10/2021 10:12:06</publishTime>
+    </File>
     <File Include="images/banner2.png">
       <publishTime>09/10/2021 00:58:04</publishTime>
     </File>
@@ -337,6 +340,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="images/img1.jpg">
       <publishTime>08/25/2021 19:56:28</publishTime>
     </File>
+    <File Include="images/left.png">
+      <publishTime>09/10/2021 10:40:00</publishTime>
+    </File>
     <File Include="images/Lifeline.jpeg">
       <publishTime>09/06/2021 21:16:11</publishTime>
     </File>
@@ -358,6 +364,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="images/new4.jpg">
       <publishTime>08/26/2021 21:47:28</publishTime>
     </File>
+    <File Include="images/next.png">
+      <publishTime>09/10/2021 10:18:35</publishTime>
+    </File>
     <File Include="images/OnTrack.JPG">
       <publishTime>09/06/2021 21:16:11</publishTime>
     </File>
@@ -366,6 +375,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="images/QuitDrinking.mp4">
       <publishTime>09/06/2021 21:28:06</publishTime>
+    </File>
+    <File Include="images/right.png">
+      <publishTime>09/10/2021 10:40:00</publishTime>
     </File>
     <File Include="images/THERIGHTMIX.png">
       <publishTime>09/06/2021 21:16:11</publishTime>
@@ -452,10 +464,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/07/2021 23:31:26</publishTime>
     </File>
     <File Include="Scripts/jquizzy/init.js">
-      <publishTime>09/09/2021 18:06:55</publishTime>
+      <publishTime>09/10/2021 11:45:21</publishTime>
     </File>
     <File Include="Scripts/jquizzy/js/jquery.jquizzy.js">
-      <publishTime>09/09/2021 18:18:15</publishTime>
+      <publishTime>09/10/2021 10:10:22</publishTime>
     </File>
     <File Include="Scripts/jquizzy/js/jquery.js">
       <publishTime>09/07/2021 23:31:26</publishTime>
@@ -479,22 +491,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/22/2021 12:04:20</publishTime>
     </File>
     <File Include="Views/AboutAddiction/Index.cshtml">
-      <publishTime>09/10/2021 03:24:56</publishTime>
+      <publishTime>09/10/2021 08:56:32</publishTime>
     </File>
     <File Include="Views/AboutAlcohol/Index.cshtml">
       <publishTime>09/10/2021 04:25:30</publishTime>
     </File>
     <File Include="Views/BingeDrinking/Index.cshtml">
-      <publishTime>09/10/2021 03:25:24</publishTime>
+      <publishTime>09/10/2021 08:56:59</publishTime>
     </File>
     <File Include="Views/Causes/Index.cshtml">
-      <publishTime>09/10/2021 03:25:58</publishTime>
+      <publishTime>09/10/2021 08:57:05</publishTime>
     </File>
     <File Include="Views/DataChart/Index.cshtml">
-      <publishTime>09/10/2021 03:26:22</publishTime>
+      <publishTime>09/10/2021 08:57:16</publishTime>
     </File>
     <File Include="Views/Error/Index.cshtml">
-      <publishTime>09/10/2021 03:26:46</publishTime>
+      <publishTime>09/10/2021 08:57:23</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>08/18/2021 23:12:56</publishTime>
@@ -503,28 +515,28 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/18/2021 23:12:56</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/10/2021 04:06:32</publishTime>
+      <publishTime>09/10/2021 10:40:29</publishTime>
     </File>
     <File Include="Views/Question/Index.cshtml">
-      <publishTime>09/10/2021 04:09:36</publishTime>
+      <publishTime>09/10/2021 08:55:15</publishTime>
     </File>
     <File Include="Views/Reasons/Index.cshtml">
-      <publishTime>09/10/2021 03:27:22</publishTime>
+      <publishTime>09/10/2021 08:57:35</publishTime>
     </File>
     <File Include="Views/Resources/Index.cshtml">
-      <publishTime>09/10/2021 04:35:18</publishTime>
+      <publishTime>09/10/2021 08:57:42</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/31/2021 10:22:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/10/2021 03:54:40</publishTime>
+      <publishTime>09/10/2021 10:27:55</publishTime>
     </File>
     <File Include="Views/SignIn/Index.cshtml">
-      <publishTime>09/10/2021 03:27:56</publishTime>
+      <publishTime>09/10/2021 10:58:11</publishTime>
     </File>
     <File Include="Views/StaySober/Index.cshtml">
-      <publishTime>09/10/2021 03:28:52</publishTime>
+      <publishTime>09/10/2021 08:57:51</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/18/2021 23:12:56</publishTime>
