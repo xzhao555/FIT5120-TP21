@@ -10268,5 +10268,18 @@ a.text-dark:hover, a.text-dark:focus {
         border-color: #dee2e6;
     }
 }
+@media (max-width: 360px) {
+    .chen-navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
 
+        .chen-navbar-brand img {
+            display: inline-block;
+        }
+
+    .chen-mr-auto form {
+        margin-right: -130px;
+    }
+}
 /*# sourceMappingURL=bootstrap.css.map */

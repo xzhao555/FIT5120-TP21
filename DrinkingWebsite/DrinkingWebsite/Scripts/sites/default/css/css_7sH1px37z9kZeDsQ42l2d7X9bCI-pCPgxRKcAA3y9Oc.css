@@ -1,0 +1,5617 @@
+.js-tool-is-desktop {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .js-tool-is-desktop {
+        display: block;
+    }
+}
+
+.liquid--body, .vessel__glass {
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 248px;
+    background-size: 186px 248px;
+}
+
+@media (min-width:992px) {
+    .liquid--body, .vessel__glass {
+        width: 465px;
+        height: 620px;
+        background-size: 465px 620px;
+    }
+}
+
+.vessel--280ml-glass .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/250ml-glass-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--280ml-glass .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/250ml-glass-mask.png);
+    }
+}
+
+.vessel--280ml-glass .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/250ml-glass-fill.png);
+}
+
+/* ICON */
+@media (min-width:992px) {
+    .vessel--280ml-glass .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/250ml-glass-fill.png);
+    }
+}
+
+.vessel--beer-bottle .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/beer-bottle-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--beer-bottle .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/beer-bottle-mask.png);
+    }
+}
+
+.vessel--beer-bottle .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/beer-bottle-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--beer-bottle .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/beer-bottle-fill.png);
+    }
+}
+
+.vessel--pint .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/pint-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--pint .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/pint-mask.png);
+    }
+}
+
+.vessel--pint .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/pint-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--pint .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/pint-fill.png);
+    }
+}
+
+.vessel--jug .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/jug-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--jug .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/jug-mask.png);
+    }
+}
+
+.vessel--jug .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/jug-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--jug .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/jug-fill.png);
+    }
+}
+
+.vessel--wine-glass-250ml .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-glass-250ml-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-glass-250ml .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-glass-250ml-mask.png);
+    }
+}
+
+.vessel--wine-glass-250ml .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-glass-250ml-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-glass-250ml .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-glass-250ml-fill.png);
+    }
+}
+
+.vessel--wine-glass-350ml .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-glass-350ml-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-glass-350ml .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-glass-350ml-mask.png);
+    }
+}
+
+.vessel--wine-glass-350ml .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-glass-350ml-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-glass-350ml .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-glass-350ml-fill.png);
+    }
+}
+
+.vessel--wine-bottle .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-bottle-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-bottle .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-bottle-mask.png);
+    }
+}
+
+.vessel--wine-bottle .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/wine-bottle-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--wine-bottle .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/wine-bottle-fill.png);
+    }
+}
+
+.vessel--shot .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/shot-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--shot .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/shot-mask.png);
+    }
+}
+
+.vessel--shot .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/shot-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--shot .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/shot-fill.png);
+    }
+}
+
+.vessel--tumbler .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/tumbler-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--tumbler .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/tumbler-mask.png);
+    }
+}
+
+.vessel--tumbler .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/tumbler-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--tumbler .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/tumbler-fill.png);
+    }
+}
+
+.vessel--1000ml-bottle .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/1000ml-bottle-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--1000ml-bottle .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/1000ml-bottle-mask.png);
+    }
+}
+
+.vessel--1000ml-bottle .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/1000ml-bottle-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--1000ml-bottle .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/1000ml-bottle-fill.png);
+    }
+}
+
+.vessel--250ml-can .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/250ml-can.png);
+}
+
+@media (min-width:992px) {
+    .vessel--250ml-can .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/250ml-can.png);
+    }
+}
+
+.vessel--330ml-can .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/330ml-can.png);
+}
+
+@media (min-width:992px) {
+    .vessel--330ml-can .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/330ml-can.png);
+    }
+}
+
+.vessel--500ml-bottle .vessel__glass {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/500ml-bottle-mask.png);
+}
+
+@media (min-width:992px) {
+    .vessel--500ml-bottle .vessel__glass {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/500ml-bottle-mask.png);
+    }
+}
+
+.vessel--500ml-bottle .liquid--body {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/small/500ml-bottle-fill.png);
+}
+
+@media (min-width:992px) {
+    .vessel--500ml-bottle .liquid--body {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks-pour/500ml-bottle-fill.png);
+    }
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url(/sites/all/themes/alcohol/fonts/font-awesome/fontawesome-webfont.eot);
+    src: url(/sites/all/themes/alcohol/fonts/font-awesome/fontawesome-webfont.eot?#iefix) format('eot'),url(/sites/all/themes/alcohol/fonts/font-awesome/fontawesome-webfont.woff) format('woff'),url(/sites/all/themes/alcohol/fonts/font-awesome/fontawesome-webfont.ttf) format('truetype'),url(/sites/all/themes/alcohol/fonts/font-awesome/fontawesome-webfont.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alcohol-icons';
+    src: url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.eot?-4fi2j6);
+    src: url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.eot?#iefix-4fi2j6) format("embedded-opentype"),url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.woff2) format("woff2"),url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.woff?-4fi2j6) format("woff"),url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.ttf?-4fi2j6) format("truetype"),url(/sites/all/themes/alcohol/fonts/alcohol-icons/alcohol-icons.svg?-4fi2j6#alcohol-icons) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon:before, .icon--with-circle > h2:before, .action--button:before, .action--flip-back:before, .action--empty-vessel:before, .action--view-total:before, .action--reset:before, .tool--body-effects .tool__detail-heading > h2 > a:before, .tool--can-you-pour-a-standard-drink .tool__action-back:before, .tool--how-much-are-you-drinking .tool__instructions:before, .tool--how-much-are-you-drinking .tool__title-secondary:before, .icon:after, .icon--with-circle > h2:after, .action--button:after, .action--flip-back:after, .action--empty-vessel:after, .action--view-total:after, .action--reset:after, .tool--body-effects .tool__detail-heading > h2 > a:after, .tool--can-you-pour-a-standard-drink .tool__action-back:after, .tool--how-much-are-you-drinking .tool__instructions:after, .tool--how-much-are-you-drinking .tool__title-secondary:after {
+    font-family: 'alcohol-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--absolute, .icon--with-circle > h2, .action--button, .action--view-total, .action--reset, .tool--body-effects .tool__detail-heading > h2 > a, .tool--can-you-pour-a-standard-drink .tool__action-back, .tool--how-much-are-you-drinking .tool__instructions {
+    position: relative;
+}
+
+    .icon--absolute:before, .icon--with-circle > h2:before, .action--button:before, .action--view-total:before, .action--reset:before, .tool--body-effects .tool__detail-heading > h2 > a:before, .tool--can-you-pour-a-standard-drink .tool__action-back:before, .tool--how-much-are-you-drinking .tool__instructions:before, .icon--absolute:after, .icon--with-circle > h2:after, .action--button:after, .action--view-total:after, .action--reset:after, .tool--body-effects .tool__detail-heading > h2 > a:after, .tool--can-you-pour-a-standard-drink .tool__action-back:after, .tool--how-much-are-you-drinking .tool__instructions:after {
+        position: absolute;
+        top: 0;
+    }
+
+    .icon--absolute:before, .icon--with-circle > h2:before, .action--button:before, .action--view-total:before, .action--reset:before, .tool--body-effects .tool__detail-heading > h2 > a:before, .tool--can-you-pour-a-standard-drink .tool__action-back:before, .tool--how-much-are-you-drinking .tool__instructions:before {
+        left: 0;
+    }
+
+    .icon--absolute:after, .icon--with-circle > h2:after, .action--button:after, .action--view-total:after, .action--reset:after, .tool--body-effects .tool__detail-heading > h2 > a:after, .tool--can-you-pour-a-standard-drink .tool__action-back:after, .tool--how-much-are-you-drinking .tool__instructions:after {
+        right: 0;
+    }
+
+    .icon--small:before, .action--flip-back:before, .action--empty-vessel:before, .tool--can-you-pour-a-standard-drink .tool__action-back:before, .icon--small:after, .action--flip-back:after, .action--empty-vessel:after, .tool--can-you-pour-a-standard-drink .tool__action-back:after {
+        font-size: 12px;
+    }
+
+.icon--medium:before, .icon--medium:after {
+    font-size: 60px;
+}
+
+.icon--with-circle > h2 {
+    padding-left: 50px;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+    .icon--with-circle > h2:before {
+        font-size: 21px;
+        top: 6px;
+        left: 10px;
+    }
+
+    .icon--with-circle > h2:after {
+        content: "\e601";
+        top: -2px;
+        left: 0;
+        right: auto;
+        color: #acb0b5;
+        font-size: 40px;
+    }
+
+.icon--arrow-right:before, .tool--how-much-are-you-drinking .tool__title-secondary:before {
+    content: "";
+}
+
+.icon--arrow-left:before, .action--empty-vessel:before, .tool--how-much-are-you-drinking .tool__instructions:before {
+    content: "";
+}
+
+.icon--arrow-up:before {
+    content: "";
+}
+
+.icon--arrow-down:before, .action--view-total:before {
+    content: "";
+}
+
+.icon--baby:before, .tool__overlay .alert-info + .alert-info:before {
+    content: "";
+}
+
+.icon--circle:before {
+    content: "";
+}
+
+.icon--explanation:before {
+    content: "";
+}
+
+.icon--information:before {
+    content: "";
+}
+
+.icon--plus:before {
+    content: "";
+}
+
+.icon--star:before {
+    content: "";
+}
+
+.icon--cross:before {
+    content: "";
+}
+
+.icon--mini-arrow-down:before, .tool--body-effects .tool__detail-heading > h2 > a:before {
+    content: "";
+}
+
+.icon--mini-arrow-left:before, .action--select-vessel.action--button:before, .tool--can-you-pour-a-standard-drink .tool__action-back:before {
+    content: "";
+}
+
+.icon--mini-arrow-right:before, .action--button:before {
+    content: "";
+}
+
+.icon--mini-arrow-up:before, .tool--body-effects .tool__detail-heading > h2 > a.collapsed:before {
+    content: "";
+}
+
+.icon--start-over:before {
+    content: "";
+}
+
+.icon--file:before {
+    content: "";
+}
+
+.icon--reset:before, .action--flip-back:before, .action--reset:before {
+    content: "";
+}
+
+@font-face {
+    font-family: 'ars_maquette_proregular';
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.eot);
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.eot?#iefix) format("embedded-opentype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.woff2) format("woff2"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.woff) format("woff"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.ttf) format("truetype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-regular.svg#ars_maquette_proregular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ars_maquette_prolight';
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.eot);
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.eot?#iefix) format("embedded-opentype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.woff2) format("woff2"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.woff) format("woff"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.ttf) format("truetype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-light.svg#ars_maquette_prolight) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ars_maquette_probold';
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.eot);
+    src: url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.eot?#iefix) format("embedded-opentype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.woff2) format("woff2"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.woff) format("woff"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.ttf) format("truetype"),url(/sites/all/themes/alcohol/fonts/arsmaquettepro/arsmaquettepro-bold.svg#ars_maquette_probold) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sprite--body-parts, .tool__media.human {
+    background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-parts.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--body-parts, .tool__media.human {
+        background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-parts-retina.png);
+        background-size: 198px 1941px;
+    }
+}
+
+.sprite--body-male, .human.tool__section, .human.tool__toggle.human--sex-change {
+    background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-male.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--body-male, .human.tool__section, .human.tool__toggle.human--sex-change {
+        background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-male-retina.png);
+        background-size: 520px 1393px;
+    }
+}
+
+.sprite--body-female, .human.tool__section.human--sex-change, .human.tool__toggle {
+    background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-female.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--body-female, .human.tool__section.human--sex-change, .human.tool__toggle {
+        background-image: url(/sites/all/themes/alcohol/images/tool/body-effects/sprite--body-female-retina.png);
+        background-size: 520px 1393px;
+    }
+}
+
+.sprite--liquid-index, .liquid__media-small, .liquid__media {
+    background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-index.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--liquid-index, .liquid__media-small, .liquid__media {
+        background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-index-retina.png);
+        background-size: 80px 800px;
+    }
+}
+
+.sprite--liquid, .liquid__media.is-hovered {
+    background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--liquid, .liquid__media.is-hovered {
+        background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-retina.png);
+        background-size: 251px 3706px;
+    }
+}
+
+.sprite--liquid-empty, .liquid__media.is-dropped {
+    background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-empty.png);
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:1.5dppx) {
+    .sprite--liquid-empty, .liquid__media.is-dropped {
+        background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-empty-retina.png);
+        background-size: 251px 3706px;
+    }
+}
+
+.sprite--be-tool-female-select, .sprite--be-tool-male-select {
+    width: 140px;
+    height: 300px;
+    background-position: 0 -165px;
+}
+
+.sprite--be-tool-female-mobile, .sprite--be-tool-male-mobile {
+    width: 241px;
+    height: 260px;
+    background-position: 0 -465px;
+}
+
+.sprite--be-tool-female, .sprite--be-tool-male {
+    width: 520px;
+    height: 667px;
+    background-position: 0 -726px;
+}
+
+.sprite--be-tool-male-select-mobile, .human.tool__toggle.human--sex-change, .sprite--be-tool-female-select-mobile, .human.tool__toggle {
+    width: 77px;
+    height: 165px;
+    background-position: 0 -0px;
+}
+
+.sprite--blood, .tool__media.human.human__blood {
+    width: 62px;
+    height: 102px;
+    background-position: 0 -0px;
+}
+
+.sprite--bones-muscles, .tool__media.human.human__bones-muscles {
+    width: 198px;
+    height: 124px;
+    background-position: 0 -102px;
+}
+
+.sprite--brain, .tool__media.human.human__brain {
+    width: 123px;
+    height: 106px;
+    background-position: 0 -226px;
+}
+
+.sprite--breasts, .tool__media.human.human__breasts {
+    width: 92px;
+    height: 138px;
+    background-position: 0 -332px;
+}
+
+.sprite--eyes, .tool__media.human.human__eyes {
+    width: 128px;
+    height: 78px;
+    background-position: 0 -470px;
+}
+
+.sprite--heart, .tool__media.human.human__heart {
+    width: 90px;
+    height: 121px;
+    background-position: 0 -548px;
+}
+
+.sprite--intestines, .tool__media.human.human__intestines {
+    width: 110px;
+    height: 116px;
+    background-position: 0 -669px;
+}
+
+.sprite--kidneys, .tool__media.human.human__kidneys {
+    width: 94px;
+    height: 113px;
+    background-position: 0 -785px;
+}
+
+.sprite--liver, .tool__media.human.human__liver {
+    width: 139px;
+    height: 91px;
+    background-position: 0 -898px;
+}
+
+.sprite--lungs, .tool__media.human.human__lungs {
+    width: 116px;
+    height: 116px;
+    background-position: 0 -989px;
+}
+
+.sprite--mens-mental-health, .tool__media.human.human__mens-mental-health {
+    width: 164px;
+    height: 117px;
+    background-position: 0 -1105px;
+}
+
+.sprite--mens-sexual-health, .tool__media.human.human__mens-sexual-health {
+    width: 104px;
+    height: 129px;
+    background-position: 0 -1222px;
+}
+
+.sprite--mouth-throat, .tool__media.human.human__mouth-throat {
+    width: 126px;
+    height: 96px;
+    background-position: 0 -1351px;
+}
+
+.sprite--pancreas, .tool__media.human.human__pancreas {
+    width: 112px;
+    height: 49px;
+    background-position: 0 -1447px;
+}
+
+.sprite--stomach, .tool__media.human.human__stomach-food-pipe {
+    width: 77px;
+    height: 105px;
+    background-position: 0 -1496px;
+}
+
+.sprite--womans-mental-health, .tool__media.human.human__womans-mental-health {
+    width: 100px;
+    height: 130px;
+    background-position: 0 -1601px;
+}
+
+.sprite--womans-sexual-health, .tool__media.human.human__womans-sexual-health {
+    width: 129px;
+    height: 91px;
+    background-position: 0 -1731px;
+}
+
+.sprite--skin, .tool__media.human.human__skin {
+    width: 111px;
+    height: 119px;
+    background-position: 0 -1822px;
+}
+
+.sprite-small--beer-330ml, .liquid__media-small--beer-330ml, .liquid__media--beer-330ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -0px;
+}
+
+.sprite-small--beer-450ml, .liquid__media-small--beer-450ml, .liquid__media--beer-450ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -80px;
+}
+
+.tool__tally .sprite-small--beer-450ml, .tool__tally .liquid__media-small--beer-450ml, .tool__tally .liquid__media--beer-450ml {
+    background-position: 0 -48px;
+}
+
+.sprite-small--cider-330ml, .liquid__media-small--cider-330ml, .liquid__media--cider-330ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -160px;
+}
+
+.tool__tally .sprite-small--cider-330ml, .tool__tally .liquid__media-small--cider-330ml, .tool__tally .liquid__media--cider-330ml {
+    background-position: 0 -96px;
+}
+
+.sprite-small--spirit-60ml, .liquid__media-small--spirit-60ml, .liquid__media--spirit-60ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -240px;
+}
+
+.tool__tally .sprite-small--spirit-60ml, .tool__tally .liquid__media-small--spirit-60ml, .tool__tally .liquid__media--spirit-60ml {
+    background-position: 0 -144px;
+}
+
+.sprite-small--lite-beer-330ml, .liquid__media-small--lite-beer-330ml, .liquid__media--lite-beer-330ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -320px;
+}
+
+.tool__tally .sprite-small--lite-beer-330ml, .tool__tally .liquid__media-small--lite-beer-330ml, .tool__tally .liquid__media--lite-beer-330ml {
+    background-position: 0 -192px;
+}
+
+.sprite-small--rtd-250ml, .liquid__media-small--rtd-250ml, .liquid__media--rtd-250ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -400px;
+}
+
+.tool__tally .sprite-small--rtd-250ml, .tool__tally .liquid__media-small--rtd-250ml, .tool__tally .liquid__media--rtd-250ml {
+    background-position: 0 -240px;
+}
+
+.sprite-small--rtd-330ml, .liquid__media-small--rtd-330ml, .liquid__media--rtd-330ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -480px;
+}
+
+.tool__tally .sprite-small--rtd-330ml, .tool__tally .liquid__media-small--rtd-330ml, .tool__tally .liquid__media--rtd-330ml {
+    background-position: 0 -288px;
+}
+
+.sprite-small--spirit-30ml, .liquid__media-small--spirit-30ml, .liquid__media--spirit-30ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -560px;
+}
+
+.tool__tally .sprite-small--spirit-30ml, .tool__tally .liquid__media-small--spirit-30ml, .tool__tally .liquid__media--spirit-30ml {
+    background-position: 0 -336px;
+}
+
+.sprite-small--wine-125ml, .liquid__media-small--wine-125ml, .liquid__media--wine-125ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -640px;
+}
+
+.tool__tally .sprite-small--wine-125ml, .tool__tally .liquid__media-small--wine-125ml, .tool__tally .liquid__media--wine-125ml {
+    background-position: 0 -384px;
+}
+
+.sprite-small--wine-750ml, .liquid__media-small--wine-750ml, .liquid__media--wine-750ml {
+    width: 80px;
+    height: 80px;
+    background-position: 0 -720px;
+}
+
+.tool__tally .sprite-small--wine-750ml, .tool__tally .liquid__media-small--wine-750ml, .tool__tally .liquid__media--wine-750ml {
+    background-position: 0 -432px;
+}
+
+.sprite--beer-330ml, .liquid__media--beer-330ml.is-hovered, .liquid__media--beer-330ml.is-dropped {
+    width: 106px;
+    height: 455px;
+    background-position: 0 -0px;
+}
+
+.sprite--beer-450ml, .liquid__media--beer-450ml.is-hovered, .liquid__media--beer-450ml.is-dropped {
+    width: 251px;
+    height: 327px;
+    background-position: 0 -455px;
+}
+
+.sprite--cider-330ml, .liquid__media--cider-330ml.is-hovered, .liquid__media--cider-330ml.is-dropped {
+    width: 112px;
+    height: 421px;
+    background-position: 0 -782px;
+}
+
+.sprite--lite-beer-330ml, .liquid__media--lite-beer-330ml.is-hovered, .liquid__media--lite-beer-330ml.is-dropped {
+    width: 110px;
+    height: 446px;
+    background-position: 0 -1203px;
+}
+
+.sprite--rtd-250ml, .liquid__media--rtd-250ml.is-hovered, .liquid__media--rtd-250ml.is-dropped {
+    width: 115px;
+    height: 310px;
+    background-position: 0 -1649px;
+}
+
+.sprite--rtd-330ml, .liquid__media--rtd-330ml.is-hovered, .liquid__media--rtd-330ml.is-dropped {
+    width: 110px;
+    height: 442px;
+    background-position: 0 -1959px;
+}
+
+.sprite--spirit-30ml, .liquid__media--spirit-30ml.is-hovered, .liquid__media--spirit-30ml.is-dropped {
+    width: 87px;
+    height: 154px;
+    background-position: 0 -2401px;
+}
+
+.sprite--spirit-60ml, .liquid__media--spirit-60ml.is-hovered, .liquid__media--spirit-60ml.is-dropped {
+    width: 144px;
+    height: 204px;
+    background-position: 0 -2555px;
+}
+
+.sprite--wine-125ml, .liquid__media--wine-125ml.is-hovered, .liquid__media--wine-125ml.is-dropped {
+    width: 138px;
+    height: 395px;
+    background-position: 0 -2759px;
+}
+
+.sprite--wine-750ml, .liquid__media--wine-750ml.is-hovered, .liquid__media--wine-750ml.is-dropped {
+    width: 131px;
+    height: 552px;
+    background-position: 0 -3154px;
+}
+
+.action--button {
+    width: 130px;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid rgba(2,155,207,0.5);
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    border-radius: 6px;
+}
+
+@media (min-width:1200px) {
+    .action--button {
+        font-size: 18px;
+    }
+}
+
+.action--button:before {
+    display: none;
+    left: auto;
+    top: 31px;
+    right: 10px;
+    font-size: 30px;
+    color: rgba(2,155,207,0.5);
+    -webkit-transition: none 1s;
+    -webkit-transition-delay: 0s;
+    transition: none 1s false false;
+}
+
+@media (min-width:1200px) {
+    .action--button:before {
+        display: block;
+    }
+}
+
+.action--button:hover:before {
+    -webkit-transition: all 0.05s ease-in-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in-out false;
+    color: #029bcf;
+}
+
+.action--button:focus:before, .action--button:active:before {
+    -webkit-transition: all 0.05s ease-in-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in-out false;
+    right: 6px;
+}
+
+.flipper__content-front .action {
+    color: #ffffff;
+}
+
+    .flipper__content-front .action > svg {
+        position: absolute;
+        -webkit-transition: all 0.05s ease-in-out;
+        -webkit-transition-delay: 0s;
+        transition: all 0.05s ease-in-out false;
+    }
+
+.action__text {
+    position: relative;
+    width: 80%;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.3;
+}
+
+@media (min-width:992px) {
+    .action__text {
+        width: 70%;
+        font-size: 23px;
+    }
+}
+
+.action--pour {
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 84px;
+}
+
+@media (min-width:992px) {
+    .action--pour {
+        box-shadow: #0074a6 0px 5px 0px -3px;
+    }
+}
+
+.action--pour > svg {
+    top: 0;
+    left: 0;
+    fill: #029bcf;
+    width: 140px;
+    height: 84px;
+}
+
+@media (min-width:992px) {
+    .action--pour > svg {
+        width: 230px;
+        height: 138px;
+    }
+}
+
+.action--pour .action__text {
+    padding-top: 26px;
+    text-shadow: #0074a6 1px 1px 0,#0074a6 1px 1px 0 0;
+    text-shadow: #0074a6 1px 1px 0 0,#0074a6 1px 1px 0 0;
+}
+
+@media (min-width:992px) {
+    .action--pour .action__text {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--pour.filling:hover {
+        box-shadow: #001c30 0px 5px 0px -3px;
+    }
+}
+
+.action--pour.filling > svg {
+    fill: #002B49;
+}
+
+.action--pour.filling .action__text {
+    padding-top: 27px;
+    text-shadow: none;
+}
+
+@media (min-width:992px) {
+    .action--pour.filling .action__text {
+        padding-top: 51px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--pour {
+        width: 230px;
+        height: 138px;
+    }
+
+        .action--pour:hover {
+            cursor: pointer;
+            box-shadow: #00628d 0px 5px 0px -3px;
+        }
+
+            .action--pour:hover > svg {
+                fill: #0288b6;
+            }
+}
+
+.action--results {
+    width: 140px;
+    height: 49px;
+}
+
+    .action--results > svg {
+        bottom: 0;
+        left: 4px;
+        width: 133px;
+        height: 49px;
+        fill: rgba(128,205,133,0.2);
+    }
+
+@media (min-width:992px) {
+    .action--results > svg {
+        width: 218px;
+        height: 77px;
+        left: 6px;
+    }
+}
+
+.action--results .action__text {
+    color: rgba(255,255,255,0.4);
+    padding-top: 16px;
+}
+
+@media (min-width:992px) {
+    .action--results .action__text {
+        padding-top: 32px;
+    }
+}
+
+.action--results .action__shadow {
+    display: none;
+}
+
+    .action--results .action__shadow > svg {
+        position: absolute;
+        bottom: -2px;
+        left: 6px;
+        fill: rgba(240,248,255,0.4);
+    }
+
+.is-flipped .action--results .action__shadow {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .action--results .action__shadow {
+        display: block;
+    }
+}
+
+.action--results:hover {
+    cursor: not-allowed;
+}
+
+.is-flipped .action--results:hover {
+    cursor: pointer;
+}
+
+.action--results.action--is-active > svg {
+    fill: #41a648;
+}
+
+.action--results.action--is-active .action__text {
+    color: #ffffff;
+}
+
+@media (min-width:992px) {
+    .action--results.action--is-active .action__text {
+        text-shadow: #338138 1px 1px 0,#338138 1px 1px 0 0;
+        text-shadow: #338138 1px 1px 0 0,#338138 1px 1px 0 0;
+    }
+}
+
+.action--results.action--is-active .action__shadow > svg {
+    fill: #245d28;
+}
+
+@media (min-width:992px) {
+    .action--results.action--is-active .action__shadow > svg {
+        width: 218px;
+        height: 80px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--results.action--is-active:hover {
+        cursor: pointer;
+    }
+
+        .action--results.action--is-active:hover > svg {
+            fill: #338138;
+        }
+}
+
+@media (min-width:992px) {
+    .action--results {
+        width: 218px;
+        height: 77px;
+    }
+}
+
+.tool__inner > .action {
+    position: absolute;
+}
+
+.action--select-vessel {
+    top: 30px;
+    left: -6px;
+}
+
+    .action--select-vessel.action--button {
+        padding: 5px 5px 5px 11px;
+        width: 70px;
+        font-size: 14px;
+    }
+
+@media (min-width:1200px) {
+    .action--select-vessel.action--button {
+        padding: 10px 10px 10px 46px;
+        width: 130px;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+
+.action--select-vessel.action--button:before {
+    top: 24px;
+    left: 10px;
+    right: auto;
+}
+
+.action--flip-back {
+    display: none;
+    top: 52px;
+    right: 167px;
+    color: #e5eef3;
+}
+
+    .action--flip-back:before {
+        font-size: 20px;
+    }
+
+    .action--flip-back:hover, .action--flip-back:focus, .action--flip-back:visited {
+        color: #e5eef3;
+    }
+
+@media (min-width:992px) {
+    .action--flip-back {
+        display: block;
+        color: #002B49;
+    }
+
+        .action--flip-back:hover, .action--flip-back:focus, .action--flip-back:visited {
+            color: #001c30;
+        }
+}
+
+.action--empty-vessel, .action--learn-more {
+    top: 136px;
+    left: 10px;
+    width: 138px;
+}
+
+@media (min-width:992px) {
+    .action--empty-vessel, .action--learn-more {
+        width: auto;
+        left: auto;
+        top: 394px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--empty-vessel {
+        right: 66px;
+    }
+}
+
+@media (min-width:1200px) {
+    .action--empty-vessel {
+        right: 96px;
+    }
+}
+
+.action--empty-vessel:before {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .action--empty-vessel:before {
+        display: inline;
+    }
+}
+
+.action--empty-vessel.btn {
+    border: 1px solid #029bcf;
+    color: #f0ad00;
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+    .action--empty-vessel.btn:hover, .action--empty-vessel.btn:focus {
+        color: #e0a100;
+    }
+
+    .action--empty-vessel.btn:visited {
+        color: #e0a100;
+    }
+
+        .action--empty-vessel.btn:visited:hover, .action--empty-vessel.btn:visited:focus {
+            color: #e0a100;
+        }
+
+@media (min-width:992px) {
+    .action--learn-more {
+        right: 87px;
+    }
+}
+
+@media (min-width:1200px) {
+    .action--learn-more {
+        right: 117px;
+    }
+}
+
+.action--view-total {
+    width: 100%;
+}
+
+@media (max-width:991px) {
+    .action--view-total.btn {
+        padding: 17px 14px;
+        text-align: left;
+    }
+}
+
+.action--view-total.has-medium-warning {
+    background-color: #f0ad4e;
+    box-shadow: #c77c11 1px 1px 0 0;
+    text-shadow: #ec971f 1px 1px 0,#ec971f 1px 1px 0 0;
+    text-shadow: #ec971f 1px 1px 0 0,#ec971f 1px 1px 0 0;
+}
+
+    .action--view-total.has-medium-warning:hover {
+        background-color: #eea236;
+    }
+
+    .action--view-total.has-medium-warning:focus {
+        background-color: #ec971f;
+    }
+
+.action--view-total.has-strong-warning {
+    background-color: #d9534f;
+    box-shadow: #a02622 1px 1px 0 0;
+    text-shadow: #c9302c 1px 1px 0,#c9302c 1px 1px 0 0;
+    text-shadow: #c9302c 1px 1px 0 0,#c9302c 1px 1px 0 0;
+}
+
+    .action--view-total.has-strong-warning:hover {
+        background-color: #d43f3a;
+    }
+
+    .action--view-total.has-strong-warning:focus {
+        background-color: #c9302c;
+    }
+
+.action--view-total:before {
+    left: auto;
+    right: 12px;
+    top: 22px;
+}
+
+@media (min-width:992px) {
+    .action--view-total:before {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .action--view-total {
+        top: 330px;
+        left: 770px;
+        width: 136px;
+    }
+}
+
+@media (min-width:1200px) {
+    .action--view-total {
+        left: 920px;
+    }
+}
+
+.action--reset {
+    position: absolute;
+    top: 32px;
+    right: 10px;
+}
+
+    .action--reset.btn {
+        padding: 3px 10px;
+    }
+
+        .action--reset.btn:visited {
+            color: #333333;
+        }
+
+@media (max-width:480px) {
+    .action--reset.btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:991px) {
+    .action--reset.btn {
+        background-color: transparent;
+    }
+}
+
+@media (min-width:480px) {
+    .action--reset.btn {
+        padding: 3px 14px 3px 34px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--reset.btn {
+        box-shadow: none;
+        background-color: transparent;
+        padding: 7px 14px 7px 34px;
+    }
+
+        .action--reset.btn:hover, .action--reset.btn:focus, .action--reset.btn:visited {
+            background-color: rgba(255,255,255,0.2);
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+}
+
+.action--reset:before {
+    display: none;
+    top: 7px;
+    left: 9px;
+}
+
+@media (min-width:480px) {
+    .action--reset:before {
+        display: block;
+        top: 7px;
+        left: 11px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--reset:before {
+        top: 11px;
+    }
+}
+
+@media (min-width:992px) {
+    .action--reset {
+        right: auto;
+        top: 530px;
+        left: 765px;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:1200px) {
+    .action--reset {
+        left: 915px;
+    }
+}
+
+.action--reset-gender {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: underline;
+}
+
+@media (min-width:992px) {
+    .action--reset-gender {
+        color: #ffffff;
+        right: auto;
+        left: 802px;
+        top: 489px;
+    }
+
+        .action--reset-gender:hover, .action--reset-gender:focus, .action--reset-gender:visited {
+            color: #ffffff;
+        }
+}
+
+@media (min-width:1200px) {
+    .action--reset-gender {
+        left: 950px;
+    }
+}
+
+.badge {
+    background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks/standard-drinks-lockup--mobile.svg);
+    background-position: 12px 12px;
+    background-size: 76px 76px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    color: #002B49;
+    font-size: 18px;
+    padding-top: 21px;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+    .badge:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #002B49;
+        width: 100px;
+        height: 100px;
+        z-index: -1;
+    }
+
+.badge--medium {
+    font-size: 21px;
+    padding-top: 32px;
+    background-size: 100px 100px;
+    background-position: 20px 20px;
+    height: 140px;
+    width: 140px;
+}
+
+    .badge--medium:before {
+        text-align: center;
+        border-radius: 70px;
+        width: 140px;
+        height: 140px;
+    }
+
+@media (min-width:1200px) {
+    .badge--medium {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks/standard-drinks-lockup.svg);
+        background-position: 45px 47px;
+        background-size: 120px 120px;
+        height: 210px;
+        width: 210px;
+        font-size: 30px;
+        padding-top: 65px;
+    }
+
+        .badge--medium:before {
+            border-radius: 105px;
+            width: 210px;
+            height: 210px;
+            border: 7px solid #999999;
+        }
+}
+
+.badge--large:before {
+    text-align: center;
+    border-radius: 60px;
+}
+
+@media (min-width:992px) {
+    .badge--large {
+        background-size: 90px 90px;
+        background-position: 20px 20px;
+        height: 130px;
+        width: 130px;
+        font-size: 22px;
+        padding-top: 33px;
+    }
+
+        .badge--large:before {
+            border-radius: 65px;
+            width: 130px;
+            height: 130px;
+        }
+}
+
+@media (min-width:1200px) {
+    .badge--large {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks/standard-drinks-lockup.svg);
+        background-position: 50px 54px;
+        background-size: 130px 130px;
+        height: 230px;
+        width: 230px;
+        font-size: 30px;
+        padding-top: 75px;
+    }
+
+        .badge--large:before {
+            border-radius: 115px;
+            width: 230px;
+            height: 230px;
+        }
+}
+
+.badge--in-flipper {
+    font-size: 21px;
+    padding-top: 36px;
+    background-size: 90px 90px;
+    background-position: 25px 25px;
+    height: 140px;
+    width: 140px;
+    cursor: pointer;
+}
+
+    .badge--in-flipper:before {
+        text-align: center;
+        border-radius: 70px;
+        width: 140px;
+        height: 140px;
+    }
+
+@media (min-width:992px) {
+    .badge--in-flipper {
+        background-image: url(/sites/all/themes/alcohol/images/tool/standard-drinks/standard-drinks-lockup.svg);
+        background-position: 50px 54px;
+        background-size: 130px 130px;
+        height: 230px;
+        width: 230px;
+        font-size: 30px;
+        padding-top: 75px;
+    }
+
+        .badge--in-flipper:before {
+            border-radius: 115px;
+            width: 230px;
+            height: 230px;
+        }
+}
+
+.badge--minimal {
+    color: #41a648;
+    background-position: 15px 30px;
+    background-size: 70px 70px;
+    padding-top: 36px;
+    background-color: #41a648;
+    border-radius: 6px 0 0 6px;
+    width: 100px;
+    height: 110px;
+    border: 1px solid #3a9440;
+}
+
+    .badge--minimal:before {
+        background-color: transparent;
+        top: -1px;
+        left: 99px;
+        height: 0;
+        width: 0;
+        border-left: 31px solid #3a9440;
+        border-top: 55px solid transparent;
+        border-bottom: 55px solid transparent;
+    }
+
+    .badge--minimal:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 98px;
+        height: 0;
+        width: 0;
+        border-left: 30px solid #41a648;
+        border-top: 54px solid transparent;
+        border-bottom: 54px solid transparent;
+    }
+
+@media (min-width:992px) {
+    .carousel-inner {
+        margin-left: -1px;
+    }
+}
+
+.no-js .carousel-inner > .item {
+    display: block;
+}
+
+
+.no-js #carousel-wine, .no-js
+/* CAROUSEL */
+#carousel-beer, .no-js
+
+#carousel-spirits {
+    display: block !important;
+}
+
+.carousel-control {
+    opacity: 1;
+    color: #75abc9;
+    text-shadow: none;
+    z-index: 10;
+}
+
+    .carousel-control.left, .carousel-control.right {
+        background: transparent;
+    }
+
+@media (min-width:992px) {
+    .carousel-control.left {
+        /* background-image: linear-gradient(to right,#d1e3ed 0%,rgba(209,227,237,0.0001) 100%); */
+        background-image: linear-gradient(to right, #ededd1 0%,rgba(237,237,209,0.0001) 100%); /* rgba(209,227,237,0.0001) */
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFededd1',endColorstr='#00ededd1',GradientType=1); /* org: #00D1E3ED */
+    }
+
+    .carousel-control.right {
+        background-image: linear-gradient(to right,rgba(237,237,209,0.0001) 0%,#ededd1 100%); /* rgba(209,227,237,0.0001) */
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFededd1',endColorstr='#00ededd1',GradientType=1); /* org: #00D1E3ED */
+    }
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #e0a100; /* org: #366b89 */
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+    top: 32%;
+}
+
+    .carousel-control .icon-prev:before, .carousel-control .icon-next:before {
+        font-size: 30px;
+    }
+
+@media (min-width:480px) {
+    .carousel-control .icon-prev:before, .carousel-control .icon-next:before {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:480px) {
+    .carousel-control .icon-prev, .carousel-control .icon-next {
+        top: 45%;
+    }
+}
+
+@media (min-width:768px) {
+    .carousel-control .icon-prev, .carousel-control .icon-next {
+        top: 58%;
+    }
+}
+
+@media (min-width:992px) {
+    .carousel-control .icon-prev, .carousel-control .icon-next {
+        top: 48%;
+    }
+}
+
+.carousel-control .icon-prev {
+    margin-left: -25px;
+}
+
+    .carousel-control .icon-prev:before {
+        content: '\e608';
+    }
+
+.carousel-control .icon-next {
+    margin-right: -15px;
+}
+
+    .carousel-control .icon-next:before {
+        content: '\e609';
+    }
+
+.carousel-caption {
+    bottom: 10px;
+    right: auto;
+    left: 0;
+    width: 100%;
+    color: #475669;
+    text-shadow: none;
+    text-align: left;
+}
+
+.no-js .carousel-caption {
+    float: left;
+    position: relative;
+    padding-right: 0;
+    width: 48%;
+}
+
+@media (max-width:480px) {
+    .no-js .carousel-caption {
+        width: 100%;
+        clear: both;
+    }
+}
+
+@media (min-width:768px) {
+    .carousel-caption {
+        text-align: center;
+        right: 15%;
+        left: auto;
+        bottom: 0;
+    }
+}
+
+.carousel-caption .btn {
+    text-shadow: #d39700 1px 1px 0,#d39700 1px 1px 0 0; /* #02759c */
+    text-shadow: #d39700 1px 1px 0 0,#d39700 1px 1px 0 0;
+}
+
+.carousel-indicators {
+    display: none;
+    margin-bottom: 0;
+    bottom: auto;
+    top: 0;
+}
+
+@media (min-width:768px) {
+    .carousel-indicators {
+        display: block;
+    }
+}
+
+.carousel-indicators li {
+    text-indent: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+@media (min-width:1200px) {
+    .carousel-indicators li {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.carousel-indicators .active {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+@media (min-width:1200px) {
+    .carousel-indicators .active {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.flipper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    background: #cbe2e9;
+}
+
+@media (min-width:992px) {
+    .flipper {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+.flipper.is-flipped .flipper__content-wrapper {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.8);
+}
+
+.flipper.is-flipped .flipper__content {
+    transform: rotate3d(0,1,0,-180deg);
+}
+
+.no-cssreflections .flipper.is-flipped .flipper__content {
+    transform: none;
+}
+
+.no-cssreflections .flipper.is-flipped .flipper__content-back {
+    display: block;
+}
+
+.flipper__content-wrapper {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    top: 5px;
+    left: 5px;
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.2);
+}
+
+@media (min-width:992px) {
+    .flipper__content-wrapper {
+        width: 230px;
+        height: 230px;
+        top: 15px;
+        left: 15px;
+        box-shadow: 0 0 0 20px rgba(255,255,255,0.2);
+    }
+}
+
+@media (min-width:1200px) {
+    .flipper__content-wrapper {
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+.flipper__content {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+}
+
+    .flipper__content > div {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-position: center center;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+.no-cssreflections .flipper__content > div {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.flipper__content .flipper__content-back {
+    z-index: 2;
+    transform: rotate3d(0,1,0,180deg);
+}
+
+.no-cssreflections .flipper__content .flipper__content-back {
+    display: none;
+    transform: none;
+}
+
+@media (min-width:992px) {
+    .flipper__content {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media (min-width:1200px) {
+    .flipper__content {
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+@media (min-width:480px) {
+    .gender {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.gender > a {
+    display: block;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid #029bcf;
+    text-align: center;
+    padding: 20px 10px;
+    line-height: 16px;
+    border-radius: 3px;
+}
+
+@media (min-width:480px) {
+    .gender > a {
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        width: 222px;
+        height: 250px;
+        border: none;
+        color: #ffffff;
+        border-radius: none;
+        text-align: left;
+        line-height: 1;
+        font-size: 100%;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1200px) {
+    .gender > a {
+        width: 311px;
+        height: 350px;
+        font-size: 16px;
+        -webkit-transition: background 0.05s ease-in;
+        -webkit-transition-delay: 0s;
+        transition: background 0.05s ease-in false;
+    }
+}
+
+@media (min-width:480px) {
+    .gender--male {
+        right: 230px;
+    }
+}
+
+@media (min-width:992px) {
+    .gender--male {
+        right: 260px;
+    }
+}
+
+@media (min-width:1200px) {
+    .gender--male {
+        right: 390px;
+    }
+}
+
+@media (min-width:480px) {
+    .gender--male > a {
+        background-image: url(/sites/all/themes/alcohol/images/test-male-dark.svg);
+        background-size: 207px 250px;
+        padding: 42% 0 0 32%;
+    }
+
+        .gender--male > a:hover, .gender--male > a:focus {
+            background-image: url(/sites/all/themes/alcohol/images/test-male-light-b.svg);
+        }
+}
+
+@media (min-width:1200px) {
+    .gender--male > a {
+        background-size: 290px 350px;
+        padding: 42% 0 0 32%;
+    }
+}
+
+@media (min-width:480px) {
+    .gender--female {
+        right: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .gender--female {
+        right: 20px;
+    }
+}
+
+@media (min-width:480px) {
+    .gender--female > a {
+        background-image: url(/sites/all/themes/alcohol/images/test-female-dark.svg);
+        background-size: 222px 250px;
+        padding: 42% 0 0 20%;
+    }
+
+        .gender--female > a:hover, .gender--female > a:focus {
+            background-image: url(/sites/all/themes/alcohol/images/test-female-light-b.svg);
+        }
+}
+
+@media (min-width:1200px) {
+    .gender--female > a {
+        width: 311px;
+        height: 350px;
+        background-size: 311px 350px;
+        padding: 42% 0 0 21%;
+    }
+}
+
+.human.tool__section {
+    width: 322px;
+    height: 260px;
+    background-position: 70px -465px;
+    -webkit-transition: background-image 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: background-image 0.2s ease-in false;
+}
+
+@media (min-width:480px) {
+    .human.tool__section {
+        width: 241px;
+        height: 260px;
+        background-position: 0 -465px;
+    }
+}
+
+@media (min-width:992px) {
+    .human.tool__section {
+        width: 520px;
+        height: 667px;
+        background-position: 0 -726px;
+    }
+}
+
+.human.tool__toggle {
+    -webkit-transition: background-image 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: background-image 0.2s ease-in false;
+    display: block;
+}
+
+@media (min-width:1200px) {
+    .human.tool__toggle {
+        width: 140px;
+        height: 300px;
+        background-position: 0 -165px;
+    }
+}
+
+.human.tool__toggle.human--sex-change {
+    -webkit-transition: background-image 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: background-image 0.2s ease-in false;
+}
+
+@media (min-width:1200px) {
+    .human.tool__toggle.human--sex-change {
+        width: 140px;
+        height: 300px;
+        background-position: 0 -165px;
+    }
+}
+
+.human__item {
+    position: absolute;
+    display: none;
+    height: 22px;
+    width: 22px;
+    margin: 38px;
+    background-color: #88d9ea;
+    border-radius: 12px;
+    border: 4px solid rgba(255,255,255,0.7);
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.2s ease-in false;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+@media (min-width:992px) {
+    .human__item {
+        display: block;
+    }
+}
+
+.human--sex-change .human__item {
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.2s ease-in false;
+}
+
+.human__item.human__blood {
+    top: 277px;
+    left: 199px;
+}
+
+.human--sex-change .human__item.human__blood {
+    top: 282px;
+    left: 450px;
+}
+
+.human__item.human__bones-muscles {
+    top: 387px;
+    left: 179px;
+}
+
+.human--sex-change .human__item.human__bones-muscles {
+    top: 357px;
+    left: 128px;
+}
+
+.human__item.human__brain {
+    top: 31px;
+    left: 350px;
+}
+
+.human--sex-change .human__item.human__brain {
+    top: 40px;
+    left: 303px;
+}
+
+.human__item.human__breasts {
+    display: none;
+}
+
+.human--sex-change .human__item.human__breasts {
+    top: 283px;
+    left: 280px;
+}
+
+@media (min-width:992px) {
+    .human--sex-change .human__item.human__breasts {
+        display: block;
+    }
+}
+
+.human__item.human__eyes {
+    top: 65px;
+    left: 295px;
+}
+
+.human--sex-change .human__item.human__eyes {
+    top: 72px;
+    left: 289px;
+}
+
+.human__item.human__heart {
+    top: 240px;
+    left: 363px;
+}
+
+.human--sex-change .human__item.human__heart {
+    top: 245px;
+    left: 365px;
+}
+
+.human__item.human__intestines {
+    top: 438px;
+    left: 351px;
+}
+
+.human--sex-change .human__item.human__intestines {
+    top: 451px;
+    left: 330px;
+}
+
+.human__item.human__kidneys {
+    top: 405px;
+    left: 270px;
+}
+
+.human--sex-change .human__item.human__kidneys {
+    top: 386px;
+    left: 269px;
+}
+
+.human__item.human__liver {
+    top: 365px;
+    left: 295px;
+}
+
+.human--sex-change .human__item.human__liver {
+    top: 348px;
+    left: 290px;
+}
+
+.human__item.human__lungs {
+    top: 232px;
+    left: 290px;
+}
+
+.human--sex-change .human__item.human__lungs {
+    top: 245px;
+    left: 312px;
+}
+
+.human__item.human__mens-sexual-health {
+    top: 548px;
+    left: 354px;
+}
+
+.human--sex-change .human__item.human__mens-sexual-health {
+    display: none;
+}
+
+.human__item.human__womans-sexual-health {
+    display: none;
+}
+
+.human--sex-change .human__item.human__womans-sexual-health {
+    top: 502px;
+    left: 324px;
+}
+
+@media (min-width:992px) {
+    .human--sex-change .human__item.human__womans-sexual-health {
+        display: block;
+    }
+}
+
+.human__item.human__mens-mental-health {
+    top: 0px;
+    left: 340px;
+}
+
+.human--sex-change .human__item.human__mens-mental-health {
+    display: none;
+}
+
+.human__item.human__womans-mental-health {
+    display: none;
+}
+
+.human--sex-change .human__item.human__womans-mental-health {
+    top: 10px;
+    left: 330px;
+}
+
+@media (min-width:992px) {
+    .human--sex-change .human__item.human__womans-mental-health {
+        display: block;
+    }
+}
+
+.human__item.human__mouth-throat {
+    top: 107px;
+    left: 304px;
+}
+
+.human--sex-change .human__item.human__mouth-throat {
+    top: 112px;
+    left: 300px;
+}
+
+.human__item.human__skin {
+    top: 533px;
+    left: 262px;
+}
+
+.human--sex-change .human__item.human__skin {
+    top: 429px;
+    left: 222px;
+}
+
+.human__item.human__stomach-food-pipe {
+    top: 336px;
+    left: 357px;
+}
+
+.human--sex-change .human__item.human__stomach-food-pipe {
+    top: 324px;
+    left: 360px;
+}
+
+.human__item.human__pancreas {
+    top: 368px;
+    left: 337px;
+}
+
+.human--sex-change .human__item.human__pancreas {
+    top: 348px;
+    left: 338px;
+}
+
+@media (min-width:1200px) {
+    .human__item.human__blood {
+        top: 277px;
+        left: 399px;
+    }
+
+    .human--sex-change .human__item.human__blood {
+        top: 282px;
+        left: 650px;
+    }
+
+    .human__item.human__bones-muscles {
+        top: 387px;
+        left: 379px;
+    }
+
+    .human--sex-change .human__item.human__bones-muscles {
+        top: 357px;
+        left: 328px;
+    }
+
+    .human__item.human__brain {
+        top: 31px;
+        left: 550px;
+    }
+
+    .human--sex-change .human__item.human__brain {
+        top: 40px;
+        left: 503px;
+    }
+
+    .human__item.human__breasts {
+        display: none;
+    }
+
+    .human--sex-change .human__item.human__breasts {
+        top: 283px;
+        left: 480px;
+    }
+}
+
+@media (min-width:1200px) and (min-width:992px) {
+    .human--sex-change .human__item.human__breasts {
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    .human__item.human__eyes {
+        top: 65px;
+        left: 495px;
+    }
+
+    .human--sex-change .human__item.human__eyes {
+        top: 72px;
+        left: 489px;
+    }
+
+    .human__item.human__heart {
+        top: 240px;
+        left: 563px;
+    }
+
+    .human--sex-change .human__item.human__heart {
+        top: 245px;
+        left: 565px;
+    }
+
+    .human__item.human__intestines {
+        top: 438px;
+        left: 551px;
+    }
+
+    .human--sex-change .human__item.human__intestines {
+        top: 451px;
+        left: 530px;
+    }
+
+    .human__item.human__kidneys {
+        top: 405px;
+        left: 470px;
+    }
+
+    .human--sex-change .human__item.human__kidneys {
+        top: 386px;
+        left: 469px;
+    }
+
+    .human__item.human__liver {
+        top: 365px;
+        left: 495px;
+    }
+
+    .human--sex-change .human__item.human__liver {
+        top: 348px;
+        left: 490px;
+    }
+
+    .human__item.human__lungs {
+        top: 232px;
+        left: 490px;
+    }
+
+    .human--sex-change .human__item.human__lungs {
+        top: 245px;
+        left: 512px;
+    }
+
+    .human__item.human__mens-sexual-health {
+        top: 548px;
+        left: 554px;
+    }
+
+    .human--sex-change .human__item.human__mens-sexual-health {
+        display: none;
+    }
+
+    .human__item.human__womans-sexual-health {
+        display: none;
+    }
+
+    .human--sex-change .human__item.human__womans-sexual-health {
+        top: 502px;
+        left: 524px;
+    }
+}
+
+@media (min-width:1200px) and (min-width:992px) {
+    .human--sex-change .human__item.human__womans-sexual-health {
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    .human__item.human__mens-mental-health {
+        top: 0px;
+        left: 540px;
+    }
+
+    .human--sex-change .human__item.human__mens-mental-health {
+        display: none;
+    }
+
+    .human__item.human__womans-mental-health {
+        display: none;
+    }
+
+    .human--sex-change .human__item.human__womans-mental-health {
+        top: 10px;
+        left: 530px;
+    }
+}
+
+@media (min-width:1200px) and (min-width:992px) {
+    .human--sex-change .human__item.human__womans-mental-health {
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    .human__item.human__mouth-throat {
+        top: 107px;
+        left: 504px;
+    }
+
+    .human--sex-change .human__item.human__mouth-throat {
+        top: 112px;
+        left: 500px;
+    }
+
+    .human__item.human__skin {
+        top: 533px;
+        left: 462px;
+    }
+
+    .human--sex-change .human__item.human__skin {
+        top: 429px;
+        left: 422px;
+    }
+
+    .human__item.human__stomach-food-pipe {
+        top: 336px;
+        left: 557px;
+    }
+
+    .human--sex-change .human__item.human__stomach-food-pipe {
+        top: 324px;
+        left: 560px;
+    }
+
+    .human__item.human__pancreas {
+        top: 368px;
+        left: 537px;
+    }
+
+    .human--sex-change .human__item.human__pancreas {
+        top: 348px;
+        left: 538px;
+    }
+}
+
+.human__item > span {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: 50px;
+    background-color: #ffffff;
+    color: #28313b;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 4px 10px;
+    opacity: 0;
+    visibility: hidden;
+    white-space: nowrap;
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.1) 3px 3px 14px;
+    z-index: 1;
+}
+
+    .human__item > span:before {
+        content: '';
+        position: absolute;
+        top: 11px;
+        right: -8px;
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 8px solid #ffffff;
+    }
+
+.human__item.human__pancreas > span, .human__item.human__kidneys > span, .human__item.human__mens-sexual-health > span, .human__item.human__intestines > span {
+    right: auto;
+    left: 50px;
+}
+
+    .human__item.human__pancreas > span:before, .human__item.human__kidneys > span:before, .human__item.human__mens-sexual-health > span:before, .human__item.human__intestines > span:before {
+        right: auto;
+        left: -8px;
+        border-left: none;
+        border-right: 8px solid #ffffff;
+    }
+
+.human__item.human__heart > span, .human__item.human__bones-muscles > span {
+    right: -85px;
+    top: -50px;
+}
+
+    .human__item.human__heart > span:before, .human__item.human__bones-muscles > span:before {
+        right: 50%;
+        top: 32px;
+        border-top: 8px solid #ffffff;
+        border-bottom: none;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+    }
+
+.human__item.human__bones-muscles > span {
+    right: -81px;
+}
+
+.human__item.active {
+    height: 38px;
+    width: 38px;
+    margin: 31px;
+    border: 6px solid #ffffff;
+    border-radius: 19px;
+    background-color: #02759c;
+    -webkit-transition: all 0.05s ease-in-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in-out false;
+}
+
+    .human__item.active > span {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.5s 0.1s;
+        -webkit-transition-delay: ease-in-out;
+        transition: opacity 0.5s 0.1s ease-in-out;
+    }
+
+@media (min-width:1200px) {
+    .human__item:hover, .human__item:focus {
+        height: 38px;
+        width: 38px;
+        margin: 31px;
+        border: 6px solid #ffffff;
+        border-radius: 19px;
+        background-color: #029bcf;
+        -webkit-transition: all 0.05s ease-in-out;
+        -webkit-transition-delay: 0s;
+        transition: all 0.05s ease-in-out false;
+    }
+
+        .human__item:hover > span, .human__item:focus > span {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.5s 0.1s;
+            -webkit-transition-delay: ease-in-out;
+            transition: opacity 0.5s 0.1s ease-in-out;
+        }
+
+    .human__item:focus {
+        background-color: #02759c;
+    }
+}
+
+.tool__media.human {
+    margin: 0 auto;
+}
+
+    .tool__media.human.human__blood {
+        margin-top: 10px;
+    }
+
+    .tool__media.human.human__eyes {
+        margin-top: 20px;
+    }
+
+    .tool__media.human.human__liver {
+        margin-top: 20px;
+    }
+
+    .tool__media.human.human__womans-sexual-health {
+        margin-top: 20px;
+    }
+
+    .tool__media.human.human__mouth-throat {
+        margin-top: 15px;
+    }
+
+    .tool__media.human.human__pancreas {
+        margin-top: 36px;
+    }
+
+@-webkit-keyframes flash {
+    0%,100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    0%,100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Pour liquid */
+
+.liquid__drop, .liquid--pour {
+    left: 66%;
+}
+
+.liquid--beer .liquid__drop, .liquid--beer
+
+.liquid--pour {
+    background-color: #f28b00;
+    background-image: -owg-linear-gradient(#ffa326,#f28b00);
+    background-image: linear-gradient(#ffa326,#f28b00);
+}
+
+.liquid--wine-light .liquid__drop, .liquid--wine-light
+.liquid--pour {
+    background-color: #eae993;
+    background-image: -owg-linear-gradient(#f2f2be,#eae993);
+    background-image: linear-gradient(#f2f2be,#eae993);
+}
+
+.liquid--wine-dark .liquid__drop, .liquid--wine-dark
+.liquid--pour {
+    background-color: #820116;
+    background-image: -owg-linear-gradient(#b5011f,#820116);
+    background-image: linear-gradient(#b5011f,#820116);
+}
+
+.liquid--spirit .liquid__drop, .liquid--spirit
+.liquid--pour {
+    background-color: #ecbb34;
+    background-image: -owg-linear-gradient(#f0cb63,#ecbb34);
+    background-image: linear-gradient(#f0cb63,#ecbb34);
+}
+
+.liquid--rtd .liquid__drop, .liquid--rtd
+.liquid--pour {
+    background-color: #ff43a5;
+    background-image: -owg-linear-gradient(#ff43a5,#ff108d);
+    background-image: linear-gradient(#ff43a5,#ff108d);
+}
+
+.liquid--rtd-dark .liquid__drop, .liquid--rtd-dark
+
+.liquid--pour {
+    background-color: #651810;
+    background-image: -owg-linear-gradient(#651810,#390e09);
+    background-image: linear-gradient(#651810,#390e09);
+}
+
+@media (min-width:480px) {
+    .liquid__drop, .liquid--pour {
+        left: 50%;
+    }
+}
+
+.liquid__drop {
+    position: absolute;
+    top: 140px;
+    margin: 0 0 0 5px;
+    width: 10px;
+    height: 16px;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 9px 9px 9px 9px / 22px 22px 9px 9px;
+    -webkit-transition: all 0.5s 0.2s;
+    -webkit-transition-delay: ease-out;
+    transition: all 0.5s 0.2s ease-out;
+}
+
+@media (min-width:480px) {
+    .liquid__drop {
+        margin: 0 0 0 -5px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid--beer .liquid__drop {
+        width: 16px;
+        margin: 0 0 0 -8px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__drop {
+        top: 480px;
+        height: 30px;
+    }
+}
+
+.liquid__drop.liquid__drop--one {
+    top: 190px;
+    width: 10px;
+    height: 16px;
+    margin: 0 0 0 5px;
+    border-radius: 5px 5px 5px 5px / 14px 14px 5px 5px;
+}
+
+@media (min-width:480px) {
+    .liquid__drop.liquid__drop--one {
+        margin: 0 0 0 -5px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__drop.liquid__drop--one {
+        top: 26px;
+    }
+}
+
+.liquid__drop.liquid__drop--two {
+    top: 235px;
+    width: 10px;
+    height: 14px;
+    margin: 0 0 0 5px;
+    border-radius: 7px 7px 7px 7px / 19px 19px 7px 7px;
+}
+
+@media (min-width:480px) {
+    .liquid__drop.liquid__drop--two {
+        margin: 0 0 0 -5px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid--beer .liquid__drop.liquid__drop--two {
+        width: 14px;
+        margin: 0 0 0 -7px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__drop.liquid__drop--two {
+        top: 160px;
+        height: 24px;
+    }
+}
+
+.liquid__drop.liquid__drop--three {
+    top: 280px;
+}
+
+@media (min-width:992px) {
+    .liquid__drop.liquid__drop--three {
+        top: 300px;
+    }
+}
+
+.liquid__drop.dropping {
+    top: 200px;
+    visibility: visible;
+    -webkit-animation: flash 0.5s 0.2s 1;
+    animation: flash 0.5s 0.2s 1;
+}
+
+@media (min-width:992px) {
+    .liquid__drop.dropping {
+        top: 540px;
+    }
+}
+
+.liquid__drop.dropping.liquid__drop--one {
+    top: 250px;
+}
+
+@media (min-width:992px) {
+    .liquid__drop.dropping.liquid__drop--one {
+        top: 86px;
+    }
+}
+
+.liquid__drop.dropping.liquid__drop--two {
+    top: 295px;
+}
+
+@media (min-width:992px) {
+    .liquid__drop.dropping.liquid__drop--two {
+        top: 220px;
+    }
+}
+
+.liquid__drop.dropping.liquid__drop--three {
+    top: 340px;
+}
+
+@media (min-width:992px) {
+    .liquid__drop.dropping.liquid__drop--three {
+        top: 400px;
+    }
+}
+
+.liquid--pour {
+    position: absolute;
+    top: 0;
+    margin: -100px 0 0 5px;
+    width: 10px;
+    height: 100px;
+    border-radius: 5px;
+    -webkit-transition: all 0.1s ease-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.1s ease-out false;
+}
+
+@media (min-width:480px) {
+    .liquid--pour {
+        margin: -100px 0 0 -5px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid--beer .liquid--pour {
+        border-radius: 8px;
+        width: 16px;
+        margin: -100px 0 0 -8px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid--beer .liquid--pour.filling {
+        margin: -10px 0 0 -8px;
+    }
+}
+
+.liquid--pour.filling {
+    height: 620px;
+    margin: -10px 0 0 5px;
+    -webkit-transition: all 0.1s ease-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.1s ease-out false;
+}
+
+@media (min-width:480px) {
+    .liquid--pour.filling {
+        margin: -10px 0 0 -5px;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid--beer .liquid--pour.filling {
+        margin: -10px 0 0 -8px;
+    }
+}
+
+.liquid--body {
+    position: absolute;
+    bottom: 70px;
+    -webkit-transition: background-position 0.1s ease-out;
+    -webkit-transition-delay: 0s;
+    transition: background-position 0.1s ease-out false;
+}
+
+@media (min-width:992px) {
+    .liquid--body {
+        bottom: 0;
+    }
+}
+
+.liquid--pour-level {
+    color: #ffffff;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 110%;
+    text-align: center;
+}
+
+.liquid--standard-drink-level {
+    display: block;
+    width: 76px;
+    height: 40px;
+    border-radius: 6px 0 0 6px;
+    background-color: #ffffff;
+    border: 1px solid #C3D7DD;
+    padding: 7px 10px;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+    .liquid--standard-drink-level:before, .liquid--standard-drink-level:after {
+        content: "";
+        position: absolute;
+    }
+
+    .liquid--standard-drink-level:before {
+        top: 0;
+        left: 76px;
+        height: 0;
+        width: 0;
+        border-left: 16px solid #C3D7DD;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+    }
+
+    .liquid--standard-drink-level:after {
+        top: 1px;
+        left: 75px;
+        height: 0;
+        width: 0;
+        border-left: 15px solid #ffffff;
+        border-top: 19px solid transparent;
+        border-bottom: 19px solid transparent;
+    }
+
+.liquid__list {
+    margin: 0 -20px 20px -20px;
+    padding: 0;
+}
+
+@media (min-width:992px) {
+    .liquid__list {
+        margin: 40px 0 0;
+    }
+}
+
+.liquid__list .liquid__type {
+    list-style: none;
+    display: block;
+}
+
+@media (min-width:992px) {
+    .liquid__list .liquid__type {
+        height: 100px;
+        width: 100px;
+        margin: 0 0 30px -30px;
+        display: none;
+    }
+}
+
+.liquid__counter {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 9px;
+    background: #ffffff;
+    color: #029bcf;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    padding: 3px 0;
+    line-height: 1;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+
+@media (min-width:992px) {
+    .liquid__counter {
+        top: 64px;
+        left: -3px;
+        width: 26px;
+        height: 26px;
+        border-radius: 13px;
+        padding: 3px 3px;
+        font-size: 18px;
+    }
+}
+
+.counter-is-active .liquid__counter {
+    display: block;
+}
+
+.liquid__link {
+    display: block;
+    position: relative;
+    padding: 23px 20px 23px 112px;
+    font-size: 20px;
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ffffff;
+    background-color: #002B49;
+    border-top: 1px solid #00496e;
+    line-height: 1.2;
+    -webkit-transition: all 0.05s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in false;
+}
+
+    .liquid__link:visited {
+        color: #ffffff;
+    }
+
+@media (min-width:992px) {
+    .liquid__link:visited {
+        color: #475669;
+    }
+}
+
+@media (max-width:991px) {
+    .liquid__link:hover, .liquid__link:focus {
+        color: #ffffff;
+        background-color: #00497c;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__link:hover, .liquid__link:focus {
+        color: #475669;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__link:hover:before, .liquid__link:focus:before {
+        background-color: rgba(255,255,255,0.4);
+    }
+}
+
+@media (max-width:991px) {
+    .liquid__link:hover:after, .liquid__link:focus:after {
+        background: #014f6a;
+    }
+}
+
+@media (min-width:992px) {
+    .liquid__link {
+        background-color: transparent;
+        border-top: none;
+        height: 100px;
+        width: 263px;
+        font-size: 14px;
+        color: #475669;
+        padding: 31px 20px 31px 130px;
+    }
+}
+
+@media (min-width:1200px) {
+    .liquid__link.is-hovered {
+        z-index: 1;
+    }
+
+        .liquid__link.is-hovered > span {
+            display: block;
+        }
+
+        .liquid__link.is-hovered:after {
+            display: block;
+        }
+}
+
+@media (min-width:992px) {
+    .liquid__link > span:before {
+        content: '';
+        position: absolute;
+        top: 39px;
+        left: 108px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-right: 10px solid #ffffff;
+        border-bottom: 10px solid transparent;
+    }
+}
+
+@media (min-width:1200px) {
+    .liquid__link > span {
+        display: none;
+    }
+}
+
+.liquid__link > span > span {
+    display: block;
+    font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 3px 0 6px;
+}
+
+.liquid__link:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    width: 76px;
+    height: 76px;
+    background-color: #e5eef3;
+    border-radius: 38px;
+}
+
+@media (min-width:992px) {
+    .liquid__link:before {
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: rgba(255,255,255,0.2);
+        -webkit-transition: all 0.05s ease-in;
+        -webkit-transition-delay: 0s;
+        transition: all 0.05s ease-in false;
+        border: 2px solid rgba(255,255,255,0.3);
+    }
+}
+
+.liquid__link:after {
+    content: '+';
+    position: absolute;
+    top: 33px;
+    left: 80px;
+    width: 22px;
+    height: 22px;
+    background: #029bcf;
+    color: #ffffff;
+    border-radius: 11px;
+    padding: 0px 5px;
+    line-height: 0.9;
+    font-size: 22px;
+}
+
+@media (min-width:992px) {
+    .liquid__link:after {
+        content: '';
+        top: 21px;
+        left: 118px;
+        width: 135px;
+        height: 56px;
+        z-index: -1;
+        background: #ffffff;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width:1200px) {
+    .liquid__link:after {
+        display: none;
+    }
+}
+
+@media (min-width:1200px) {
+    .liquid__link .is-hovered > span {
+        display: block;
+    }
+}
+
+.liquid__type:first-child .liquid__link > a {
+    border-top: none;
+}
+
+.wine-is-selected .liquid__list .liquid__type--wine {
+    display: block;
+}
+
+.beer-is-selected .liquid__list .liquid__type--beer {
+    display: block;
+}
+
+.cider-is-selected .liquid__list .liquid__type--cider {
+    display: block;
+}
+
+.rtd-is-selected .liquid__list .liquid__type--rtd {
+    display: block;
+}
+
+.spirit-is-selected .liquid__list .liquid__type--spirit {
+    display: block;
+}
+
+.liquid__media-small, .liquid__media {
+    position: absolute;
+}
+
+.liquid__link .liquid__media-small, .liquid__link .liquid__media {
+    top: 4px;
+    left: 14px;
+}
+
+@media (min-width:992px) {
+    .liquid__link .liquid__media-small, .liquid__link .liquid__media {
+        top: 9px;
+        left: 10px;
+    }
+}
+
+.tool__tally .liquid__media-small, .tool__tally .liquid__media {
+    top: 0;
+    left: 0;
+    background-image: url(/sites/all/themes/alcohol/images/tool/how-much/sprite--liquid-index-retina.png);
+    background-repeat: no-repeat;
+    background-size: 48px 480px;
+    width: 48px;
+    height: 48px;
+}
+
+@media (min-width:992px) {
+    .liquid__media {
+        cursor: move;
+    }
+}
+
+.liquid__media.is-dropped {
+    -webkit-transition: all 0.5s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.5s ease-in false;
+}
+
+@media (min-width:992px) {
+    .liquid__media.is-dropped {
+        cursor: default;
+    }
+}
+
+.liquid__media[data-depth="3"], .liquid__media[data-depth="4"] {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.liquid__media[data-depth="5"], .liquid__media[data-depth="6"] {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.liquid__media[data-depth="max"] {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.marker {
+    position: absolute;
+}
+
+    .marker:after {
+        content: '';
+        position: absolute;
+        height: 5px;
+    }
+
+.marker--standard-drink-level {
+    top: 280px;
+    left: 0;
+    z-index: 1;
+}
+
+@media (min-width:480px) {
+    .marker--standard-drink-level {
+        left: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .marker--standard-drink-level {
+        left: 132px;
+    }
+}
+
+@media (min-width:1200px) {
+    .marker--standard-drink-level {
+        left: 200px;
+    }
+}
+
+.marker--standard-drink-level:after {
+    background-color: rgba(65,166,72,0.5);
+    top: 52px;
+    left: 142px;
+    width: 181px;
+}
+
+@media (min-width:480px) {
+    .marker--standard-drink-level:after {
+        width: 262px;
+    }
+}
+
+@media (min-width:992px) {
+    .marker--standard-drink-level:after {
+        width: 373px;
+    }
+}
+
+@media (min-width:1200px) {
+    .marker--standard-drink-level:after {
+        width: 386px;
+    }
+}
+
+.vessel--280ml-glass .marker--standard-drink-level {
+    top: 212px;
+}
+
+.vessel--beer-bottle .marker--standard-drink-level {
+    top: 201px;
+}
+
+.vessel--pint .marker--standard-drink-level {
+    top: 252px;
+}
+
+.vessel--jug .marker--standard-drink-level {
+    top: 303px;
+}
+
+.vessel--wine-glass-250ml .marker--standard-drink-level {
+    top: 243px;
+}
+
+.vessel--wine-glass-350ml .marker--standard-drink-level {
+    top: 237px;
+}
+
+.vessel--wine-bottle .marker--standard-drink-level {
+    top: 315px;
+}
+
+.vessel--shot .marker--standard-drink-level {
+    top: 273px;
+}
+
+.vessel--tumbler .marker--standard-drink-level {
+    top: 306px;
+}
+
+.vessel--1000ml-bottle .marker--standard-drink-level {
+    top: 331px;
+}
+
+.vessel--250ml-can .marker--standard-drink-level {
+    top: 238px;
+}
+
+.vessel--330ml-can .marker--standard-drink-level {
+    top: 265px;
+}
+
+.vessel--500ml-bottle .marker--standard-drink-level {
+    top: 275px;
+}
+
+@media (min-width:992px) {
+    .vessel--280ml-glass .marker--standard-drink-level {
+        top: 206px;
+    }
+
+    .vessel--beer-bottle .marker--standard-drink-level {
+        top: 179px;
+    }
+
+    .vessel--pint .marker--standard-drink-level {
+        top: 312px;
+    }
+
+    .vessel--jug .marker--standard-drink-level {
+        top: 425px;
+    }
+
+    .vessel--wine-glass-250ml .marker--standard-drink-level {
+        top: 269px;
+    }
+
+    .vessel--wine-glass-350ml .marker--standard-drink-level {
+        top: 267px;
+    }
+
+    .vessel--wine-bottle .marker--standard-drink-level {
+        top: 466px;
+    }
+
+    .vessel--shot .marker--standard-drink-level {
+        top: 362px;
+    }
+
+    .vessel--tumbler .marker--standard-drink-level {
+        top: 436px;
+    }
+
+    .vessel--1000ml-bottle .marker--standard-drink-level {
+        top: 505px;
+    }
+
+    .vessel--250ml-can .marker--standard-drink-level {
+        top: 261px;
+    }
+
+    .vessel--330ml-can .marker--standard-drink-level {
+        top: 337px;
+    }
+
+    .vessel--500ml-bottle .marker--standard-drink-level {
+        top: 364px;
+    }
+}
+
+.marker--pour-level {
+    -webkit-transition: all 0.1s ease-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.1s ease-out false;
+    top: 200px;
+    left: 0;
+}
+
+@media (min-width:480px) {
+    .marker--pour-level {
+        left: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .marker--pour-level {
+        left: 170px;
+    }
+}
+
+@media (min-width:1200px) {
+    .marker--pour-level {
+        left: 239px;
+    }
+}
+
+.marker--pour-level:after {
+    background-color: rgba(195,215,221,0.6);
+    top: 17px;
+    left: 103px;
+    width: 218px;
+}
+
+@media (min-width:480px) {
+    .marker--pour-level:after {
+        width: 299px;
+    }
+}
+
+@media (min-width:992px) {
+    .marker--pour-level:after {
+        width: 370px;
+    }
+}
+
+@media (min-width:1200px) {
+    .marker--pour-level:after {
+        width: 386px;
+    }
+}
+
+.tool {
+    margin: 20px -10px 0;
+}
+
+@media (min-width:480px) {
+    .tool {
+        margin: 20px 0 0;
+    }
+}
+
+.tool__section {
+    position: relative;
+}
+
+.tool__indicators-wrapper {
+    background-color: #f6e999; /* org: #accddf */
+}
+
+.no-js .tool__indicators-wrapper {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .tool__indicators-wrapper {
+        position: absolute;
+        bottom: -120px;
+        left: 0;
+        height: 120px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .tool__indicators-wrapper {
+        margin-left: -1px;
+    }
+}
+
+.tool__indicators {
+    padding: 30px 10px;
+    left: auto;
+    width: 100%;
+    margin-left: 0;
+}
+
+@media (min-width:992px) {
+    .tool__indicators {
+        padding: 20px 20px;
+        text-align: left;
+    }
+}
+
+.tool__indicator-item {
+    position: relative;
+    text-align: center;
+}
+
+    .tool__indicator-item:hover:before, .tool__indicator-item.active:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: rgba(255,255,255,0.6);
+        z-index: -1;
+    }
+
+@media (min-width:1200px) {
+    .tool__indicator-item:hover:before, .tool__indicator-item.active:before {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+}
+
+.tool__indicator-item > img {
+    width: 40%;
+    padding-top: 5px;
+}
+
+.tool__section-title {
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+@media (min-width:480px) {
+    .tool__section-title {
+        padding-left: 20px;
+        font-size: 45px;
+    }
+}
+
+.js .tool__section-title {
+    display: none;
+}
+
+.tool__item-details {
+    background-color: #faf4cf; /* org: #e5eef3 */
+    padding: 20px 13.33333333px;
+}
+
+    .tool__item-details > .badge {
+        float: left;
+        margin: 0 20px 10px 0;
+    }
+
+@media (min-width:768px) {
+    .tool__item-details > .badge {
+        float: none;
+        margin: 20px auto 0;
+    }
+}
+
+.tool__item-details > h2 {
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 20px 0 0;
+}
+
+    .tool__item-details > h2 > span {
+        display: block;
+    }
+
+@media (min-width:480px) {
+    .tool__item-details > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool__item-details > h2 {
+        font-size: 24px;
+    }
+}
+
+.tool__item-details > p {
+    font-size: 12px;
+}
+
+@media (min-width:480px) {
+    .tool__item-details > p {
+        font-size: 16px;
+    }
+}
+
+.tool__item-details > .btn {
+    margin: 20px 0 0 0;
+    width: 100%;
+    clear: both;
+    position: relative;
+    z-index: 2;
+}
+
+.no-js .tool__item-details > .btn {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .tool__item-details > .btn {
+        margin: 30px auto 0;
+        width: 200px;
+        clear: none;
+    }
+}
+
+@media (min-width:768px) {
+    .tool__item-details {
+        background-color: transparent;
+        top: 0;
+        right: 0;
+        width: 54%;
+        padding-right: 10%;
+    }
+}
+
+.no-js .tool__controls, .tool__controls.hide {
+    display: none;
+}
+
+.tool__overlay > .list--choice > li {
+    float: left;
+    width: 40%;
+    padding: 0 0 0 10px;
+}
+
+    .tool__overlay > .list--choice > li:first-child {
+        padding: 0;
+    }
+
+@media (min-width:992px) {
+    .tool__overlay > .list--choice > li {
+        width: 25%;
+    }
+}
+
+.tool__overlay > .list--choice > li > a {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #b4b4b4; /* org: #143C57 */
+}
+
+@media (min-width:992px) {
+    .tool__overlay > .list--choice > li > a {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
+
+.tool__overlay > .list--choice > li > a:after {
+    border-top: 12px solid #b4b4b4; /* org: #143C57 */
+}
+
+.tool__overlay > .list--choice > li > a:hover, .tool__overlay > .list--choice > li > a:focus, .tool__overlay > .list--choice > li > a.is-selected {
+    background-color: #ffffff;
+}
+
+    .tool__overlay > .list--choice > li > a:hover:after, .tool__overlay > .list--choice > li > a:focus:after, .tool__overlay > .list--choice > li > a.is-selected:after {
+        border-top: 12px solid #ffffff;
+    }
+
+.tool__overlay .alert-info {
+    color: #ffffff;
+}
+
+.tool__overlay-section {
+    display: none;
+    clear: both;
+    padding: 10px 0 0;
+}
+
+@media (min-width:992px) {
+    .tool__overlay-section {
+        padding: 30px 0 0;
+    }
+}
+
+.tool__overlay-section.is-active-section {
+    display: block;
+}
+
+.tool--guide-to-standard-drinks {
+}
+
+    .tool--guide-to-standard-drinks .tool__inner {
+        float: left;
+        width: 100%;
+        font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+@media (min-width:768px) {
+    .tool--guide-to-standard-drinks .tool__inner {
+        padding-bottom: 120px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__inner {
+        background-image: -owg-linear-gradient(to right, #e0a100 20%,#f2f3e5 20%,#f2f3e5 100%); /* #002B49 20%,#e5eef3 20%,#e5eef3 100% */
+        background-image: linear-gradient(to right, #e0a100 20%,#f2f3e5 20%,#f2f3e5 100%);
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--guide-to-standard-drinks .tool__inner {
+        min-height: 647px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__media-wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__media-wrapper {
+    float: left;
+}
+
+@media (min-width:768px) {
+    .tool--guide-to-standard-drinks .tool__media-wrapper {
+        width: 52%;
+        margin: 0;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__media {
+    padding-bottom: 200px;
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__media {
+    padding-bottom: 0;
+}
+
+@media (min-width:768px) {
+    .tool--guide-to-standard-drinks .tool__media {
+        padding-bottom: 0;
+        margin-left: 30%; /* media wrapper margin to tool_index */
+        width: 52%;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index {
+    float: left;
+    width: 100%;
+    background-color: #e0a100; /* #002B49 */
+    z-index: 11;
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__index {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index {
+        position: relative;
+        width: 20%;
+        background-color: transparent;
+        height: 1px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-items {
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--guide-to-standard-drinks .tool__index-items {
+        padding: 30px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-item {
+    float: left;
+    width: 33.3%;
+    display: block;
+    border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+    .tool--guide-to-standard-drinks .tool__index-item > a {
+        text-align: center;
+        display: block;
+        color: #ffffff;
+        font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding: 14px 5px 2px;
+        font-size: 12px;
+        line-height: 1.1em;
+        min-height: 42px;
+        z-index: 2;
+        position: relative;
+    }
+
+        .tool--guide-to-standard-drinks .tool__index-item > a > span {
+            display: none;
+            position: relative;
+            width: 70px;
+            margin: 10px auto;
+        }
+
+            /* Bubble left menu */
+            .tool--guide-to-standard-drinks .tool__index-item > a > span:before {
+                content: '';
+                position: absolute;
+                top: -5%;
+                left: -7%;
+                background: #da6600; /* org: #143c58 bubble left menu */
+                color: #029bcf;
+                text-align: center;
+                border-radius: 40px;
+                width: 80px;
+                height: 80px;
+                border: 2px solid #751800; /* #014f6a */
+                -webkit-transition: none 1s;
+                -webkit-transition-delay: 0s;
+                transition: none 1s false false;
+            }
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a > span:before {
+        top: -18%;
+        left: -19%;
+        border-radius: 55px;
+        width: 110px;
+        height: 110px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-item > a > span > img {
+    position: relative;
+    z-index: 2;
+}
+
+@media (min-width:480px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a > span {
+        display: block;
+        line-height: inherit;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a > span {
+        width: 80px;
+        margin: 25px auto;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-item > a:hover > span:before, .tool--guide-to-standard-drinks .tool__index-item > a:focus > span:before {
+    background: #c55c00; /* org: #005e8c */
+    border: 4px solid #751800; /* org: #029bcf */
+    -webkit-transition: all 0.05s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in false;
+}
+
+@media (min-width:415px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a {
+        padding: 18px 10px;
+    }
+}
+
+@media (min-width:480px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a {
+        padding: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item > a {
+        padding: 0;
+        font-size: 16px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-item:first-child {
+    border-left: none;
+}
+
+    .tool--guide-to-standard-drinks .tool__index-item:first-child > a {
+        padding: 8px 5px;
+    }
+
+@media (min-width:415px) {
+    .tool--guide-to-standard-drinks .tool__index-item:first-child > a {
+        padding: 18px 10px;
+    }
+}
+
+@media (min-width:480px) {
+    .tool--guide-to-standard-drinks .tool__index-item:first-child > a {
+        padding: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item:first-child > a {
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) {
+    .tool--guide-to-standard-drinks .tool__index-item {
+        border-left: none;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--guide-to-standard-drinks .tool__index-item {
+        margin-bottom: 65px;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__index-item.active > a > span:before {
+    background: #751800; /* org: #005e8c */
+    border: 4px solid #c55c00; /* org: #029bcf */
+    -webkit-transition: all 0.05s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.05s ease-in false;
+}
+
+.tool--guide-to-standard-drinks .tool__index-item.active > a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -11px;
+    left: 37%;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #e0a100; /* #002B49 */
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__index-item.active > a:before {
+    display: none;
+}
+
+@media (min-width:480px) {
+    .tool--guide-to-standard-drinks .tool__index-item.active > a:before {
+        left: 42%;
+        bottom: -14px;
+        border-left: 16px solid transparent;
+        border-right: 16px solid transparent;
+        border-top: 16px solid #e0a100; /* #002B49 */
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__index-item.active > a:before {
+        bottom: auto;
+        left: auto;
+        top: 17%;
+        right: -35px;
+        border-right: none;
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+        border-left: 16px solid #e0a100; /* org: #002B49 */
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--guide-to-standard-drinks .tool__index-item.active > a:before {
+        right: -44px;
+    }
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__content {
+    float: right;
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__content {
+        float: left;
+        width: 80%;
+    }
+}
+
+.tool--guide-to-standard-drinks .tool__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(117,24,0,0.95); /* org: rgba(20,60,87,0.98) */
+    color: #ffffff;
+    z-index: 10;
+    padding: 20px;
+}
+
+    .tool--guide-to-standard-drinks .tool__overlay > .btn-close {
+        position: absolute;
+        color: #ffffff;
+        top: 4px;
+        right: 8px;
+    }
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__overlay > .btn-close {
+        bottom: 33px;
+        top: auto;
+    }
+}
+
+.no-js .tool--guide-to-standard-drinks .tool__overlay > .btn-close {
+    display: none;
+}
+
+.tool--guide-to-standard-drinks .tool__overlay > .btn-close:after {
+    color: #f0ad00; /* #029bcf */
+}
+
+@media (min-width:480px) {
+    .tool--guide-to-standard-drinks .tool__overlay {
+        padding: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--guide-to-standard-drinks .tool__overlay {
+        padding: 30px;
+    }
+}
+
+.js .tool--guide-to-standard-drinks .tool__overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    .js .tool--guide-to-standard-drinks .tool__overlay.active {
+        display: block;
+    }
+
+.tool--body-effects {
+    position: relative;
+    font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 40px;
+}
+
+    .tool--body-effects > .btn {
+        display: none;
+        margin: 40px 8px 0;
+    }
+
+@media (min-width:992px) {
+    .tool--body-effects > .btn {
+        display: inline;
+        position: absolute;
+        padding: 18px;
+        top: 600px;
+        left: 30px;
+        margin: 0;
+    }
+}
+
+.tool--body-effects .tool__inner { /* bottom nav */
+    position: relative;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #e5eef3; /* org: #e5eef3 */
+    background-image: -owg-radial-gradient(circle cover at center center,#edf4f7,#e5eef3);
+    background-image: radial-gradient(circle cover at center center,#edf4f7,#e5eef3);
+}
+
+.tool--body-effects .tool__index {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__index {
+        top: 60px;
+        left: 40px;
+    }
+}
+
+.tool--body-effects .tool__toggle > span {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+    width: 110px;
+    padding: 10px 40px 10px 38px;
+}
+
+@media (min-width:1200px) {
+    .tool--body-effects .tool__toggle > span {
+        top: 60px;
+        left: 84px;
+        width: 180px;
+    }
+}
+
+.tool--body-effects .tool__toggle > span:first-child {
+    display: none;
+}
+
+@media (min-width:1200px) {
+    .tool--body-effects .tool__toggle > span > span:first-child {
+        display: none;
+    }
+}
+
+.tool--body-effects .tool__toggle > span > span + span {
+    display: none;
+}
+
+@media (min-width:1200px) {
+    .tool--body-effects .tool__toggle > span > span + span {
+        display: block;
+    }
+}
+
+.tool--body-effects .tool__toggle:focus {
+    color: #029bcf; /* org: #029bcf */
+}
+
+.tool--body-effects .tool__toggle.human--sex-change > span:first-child {
+    display: block;
+}
+
+.tool--body-effects .tool__toggle.human--sex-change > span + span {
+    display: none;
+}
+
+.tool--body-effects .tool__section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__section {
+        margin: 0 0 0 110px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--body-effects .tool__section {
+        margin: 0 auto;
+    }
+}
+
+.tool--body-effects .tool__details {
+    background-color: #e0a100; /* org: #002B49 */
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__details {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 350px;
+        height: 687px;
+    }
+}
+
+.tool--body-effects .tool__details > .btn-close {
+    display: none;
+}
+
+.tool--body-effects .tool__detail-item {
+    border-top: 1px solid #e0a100; /* org: #004372 */
+}
+
+    .tool--body-effects .tool__detail-item:first-child {
+        border-top: none;
+    }
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__detail-item {
+        display: none;
+        border-top: none;
+    }
+
+        .tool--body-effects .tool__detail-item.active {
+            display: block;
+        }
+}
+
+@media (max-width:991px) {
+    .tool--body-effects .tool__detail-item.female {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--body-effects .tool__detail-item.female.human--sex-change {
+        display: block;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--body-effects .tool__detail-item.male.human--sex-change {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--body-effects .tool__detail-item.male.female {
+        display: block;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--body-effects .tool__detail-item.male.female.human--sex-change {
+        display: block;
+    }
+}
+
+.tool--body-effects .tool__detail-heading > h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff;
+}
+
+@media (min-width:480px) {
+    .tool--body-effects .tool__detail-heading > h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__detail-heading > h2 {
+        margin: inherit;
+    }
+}
+
+.tool--body-effects .tool__detail-heading > h2 > a {
+    display: block;
+    padding: 20px 8px;
+    color: #ffffff;
+    background-color: #001c30; /* #001c30 */
+}
+
+    .tool--body-effects .tool__detail-heading > h2 > a:before {
+        top: 22px;
+        left: auto;
+        right: 20px;
+        color: #0067af;
+    }
+
+    .tool--body-effects .tool__detail-heading > h2 > a.collapsed {
+        background-color: transparent;
+    }
+
+@media (min-width:480px) {
+    .tool--body-effects .tool__detail-heading > h2 > a {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__detail-heading > h2 > a {
+        background-color: transparent;
+        padding: 0;
+        pointer-events: none;
+        cursor: default;
+    }
+
+        .tool--body-effects .tool__detail-heading > h2 > a:before {
+            display: none;
+        }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__detail-heading {
+        position: absolute;
+        top: 214px;
+        left: 30px;
+    }
+}
+
+.tool--body-effects .tool__media-wrapper {
+    width: 100%;
+    height: 145px;
+    padding-top: 10px;
+    background-color: #001c30;
+    text-align: center;
+    position: relative;
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__media-wrapper {
+        background-color: transparent;
+        background-image: -owg-radial-gradient(50% 50%,#f4eec9,#ece19a); /* org: #c9eaf4,#9ad7ec*/
+        background-image: radial-gradient(50% 50%,#f4eec9,#ece19a); /* org: #c9eaf4,#9ad7ec*/
+        height: 200px;
+        padding-top: 38px;
+    }
+
+        .tool--body-effects .tool__media-wrapper:before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 16px solid transparent;
+            border-bottom: 16px solid transparent;
+            border-right: 16px solid #ece19a; /* org: #9ad7ec */
+            bottom: auto;
+            left: auto;
+            top: 43%;
+            left: -16px;
+        }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__media-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 350px;
+    }
+}
+
+.tool--body-effects .tool__body {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 18px 8px 12px;
+    background-color: #e0a100; /* #001c30 */
+}
+
+@media (min-width:480px) {
+    .tool--body-effects .tool__body {
+        padding: 18px 15px 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__body {
+        background-color: transparent;
+        padding: 250px 30px 20px 30px;
+    }
+}
+
+.tool--body-effects .tool__items {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tool--body-effects .tool__overlay {
+    padding: 8px;
+}
+
+    .tool--body-effects .tool__overlay > .btn-close {
+        display: none;
+    }
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20,60,87,0.95);
+        color: #ffffff;
+        z-index: 10;
+        padding: 10px 20px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transition: all 0.2s ease-in;
+        -webkit-transition-delay: 0s;
+        transition: all 0.2s ease-in false;
+        padding: 100px;
+    }
+
+        .tool--body-effects .tool__overlay.active {
+            visibility: visible;
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        .tool--body-effects .tool__overlay > .btn-close {
+            display: block;
+            position: absolute;
+            color: #ffffff;
+            bottom: 50px;
+            left: 10px;
+        }
+
+        .tool--body-effects .tool__overlay > h2 {
+            color: #ffffff;
+        }
+}
+
+.tool--body-effects .tool__overlay > h2 {
+    font-size: 32px;
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__overlay > h2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--body-effects .tool__overlay > p {
+        font-size: 32px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink {
+    position: relative;
+    font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 40px;
+    background-color: #e5eef3;
+}
+
+    .tool--can-you-pour-a-standard-drink .tool__inner {
+        height: 490px;
+        position: relative;
+        padding: 20px;
+        overflow: hidden;
+        background-color: #e5eef3;
+    }
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__inner {
+        height: 640px;
+        padding: 60px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink > .tool--state-two .sub-section .tool__footnote {
+    display: none;
+}
+
+.tool--can-you-pour-a-standard-drink > .tool--state-two .sub-section.step__2__rtd .tool__footnote {
+    display: block;
+}
+
+.tool--can-you-pour-a-standard-drink > .tool--state-one .tool__footnote, .tool--can-you-pour-a-standard-drink > .tool--state-two .step__2__rtd .tool__footnote {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-one .tool__footnote, .tool--can-you-pour-a-standard-drink > .tool--state-two .step__2__rtd .tool__footnote {
+        left: auto;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink > .tool--state-one .tool__footnote--secondary, .tool--can-you-pour-a-standard-drink > .tool--state-two .step__2__rtd .tool__footnote--secondary {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-one .tool__footnote--secondary, .tool--can-you-pour-a-standard-drink > .tool--state-two .step__2__rtd .tool__footnote--secondary {
+        display: block;
+        left: 20px;
+        right: auto;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink > .tool--state-three .tool__inner {
+    padding: 170px 20px 0;
+    background-image: url(/sites/all/themes/alcohol/images/bg-tool.gif);
+    background-repeat: repeat-x;
+    background-position: 0 381px;
+}
+
+@media (min-width:480px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-three .tool__inner {
+        padding: 170px 20px 0;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-three .tool__inner {
+        padding: 20px 60px 0;
+        background-position: 0 546px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-one .tool__inner, .tool--can-you-pour-a-standard-drink > .tool--state-two .tool__inner {
+        background-image: url(/sites/all/themes/alcohol/images/bg-tool.gif);
+        background-repeat: repeat-x;
+        padding: 40px 60px 0;
+        background-position: 0 546px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink > .tool--state-two .tool__index {
+        margin: 56px 0 0;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__title {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__title {
+        font-size: 45px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__index {
+    margin: 20px 0 0;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__index {
+        margin: 54px 0 0;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__index > li > a > img {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__index > li > a > img {
+        display: block;
+        margin-top: 85px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--can-you-pour-a-standard-drink .tool__index > li > a > img {
+        display: block;
+        margin-top: 28px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__index > li:first-child > a > img {
+        margin-top: 74px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--can-you-pour-a-standard-drink .tool__index > li:first-child > a > img {
+        margin-top: 17px;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--can-you-pour-a-standard-drink .tool__mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 100%;
+        background-color: #e5eef3;
+    }
+
+        .tool--can-you-pour-a-standard-drink .tool__mask:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            height: 122px;
+            width: 100%;
+            top: 418px;
+            background-color: #d1e3ec;
+        }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__action-back {
+    border: 1px solid #002B49;
+    color: #002B49;
+    padding: 6px 10px 6px 20px;
+    margin-top: 10px;
+    line-height: 1.3;
+    background-color: transparent;
+}
+
+    .tool--can-you-pour-a-standard-drink .tool__action-back:hover, .tool--can-you-pour-a-standard-drink .tool__action-back:focus {
+        background-color: #ffffff;
+    }
+
+    .tool--can-you-pour-a-standard-drink .tool__action-back:before {
+        top: 9px;
+        left: 4px;
+    }
+
+.tool--can-you-pour-a-standard-drink .tool__title--secondary {
+    font-size: 18px;
+    margin: 20px 0 0;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__title--secondary {
+        font-size: 32px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__primary-actions {
+    position: absolute;
+    top: 15px;
+    right: 50%;
+    margin-right: -135px;
+}
+
+@media (min-width:480px) {
+    .tool--can-you-pour-a-standard-drink .tool__primary-actions {
+        margin-right: -75px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__primary-actions {
+        top: 10px;
+        right: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--can-you-pour-a-standard-drink .tool__primary-actions {
+        top: 90px;
+        right: 45px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__standard-drinks {
+    padding-left: 3px;
+}
+
+.tool--can-you-pour-a-standard-drink .tool__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20,60,87,0.95);
+    color: #ffffff;
+    z-index: 10;
+    padding: 10px 20px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.2s ease-in false;
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__overlay {
+        padding: 60px;
+    }
+}
+
+.tool--can-you-pour-a-standard-drink .tool__overlay.active {
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.tool--can-you-pour-a-standard-drink .tool__overlay > .btn-close {
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    top: 7px;
+    right: 10px;
+}
+
+@media (min-width:480px) {
+    .tool--can-you-pour-a-standard-drink .tool__overlay > .btn-close {
+        top: auto;
+        bottom: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--can-you-pour-a-standard-drink .tool__overlay-section > p {
+        font-size: 24px;
+        margin-bottom: 24px;
+        line-height: 1.4;
+    }
+}
+
+.tool--how-much-are-you-drinking {
+    position: relative;
+    font-family: "ars_maquette_proregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 40px;
+}
+
+    .tool--how-much-are-you-drinking .tool__inner {
+        position: relative;
+        padding: 16px 20px;
+        overflow: hidden;
+        background-color: #e5eef3;
+    }
+
+        .tool--how-much-are-you-drinking .tool__inner .action--view-total {
+            position: relative;
+        }
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__inner .action--view-total {
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__inner .action--reset-gender {
+    z-index: 1;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__inner {
+        height: 640px;
+        padding: 60px;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__inner > .lead {
+    font-size: 16px;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__inner > .lead {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__inner > .lead {
+        padding-right: 70%;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__inner > .badge {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__inner > .badge {
+        position: absolute;
+        top: 40px;
+        right: 31px;
+        font-size: 17px;
+        padding-top: 36px;
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__inner > .badge {
+        right: 46px;
+        font-size: 22px;
+        padding-top: 70px;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__title {
+    font-size: 16px;
+    margin: 0 -10px 36px;
+}
+
+@media (min-width:480px) {
+    .tool--how-much-are-you-drinking .tool__title {
+        font-size: 25px;
+        margin: 0 0 35px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__title {
+        font-size: 45px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__title {
+        font-size: 50px;
+    }
+}
+
+.tool--how-much-are-you-drinking.tool--state-one .tool__inner {
+    height: 540px;
+}
+
+.tool--how-much-are-you-drinking.tool--state-two .tool__inner {
+    z-index: 1;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking.tool--state-two .tool__inner {
+        background-image: url(/sites/all/themes/alcohol/images/tool/how-much/bg-how-much-tool.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking.tool--state-two .tool__title {
+        display: none;
+    }
+}
+
+.tool--how-much-are-you-drinking.tool--state-two .tool__footnote {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .tool--how-much-are-you-drinking.tool--state-two .tool__footnote {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+.tool--how-much-are-you-drinking.tool--state-two.rtd-is-selected .tool__footnote {
+    display: block;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking.tool--state-two.rtd-is-selected .tool__footnote {
+        left: auto;
+        right: 10px;
+        bottom: 10px;
+        color: #ffffff;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__instructions {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #002B49;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 26px;
+    padding: 20px 20px 20px 96px;
+    width: 426px;
+    height: 204px;
+    margin: -102px 0 0 -168px;
+    line-height: 1.2;
+}
+
+    .tool--how-much-are-you-drinking .tool__instructions:before {
+        color: #ffffff;
+        font-size: 26px;
+        top: 33px;
+        left: 36px;
+        z-index: 1;
+        transform: rotate(45deg);
+    }
+
+    .tool--how-much-are-you-drinking .tool__instructions:after {
+        content: '';
+        top: 18px;
+        left: 22px;
+        width: 54px;
+        height: 54px;
+        background: #002B49;
+        border-radius: 27px;
+    }
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__instructions {
+        width: 570px;
+        height: 158px;
+        margin: -79px 0 0 -285px;
+        padding: 17px 50px 17px 96px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__instructions.is-active {
+        display: block;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__warning {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 40px 20px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 959px;
+    margin: 0;
+    z-index: 1;
+}
+
+@media (min-width:480px) {
+    .tool--how-much-are-you-drinking .tool__warning {
+        top: 75px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__warning {
+        top: 0;
+        height: 100%;
+        font-size: 50px;
+        padding: 170px 200px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__warning {
+        padding: 200px 250px;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__warning.is-active {
+    display: block;
+}
+
+.tool--how-much-are-you-drinking .tool__title-secondary {
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+    display: block;
+}
+
+    .tool--how-much-are-you-drinking .tool__title-secondary:before {
+        display: none;
+    }
+
+    .tool--how-much-are-you-drinking .tool__title-secondary:after {
+        content: ':';
+    }
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__title-secondary {
+        font-size: 25px;
+        position: relative;
+        display: inline;
+    }
+
+        .tool--how-much-are-you-drinking .tool__title-secondary:before {
+            position: absolute;
+            display: block;
+            right: -23px;
+            top: 5px;
+            font-size: 18px;
+        }
+
+        .tool--how-much-are-you-drinking .tool__title-secondary:after {
+            content: '';
+        }
+}
+
+.tool--how-much-are-you-drinking .tool__actions {
+    text-align: right;
+}
+
+.tool--how-much-are-you-drinking .tool__gender-selector > div {
+    margin: 0 0 10px;
+}
+
+@media (min-width:480px) {
+    .tool--how-much-are-you-drinking .tool__gender-selector > div {
+        float: left;
+        margin: 0;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__index {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__index {
+        display: block;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__index > li {
+    float: left;
+    width: 110px;
+    margin: 0 1px 0 0;
+    list-style: none;
+}
+
+    .tool--how-much-are-you-drinking .tool__index > li > a {
+        display: block;
+        position: relative;
+        font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #ffffff;
+        padding: 15px 20px;
+        font-size: 20px;
+        background-color: #002B49;
+        text-align: center;
+        -webkit-transition: all 0.1s ease-in;
+        -webkit-transition-delay: 0s;
+        transition: all 0.1s ease-in false;
+    }
+
+        .tool--how-much-are-you-drinking .tool__index > li > a:before {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 55px solid transparent;
+            border-right: 55px solid transparent;
+            border-top: 15px solid transparent;
+            -webkit-transition: all 0.1s ease-in;
+            -webkit-transition-delay: 0s;
+            transition: all 0.1s ease-in false;
+        }
+
+        .tool--how-much-are-you-drinking .tool__index > li > a:hover, .tool--how-much-are-you-drinking .tool__index > li > a:focus, .tool--how-much-are-you-drinking .tool__index > li > a.is-active {
+            color: #002B49;
+            background-color: #ffffff;
+        }
+
+            .tool--how-much-are-you-drinking .tool__index > li > a:hover:before, .tool--how-much-are-you-drinking .tool__index > li > a:focus:before, .tool--how-much-are-you-drinking .tool__index > li > a.is-active:before {
+                border-top: 15px solid #ffffff;
+            }
+
+.tool--how-much-are-you-drinking .tool__overlay {
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transition-delay: 0s;
+    transition: all 0.2s ease-in false;
+}
+
+    .tool--how-much-are-you-drinking .tool__overlay > .btn-close {
+        display: none;
+    }
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay > .btn-close {
+        display: block;
+        position: absolute;
+        color: #ffffff;
+        bottom: 42px;
+        right: 17px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20,60,87,0.98);
+        color: #ffffff;
+        z-index: 10;
+        padding: 10px 20px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__overlay {
+        padding: 20px 40px;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__overlay.active {
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.tool--how-much-are-you-drinking .tool__graphic .badge {
+    font-size: 17px;
+    padding-top: 36px;
+}
+
+@media (max-width:991px) {
+    .tool--how-much-are-you-drinking .tool__graphic .badge {
+        margin: 30px auto 0 auto;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__graphic .badge {
+        font-size: 22px;
+        padding-top: 70px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__graphic {
+        width: 15.25423729%;
+        float: left;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__graphic {
+        width: 23.72881356%;
+        float: left;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content {
+        width: 57.62711864%;
+        float: left;
+        margin-left: 1.69491525%;
+        height: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content {
+        width: 49.15254237%;
+        float: left;
+        margin-left: 1.69491525%;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content > h3 {
+        margin-top: 0;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner {
+        height: 560px;
+        background-color: rgba(255,255,255,0.05);
+        padding: 20px;
+    }
+}
+
+@media (max-width:991px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner .alert {
+        color: #475669;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner .alert {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner .alert-info {
+        padding: 10px 15px 10px 53px;
+        margin: 10px 0;
+    }
+
+        .tool--how-much-are-you-drinking .tool__overlay-content-inner .alert-info:before {
+            font-size: 27px;
+            top: 7px;
+            left: 9px;
+        }
+
+        .tool--how-much-are-you-drinking .tool__overlay-content-inner .alert-info:after {
+            display: none;
+        }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner > h4, .tool--how-much-are-you-drinking #webform-client-form-122 [class*="webform-component--question-"].tool__overlay-content-inner > legend, #webform-client-form-122 .tool--how-much-are-you-drinking [class*="webform-component--question-"].tool__overlay-content-inner > legend {
+        color: #ffffff;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__overlay-content-inner p {
+    font-size: 16px;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a {
+        color: #49b4ff;
+        text-decoration: underline;
+    }
+
+        .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a.btn {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+            .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a.btn:hover, .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a.btn:focus {
+                color: #ffffff;
+            }
+
+        .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a:hover, .tool--how-much-are-you-drinking .tool__overlay-content-inner p > a:focus {
+            color: #ffe749; /* org: #49b4ff */
+        }
+}
+
+.tool--how-much-are-you-drinking .tool__overlay-link {
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: underline;
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__overlay-link {
+        color: #ffffff;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__tally {
+        width: 23.72881356%;
+        float: right;
+        margin-left: 1.69491525%;
+    }
+}
+
+@media (min-width:992px) {
+    .tool--how-much-are-you-drinking .tool__tally > h4, .tool--how-much-are-you-drinking #webform-client-form-122 [class*="webform-component--question-"].tool__tally > legend, #webform-client-form-122 .tool--how-much-are-you-drinking [class*="webform-component--question-"].tool__tally > legend {
+        margin-top: 6px;
+        color: #ffffff;
+    }
+}
+
+.tool--how-much-are-you-drinking .tool__tally > ul {
+    margin: 0;
+    padding: 0;
+}
+
+    .tool--how-much-are-you-drinking .tool__tally > ul > li {
+        position: relative;
+        list-style: none;
+        margin: 0px -10px;
+        padding: 16px 0 8px 46px;
+    }
+
+.tool__target {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .tool__target {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 204px;
+        width: 556px;
+        height: 570px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tool__target {
+        left: 160px;
+        width: 700px;
+    }
+}
+
+.vessel--primary {
+    margin: 0 auto;
+    width: 64px;
+}
+
+@media (min-width:480px) {
+    .vessel--primary {
+        width: 186px;
+    }
+}
+
+@media (min-width:992px) {
+    .vessel--primary {
+        width: 465px;
+    }
+}
+
+.vessel__glass {
+    position: relative;
+}
+
+.vessel--description {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    padding: 7px 10px;
+    background-color: rgba(255,255,255,0.8);
+    width: 300px;
+    margin-left: -150px;
+    text-align: center;
+    border: 1px solid #C3D7DD;
+}
+
+@media (min-width:992px) {
+    .vessel--description {
+        width: auto;
+        margin-left: 0;
+        text-align: left;
+        padding: 5px 10px;
+        right: 30px;
+        left: auto;
+        bottom: 30px;
+    }
+}
+
+.webform--confirmation {
+    background-color: #e5eef3;
+    padding: 13.33333333px;
+}
+
+#webform-client-form-122 {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.js #webform-client-form-122 .form-required {
+    display: none;
+}
+
+#webform-client-form-122 > div {
+    position: relative;
+}
+
+#webform-client-form-122 [type="radio"] {
+}
+
+.js #webform-client-form-122 [type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.no-js #webform-client-form-122 [type="radio"] {
+    top: 10px;
+    left: 36px;
+}
+
+#webform-client-form-122 label {
+    font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#webform-client-form-122 fieldset[class*="webform-component--question-"] {
+}
+
+.js #webform-client-form-122 fieldset[class*="webform-component--question-"] {
+    display: none;
+}
+
+#webform-client-form-122 [class*="webform-component--question-"] {
+}
+
+    #webform-client-form-122 [class*="webform-component--question-"] > legend {
+        border-bottom: 2px solid #28313b;
+        padding-bottom: 6px;
+        width: auto;
+        margin: 0;
+    }
+
+@media (min-width:480px) {
+    #webform-client-form-122 [class*="webform-component--question-"] > legend {
+        font-size: 20px;
+    }
+}
+
+#webform-client-form-122 [class*="webform-component--question-"] .webform-component-radios {
+    margin: 0;
+}
+
+    #webform-client-form-122 [class*="webform-component--question-"] .webform-component-radios > label {
+        font-weight: normal;
+        color: #28313b;
+        font-size: 25px;
+        margin-top: 10px;
+        line-height: 1.2em;
+    }
+
+.no-js #webform-client-form-122 [class*="webform-component--question-"] .form-radios {
+    margin-top: 40px;
+}
+
+#webform-client-form-122 [class*="webform-component--question-"] .radio {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0;
+}
+
+    #webform-client-form-122 [class*="webform-component--question-"] .radio label {
+        width: 100%;
+        padding: 10px;
+        line-height: 16px;
+        font-size: 85%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0;
+        color: #029bcf;
+        border: 1px solid #029bcf;
+        border-radius: 3px;
+        -webkit-transition: none 1s;
+        -webkit-transition-delay: 0s;
+        transition: none 1s false false;
+    }
+
+        #webform-client-form-122 [class*="webform-component--question-"] .radio label:hover, #webform-client-form-122 [class*="webform-component--question-"] .radio label:active {
+            background-color: #029bcf;
+            color: #ffffff;
+            -webkit-transition: all 0.05s ease-in;
+            -webkit-transition-delay: 0s;
+            transition: all 0.05s ease-in false;
+        }
+
+#webform-client-form-122 [class*="webform-component--question-"].webform--answer-selected .radio label {
+    opacity: 0.3;
+}
+
+    #webform-client-form-122 [class*="webform-component--question-"].webform--answer-selected .radio label:hover, #webform-client-form-122 [class*="webform-component--question-"].webform--answer-selected .radio label:active, #webform-client-form-122 [class*="webform-component--question-"].webform--answer-selected .radio label.webform--answer-selected-active {
+        opacity: 1;
+    }
+
+    #webform-client-form-122 [class*="webform-component--question-"].webform--answer-selected .radio label.webform--answer-selected-active {
+        background-color: #029bcf;
+        color: #ffffff;
+    }
+
+#webform-client-form-122 .webform-component--start {
+}
+
+    #webform-client-form-122 .webform-component--start > legend {
+        font-family: "ars_maquette_probold","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: normal;
+        color: #28313b;
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        border-bottom: none;
+    }
+
+    #webform-client-form-122 .webform-component--start .webform-component-radios {
+        margin: 0;
+    }
+
+        #webform-client-form-122 .webform-component--start .webform-component-radios > label {
+            font-family: "ars_maquette_prolight","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+@media (max-width:767px) {
+    #webform-client-form-122 .webform-component--start .radio label {
+        margin: 10px 0 0;
+        color: #029bcf;
+        border: 1px solid #029bcf;
+        border-radius: 3px;
+        padding: 10px;
+        width: 100%;
+        line-height: 16px;
+        font-size: 85%;
+        display: inline-block;
+        text-align: center;
+        -webkit-transition: none 1s;
+        -webkit-transition-delay: 0s;
+        transition: none 1s false false;
+    }
+
+        #webform-client-form-122 .webform-component--start .radio label:hover, #webform-client-form-122 .webform-component--start .radio label:active {
+            background-color: #029bcf;
+            color: #ffffff;
+            -webkit-transition: all 0.05s ease-in;
+            -webkit-transition-delay: 0s;
+            transition: all 0.05s ease-in false;
+        }
+}
+
+@media (min-width:480px) {
+    #webform-client-form-122 [class*="webform-component--question-"] .webform-component-radios > label {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:768px) {
+    .js #webform-client-form-122 {
+        height: 400px;
+    }
+
+        .js #webform-client-form-122 .webform-component-fieldset {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 340px;
+        }
+
+        .js #webform-client-form-122 .form-radios {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+    #webform-client-form-122 [class*="webform-component--question-"] > label {
+        margin-top: 20px;
+    }
+
+    #webform-client-form-122 [class*="webform-component--question-"] .radio {
+        margin: 0 1% 0 0;
+        width: 19%;
+    }
+
+        #webform-client-form-122 [class*="webform-component--question-"] .radio label {
+            height: 72px;
+            padding: 20px 5px 0;
+        }
+
+    #webform-client-form-122 .webform-component--start > legend {
+        font-size: 25px;
+    }
+
+    #webform-client-form-122 .webform-component--start .webform-component-radios {
+        margin: 0;
+    }
+
+        #webform-client-form-122 .webform-component--start .webform-component-radios > label {
+            font-size: 25px;
+        }
+
+        #webform-client-form-122 .webform-component--start .webform-component-radios.webform--sex-selected .radio label {
+            opacity: 0.3;
+        }
+
+            #webform-client-form-122 .webform-component--start .webform-component-radios.webform--sex-selected .radio label.hover {
+                opacity: 1;
+            }
+
+    #webform-client-form-122 .webform-component--start .form-radios {
+        bottom: -30px;
+        left: auto;
+        right: 0;
+    }
+
+    #webform-client-form-122 .webform-component--start .radio {
+        float: right;
+        margin: 0;
+    }
+
+        #webform-client-form-122 .webform-component--start .radio label {
+            width: 222px;
+            height: 250px;
+            background: url(/sites/all/themes/alcohol/images/test-female-dark.svg) no-repeat;
+            background-size: 222px 250px;
+            margin: 0;
+            padding: 41% 0 0 21%;
+            color: #ffffff;
+            font-size: 12px;
+            -webkit-transition: none 1s;
+            -webkit-transition-delay: 0s;
+            transition: none 1s false false;
+        }
+
+    .js #webform-client-form-122 .webform-component--start .radio label:hover, .js #webform-client-form-122 .webform-component--start .radio label:active, .js #webform-client-form-122 .webform-component--start .radio label.webform--answer-selected-active {
+        -webkit-transition: all 0.05s ease-in;
+        -webkit-transition-delay: 0s;
+        transition: all 0.05s ease-in false;
+        background: url(/sites/all/themes/alcohol/images/test-female-light.svg) no-repeat;
+        background-size: 222px 250px;
+    }
+
+    #webform-client-form-122 .webform-component--start .radio + .radio {
+        padding-left: 0;
+        padding-right: 25px;
+    }
+
+        #webform-client-form-122 .webform-component--start .radio + .radio label {
+            background: url(/sites/all/themes/alcohol/images/test-male-dark.svg) no-repeat;
+            background-size: 207px 250px;
+            padding: 41% 0 0 32%;
+        }
+
+    .js #webform-client-form-122 .webform-component--start .radio + .radio label:hover, .js #webform-client-form-122 .webform-component--start .radio + .radio label:active, .js #webform-client-form-122 .webform-component--start .radio + .radio label.webform--answer-selected-active {
+        background: url(/sites/all/themes/alcohol/images/test-male-light.svg) no-repeat;
+        background-size: 207px 250px;
+    }
+}
+
+@media (min-width:992px) {
+    #webform-client-form-122 {
+        padding: 60px;
+    }
+
+    .js #webform-client-form-122 {
+        height: 560px;
+    }
+
+    #webform-client-form-122 .webform-component-fieldset {
+        height: 440px;
+    }
+
+    .js #webform-client-form-122 .webform-component-fieldset {
+        height: 440px;
+    }
+
+    #webform-client-form-122 [class*="webform-component--question-"] .webform-component-radios > label {
+        font-size: 50px;
+    }
+
+    #webform-client-form-122 [class*="webform-component--question-"] .webform-component-radios .radio label {
+        height: 92px;
+        padding: 35px 10px 0;
+    }
+
+    #webform-client-form-122 .webform-component--start > legend {
+        font-size: 50px;
+    }
+
+    #webform-client-form-122 .webform-component--start .webform-component-radios > label {
+        font-size: 32px;
+    }
+
+    #webform-client-form-122 .webform-component--start .form-radios {
+        bottom: -60px;
+    }
+
+    #webform-client-form-122 .webform-component--start .radio label {
+        width: 311px;
+        height: 350px;
+        background-size: 311px 350px;
+        padding: 41% 0 0 21%;
+        font-size: 16px;
+    }
+
+    .js #webform-client-form-122 .webform-component--start .radio label:hover, .js #webform-client-form-122 .webform-component--start .radio label:active {
+        background-size: 311px 350px;
+    }
+
+    #webform-client-form-122 .webform-component--start .radio + .radio label {
+        background-size: 290px 350px;
+        padding: 41% 0 0 32%;
+    }
+
+    .js #webform-client-form-122 .webform-component--start .radio + .radio label:hover, .js #webform-client-form-122 .webform-component--start .radio + .radio label:active {
+        background-size: 290px 350px;
+    }
+}

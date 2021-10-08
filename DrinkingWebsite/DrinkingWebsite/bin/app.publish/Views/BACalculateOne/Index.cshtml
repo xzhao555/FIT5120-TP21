@@ -1,0 +1,197 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/blog.css" rel="stylesheet" />
+<style>
+
+
+    .blog-post {
+        margin-bottom: 1rem;
+    }
+
+    .table-sm th {
+        padding: 30px 40px;
+    }
+
+    .custom-control {
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    .btn-primary, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+        color: #fff;
+        background-color: #ffcd3c;
+        border-color: #ffcd3c;
+    }
+
+    .chen-nav-link:hover {
+        color: #405d7e !important;
+    }
+</style>
+
+<div class="container1" style="margin-top:40px;margin-bottom:40px;">
+    <div class="row">
+        <div class="col-md-12 blog-main">
+            <h2 class="blog-post-title">
+                Blood Alcohol Content
+            </h2>
+            <span style="margin-bottom: 2rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <p class="lead">
+                    Blood alcohol concentration(BAC) is the level of alcohol in your bloodstream and a good
+                    indicator of intoxication. BAC is what police use in roadside breath tests to measure drunken
+                    driving. If a person has a Blood alcohol concentration of 0.05% (point 0 five), then there is
+                    0.05 g of alcohol in every 100 ml of blood(Australia’s upper legal limit for driving) .
+                </p>
+            </div>
+        </div>
+        <div class="col-md-12 blog-main">
+            <h3 class="h3" style="margin-bottom:1rem;">
+                Blood Alcohol Concentration Likely Behaviour Table
+            </h3>
+            <div class="table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead style="background-color: #edab00;">
+                        <tr>
+                            <th>BAC*</th>
+                            <th>Likely effects of Intoxication</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>0.02–0.05 g / 100 ml</td>
+                        <td>
+                            <ul>
+                                <li> Cheerful, relaxed, pleasant feelings of happiness and wellbeing</li>
+                                <li> Decreasing inhibitions.</li>
+                                <li> Judgment increasingly impaired.</li>
+                                <li> Increased chance of accidents.</li>
+                                <li> Impaired coordination.</li>
+                                <li>
+                                    BAC* 0.05 g / 100 ml = legal limit for driving (if fully licensed) in all
+                                    Australian states and territories.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0.1–0.2 g / 100 ml</td>
+                        <td>
+                            <ul>
+                                <li> Ataxia</li>
+                                <li> Decreased ability to appropriately interpret and react to surroundings.</li>
+                                <li> Poor judgment.</li>
+                                <li> Loss of ‘self-control’.</li>
+                                <li> Slurred speech.</li>
+                                <li>
+                                    Increasingly unpredictable behaviour.
+                                </li>
+                                <li>
+                                    Labile mood.
+                                </li>
+                                <li>
+                                    Potential for aggression.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0.2–0.3 g / 100 ml</td>
+                        <td>
+                            <ul>
+                                <li> Marked ataxia and slurred speech.</li>
+                                <li> Poor judgment.</li>
+                                <li> Labile mood.</li>
+                                <li> Nausea and Vomiting.</li>
+                                <li> Double vision.</li>
+                                <li>
+                                    Memory loss
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0.3–0.4 g / 100 ml</td>
+                        <td>
+                            <ul>
+                                <li>
+                                    Stage 1 anaesthesia (sleepiness, poor response to external stimuli,
+                                    oblivion).
+                                </li>
+                                <li> Memory lapse.</li>
+                                <li> Labile mood.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>> 0.40 g / 100 ml</td>
+                        <td>
+                            <ul>
+                                <li>
+                                    Respiratory failure.
+                                </li>
+                                <li> Coma.</li>
+                                <li> Possible death.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="col-md-12 blog-main">
+            <h3 class="h3" style="margin-bottom:1rem;">
+                How to stay below 0.05?
+            </h3>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <p>
+                    ➢ For men of average size: Limit your consumption to 2 standard drinks in the first
+                    hour, then 1 standard drink thereafter.
+                </p>
+                <p>➢ For women of average size: No more than one standard drink per hour.</p>
+                <p style="font-weight:bold;">Note: This is only a guide. You might still register above 0.05% even if you follow this.</p>
+            </div>
+        </div>
+
+        <div class="col-md-12 blog-main">
+            <h3 class="h3" style="margin-bottom:1rem;">
+                What factors affect Blood Alcohol Content?
+            </h3>
+            <div class="blog-post" style="word-wrap: break-word; word-break: normal;">
+                <p>
+                    There are several factors that can influence your blood alcohol level:
+                </p>
+                <p style="font-weight:bold;">1. Size</p>
+                <p>Generally, the smaller you are, the less alcohol you can consume to stay in compliance.</p>
+                <p style="font-weight:bold;">2. Empty stomach</p>
+                <p>
+                    Drinking occurs more quickly to someone who hasn't eaten recently rather than
+                    someone who just ate. In the absence of food, alcohol can be absorbed more rapidly
+                    into the body. However, eating won't prevent a person from getting drunk.
+                </p>
+                <p style="font-weight:bold;">3. Body fat</p>
+                <p>
+                    People who have more body fat will get drunk quicker.
+                </p>
+                <p style="font-weight:bold;">4. Gender</p>
+                <p>
+                    The body of a woman absorbs alcohol more rapidly than that of a man, as women
+                    generally have a lower ratio of fat to lean tissue. As a result, a woman who drinks the
+                    same amount of alcohol as a man will have a higher blood alcohol level faster than the
+                    man.
+                </p>
+                <p style="font-weight:bold;">5. Inexperience</p>
+                <p>
+                    Inexperienced drinkers usually have a lower tolerance to alcohol, which means that
+                    their BAC rises faster than that of experienced drinkers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <h3 class="h3">WANT TO CALCULATE BLOOD ALCOHOL CONTENT?</h3>
+    <a class="btn btn-primary btn-lg" href="@Url.Action("Index", "BAC")" style="font-weight:700;">Blood alcohol concentration calculator</a>
+
+</div>
+

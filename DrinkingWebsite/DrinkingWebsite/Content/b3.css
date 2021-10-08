@@ -1,0 +1,9 @@
+﻿@media (min-width: 768px) {
+    .carousel-inner-chen h1 {
+        width: 704px;       
+    }
+    .carousel-inner-chen .carousel-caption p {
+        width: 704px;
+    }
+}
+/*width: fit-content;*/

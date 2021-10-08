@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{43C7DA34-CD6F-4FF5-857C-4839C70D8EA3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrinkingWebsite/Views/Guide/Index.cshtml">
+    <Files>
+      <File FileName="DrinkingWebsite/Views/BAC/Index.cshtml" Line="1" Column="1" />
+      <File FileName="DrinkingWebsite/Views/Shared/_Layout.cshtml" Line="49" Column="5" />
+      <File FileName="DrinkingWebsite/Views/Guide/Index.cshtml" Line="201" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DrinkingWebsite" expanded="True">
+            <Node name="DrinkingWebsite" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="AboutAlcohol" expanded="True" />
+                <Node name="BAC" expanded="True" />
+                <Node name="BACalculate" expanded="True" />
+                <Node name="Guide" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DrinkingWebsite PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

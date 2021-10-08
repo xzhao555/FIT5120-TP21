@@ -9,5 +9,6 @@ namespace DrinkingWebsite
         {
             filters.Add(new HandleErrorAttribute());
         }
+
     }
 }

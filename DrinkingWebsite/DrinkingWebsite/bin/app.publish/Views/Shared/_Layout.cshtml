@@ -7,11 +7,60 @@
     <title>We Care</title>
     @*@Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")*@
+    <link rel="bookmark" type="image/x-icon" href="~/images/logo.ico" />
+    <link rel="shortcut icon" href="~/images/logo.ico">
+    <link rel="icon" href="~/images/logo.ico">
     <link rel="stylesheet" href="~/Content/b.css">
     <link rel="stylesheet" href="~/Content/carousel.css">
     <link rel="stylesheet" href="~/Content/Index.css">
+
 </head>
 <style>
+    /* customise header */
+    h1, h2, h3, h4, h5, h6
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-weight: 800;
+        line-height: 1.2;
+        font-family: Roboto Condensed, sans-serif; /* set font for header */
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    h1, .h1 {
+        font-size: 3rem;
+    }
+
+    h2, .h2 {
+        font-size: 1.5rem;
+    }
+
+    /* customise body text */
+    body {
+        font-family: Open Sans, sans-serif; /* set font for body text */
+        @*margin: 0px;
+        padding: 0px;*@
+        color: #333;
+        line-height: 24px;
+        height: auto;
+        clear: both;
+        background-color: #fff !important;
+    }
+
+    p {
+        font-family: Open Sans, sans-serif; /* style for p tag */
+        margin: 5 0 10px;
+        padding: 0px;
+        color: #333;
+        line-height: 1.2em;
+        height: auto;
+        clear: both;
+    }
+
+    p-2, .p-2 {
+        font-family: Roboto Condensed, sans-serif;
+        color: #e0a200;
+    }
+
     .m {
         width: 960px;
         height: 400px;
@@ -19,12 +68,15 @@
         margin-right: auto;
         margin-top: 100px;
     }
+
+    /* customise navbar */
     .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link {
+        font-family: Roboto Condensed, sans-serif;
         color: #405d7e;
         font-weight: bold;
     }
-      .nav-link:hover {
-        color: #a99911 !important;
+    .nav-link:hover {
+        color: #f0ad00 !important;
     }
     body {
         background-color: #fff !important;
@@ -32,11 +84,62 @@
     .bg-white {
         background-color: #f8f9fa !important;
     }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255,102,203) !important;
+    }
+
+    /* customise button */
+
+    a[role=button] {
+        font-family: Roboto Condensed;
+        background: rgba(240, 173, 0, 1);
+        border: rgba(240, 173, 0, 1);
+    }
+
+        a[role=button]:hover {
+            background: rgba(224, 162, 0, 1);
+            border: rgba(224, 162, 0, 1);
+        }
+
+    /* others layout customisation */
+
+    .lead {
+        font-size: 1rem;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+
+    .divider {
+        margin: 3rem 0;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
+    /* customise about addiction page */
+    .blog-post-title {
+        font-family: Roboto Condensed, sans-serif;
+
+    }
+    body {
+        padding-bottom:0rem;
+    }
+    .chen-nav-link:hover {
+        color: #405d7e !important;
+    }
+    .navbar-nav li {
+        display:flex;
+    }
 </style>
 <body>
     @* 主页的navigation bar *@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">
             <img src="~/images/logo.png" style="width:150px;height:60px;" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,28 +149,57 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="@Url.Action("Index", "Home")">Home Page<span class="sr-only">(current)</span></a>
+                    <span class="p-2">|</span>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="@Url.Action("Index", "AboutAddiction")">About addiction</a>
-                </li>              
+                    <a class="nav-link" href="@Url.Action("Index", "AboutAlcohol")">About Alcohol</a>
+                    <span class="p-2">|</span>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "AboutAddiction")">About Addiction</a>
+                    <span class="p-2">|</span>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Question")">Self Assessment</a>
+                    <span class="p-2">|</span>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Guide")">Standard Drinks</a>
+                    <span class="p-2">|</span>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "BACalculate")">Blood Alcohol Content</a>
+                    <span class="p-2">|</span>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Resources")">Get Support</a>
+                </li>
             </ul>
             <!--<div class="form-inline mt-2 mt-md-0">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Urgent help<span class="sr-only">(current)</span></a>
                     </li>-->
-                    @*<li class="nav-item">
-                            <a class="nav-link" href="#"> Log in</a>
-                        </li>*@
-                    @*<li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>*@
-                <!--</ul>
+            @*<li class="nav-item">
+                    <a class="nav-link" href="#"> Log in</a>
+                </li>*@
+            @*<li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>*@
+            <!--</ul>
             </div>-->
-            @*<form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>*@
+            <form class="mt-2 mt-md-0" style="text-align:center;color:#405d7e;">
+                @*<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
+                <p style="margin:0px;display:inline-block;"><a href="tel:100"><b>Urgent Helpline</b></p></a><br />
+                <p style="margin:0px;display:inline-block;"><i><a href="tel:100"><img src="~/images/phone.png" style="width: 20px; margin-right: 5px; vertical-align: middle;" alt="Alternate Text" /></i><b>100</b></a></p>
+            </form>
+            <!--<form class="form-inline mt-2 mt-md-0">-->
+            @*<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
+            <!--<p>Urgent Help Number:</p>
+                <p><b>100</b></p>
+            </form>-->
         </div>
     </nav>
     @*<div class="navbar navbar-inverse navbar-fixed-top">
@@ -90,7 +222,80 @@
             </div>
         </div>*@
     @RenderBody()
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-white" style="text-align: center; display: inherit;position:inherit;">
+        @*<h3>Tools</h3>*@
+        <div class="row" style="display:inline-block;">
+            <div class="col-md-12">
+                <a class="navbar-brand chen-navbar-brand" href="@Url.Action("Index", "Home")" style="float:left;padding-top: 3rem;">
+                    <img src="~/images/logo.png" style="width:150px;height:60px;" />
+                </a>
+                <div>
 
+                </div>
+                <div class="collapse navbar-collapse" id="navbarCollapse" style="display: inline-block;">
+                    <ul class="navbar-nav mr-auto" style="flex-direction:column;width:21rem;">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "AboutPage")">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "ContactUs")">Contact Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "PrivacyPolicy")">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "Disclaimer")">Disclaimer</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-auto mr-auto-chen" style="flex-direction:column;width:21rem;">
+                        <li class="nav-item active">
+                            <a class="nav-link chen-nav-link" style="text-decoration: underline;">Tools</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "Question")">Self-Assessment<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "Guide")">Standard Drinks Calculator</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "BACalculate")">Blood Alcohol Calculator</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-auto" style="flex-direction:column;width:21rem;">
+                        <form class="mt-2 mt-md-0" style="text-align:center;color:#405d7e;">
+                            @*<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
+                            <p style="margin:0px;display:inline-block;"><a href="tel:100"><b>Urgent Helpline</b></p></a><br />
+                            <p style="margin:0px;display:inline-block;"><i><a href="tel:100"><img src="~/images/phone.png" style="width: 20px; margin-right: 5px; vertical-align: middle;" alt="Alternate Text" /></i><b>100</b></a></p>
+                        </form>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    @*<footer class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home Page<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "AboutAlcohol")">About Alcohol</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "AboutAddiction")">About Addiction</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Question")">Self Assessment</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Resources")">Get Support</a>
+                </li>
+            </ul>
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>*@
     <!--<div class="container body-content">
 
         <hr />-->
@@ -101,6 +306,7 @@
     @*@Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", required: false)*@
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
 </body>
-<
+
 </html>

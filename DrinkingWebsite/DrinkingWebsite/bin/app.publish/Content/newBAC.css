@@ -1,0 +1,85 @@
+﻿.bac-info {
+    background-color: #edab00;
+    width: 65%;
+    text-align: center;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+h4.Gender {
+    display: inline-block;
+}
+h4.Weight-info {
+    display: inline-block;
+    margin-left: -370px;
+    width: 50%;
+    text-align: right;
+}
+.Weight-chen {
+    width: 19%;
+    display: inline-block;
+}
+.Number-chen {
+    width: 19%;
+    display: inline-block;
+}
+.Hours-chen {
+    width: 19%;
+    display: inline-block;
+}
+.Calculate-chen {
+    width: 25%;
+    display: inline-block;
+}
+h4.Number-info {
+    display: inline-block;
+    margin-left: -370px;
+    width: 50%;
+    text-align: right;
+}
+h4.Hours-info {
+    display: inline-block;
+    margin-left: -370px;
+    width: 50%;
+    text-align: right;
+}
+@media (max-width: 360px) {
+    .bac-info {       
+        width: 100%;      
+        margin-left: 0;       
+    }
+    h4.Gender {
+        display: block;
+    }
+    h4.Weight-info {
+        display: block;
+        margin-left:0;
+    }
+    h4.Number-info {
+        display: block;
+        margin-left: 0px;
+    }
+       
+    h4.Hours-info {
+        display: block;
+        margin-left: 0;
+    }
+    .Weight-chen {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .Number-chen {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .Hours-chen {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .Calculate-chen {
+        width: 80%;
+        display: inline-block;
+    }
+}

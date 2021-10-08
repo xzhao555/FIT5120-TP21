@@ -1,0 +1,355 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/Calculate/main.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Content/Calculate/drinkscalculator.js"></script>
+    <link rel="stylesheet" href="~/Content/b.css">
+    <link rel="stylesheet" href="~/Content/carousel.css">
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <style>
+        /* customise header */
+        h1, h2, h3, h4, h5, h6
+        .h1, .h2, .h3, .h4, .h5, .h6 {
+            font-weight: 800;
+            line-height: 1.2;
+            font-family: Roboto Condensed, sans-serif; /* set font for header */
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        h1, .h1 {
+            font-size: 3rem;
+        }
+
+        h2, .h2 {
+            font-size: 1.5rem;
+        }
+
+        /* customise body text */
+        body {
+            font-family: Open Sans, sans-serif; /* set font for body text */
+            @*margin: 0px;
+            padding: 0px;
+            *@ color: #333;
+            /*line-height: 24px;*/
+            height: auto;
+            clear: both;
+            background-color: #fff !important;
+        }
+
+        p {
+            font-family: Open Sans, sans-serif; /* style for p tag */
+            margin: 5 0 10px;
+            padding: 0px;
+            color: #333;
+            line-height: 1.2em;
+            height: auto;
+            clear: both;
+        }
+
+        p-2, .p-2 {
+            font-family: Roboto Condensed, sans-serif;
+            color: #e0a200;
+        }
+
+        .m {
+            width: 960px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+        }
+
+        /* customise navbar */
+        .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link {
+            font-family: Roboto Condensed, sans-serif;
+            color: #405d7e;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: #f0ad00 !important;
+        }
+
+        body {
+            background-color: #fff !important;
+        }
+
+        .bg-white {
+            background-color: #f8f9fa !important;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        }
+
+        .custom-toggler.navbar-toggler {
+            border-color: rgb(255,102,203) !important;
+        }
+
+        /* customise button */
+
+        a[role=button] {
+            font-family: Roboto Condensed;
+            background: rgba(240, 173, 0, 1);
+            border: rgba(240, 173, 0, 1);
+        }
+
+            a[role=button]:hover {
+                background: rgba(224, 162, 0, 1);
+                border: rgba(224, 162, 0, 1);
+            }
+
+        /* others layout customisation */
+
+        .lead {
+            font-size: 1rem;
+            line-height: 1.5em;
+            font-weight: 300;
+        }
+
+        .divider {
+            margin: 3rem 0;
+        }
+
+        .container {
+            max-width: 80%;
+        }
+
+        /* customise about addiction page */
+        .blog-post-title {
+            font-family: Roboto Condensed, sans-serif;
+        }
+
+        body {
+            padding-bottom: 0rem;
+        }
+
+        .chen-nav-link:hover {
+            color: #405d7e !important;
+        }
+        body {
+            font-size:1.6rem;
+        }
+        .calculator-carousel li:last-child h2{
+            font-size:40px !important;
+        }
+        .chen-table {
+            text-align: center;
+            width: 50%;
+            left: 56%;
+            top: 53%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            z-index:99999;
+        }
+       
+        input {
+            margin-top:1px;
+        }
+        p-2, .p-2 {
+            font-family: Roboto Condensed, sans-serif;
+            color: #e0a200;
+        }
+
+        .p-2 {
+            margin-top: -5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+       /* tr {
+            width:120px;
+            display:inline-block;
+        }
+        td {
+            width: 20px;
+            display: inline-block;
+        }
+            td input {
+            width:20px;
+            display:inline-block;
+            }*/
+        td:nth-child(1) {
+            width:25%;
+        }
+        td:nth-child(2) {
+            width: 20%;
+        }
+        td:nth-child(3) {
+            width: 25%;
+        }
+        td:nth-child(4) {
+            width: 30%;
+        }
+        input::-webkit-input-placeholder {
+            color: rgba(0,0,0,0.2);
+        }
+        input {
+            border: none;
+            outline: none;
+            display: inline-block;
+            width: 100%;
+        }
+        #drinks-calculator .results {
+            background: #ffcd3c;
+        }
+        #drinks-calculator h1, #drinks-calculator .h1 {
+            color:#fff;
+        }
+        .totals li {
+            color:#fff;
+        }
+        #drinks-calculator .results .totals {
+            margin-bottom:25px;
+        }
+    </style>
+</head>
+<body>   
+    <div style="margin-top:45px;margin-bottom:30px;">
+        <div id="drinks-calculator">
+            <div class="intro" style="display: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="h1">Standard Drinks Calculator</span>
+                            <h2>Calculate your alcohol intake.</h2>
+                            <p><strong>In Australia, a standard drink refers to 10 grams of alcohol.&nbsp; On average, this is how much the human body can process in one hour.</strong></p>
+                            <p><strong>This calculator provides a guide to the average amount of standard drinks in different beverages. &nbsp;For further information check out our <a title="Standard drinks page" href="https://drinkwise.org.au/drinking-and-you/how-much-have-you-had-to-drink/#" target="_blank" rel="noopener noreferrer">standard drinks</a> page.</strong></p>
+                            <p style="line-height: 20px;"><strong><span style="font-size: 12px;">Please note: the calculator is for educational purposes, and should not be relied upon to predict blood alcohol level or any other measure.&nbsp; The calculator uses average sizes for cans, bottles etc., however please be aware that these vary between products. Wine and champagne glasses are based on 150ml pour (average restaurant serving).</span></strong></p>
+                            <a class="btn btn-success get-started">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results">
+                <h2>Your Totals</h2>
+                <ul class="totals">
+                    <li><span class="servingsnumber">1</span><br>Servings</li>
+                    <li><span class="drinksnumber">0.9</span><br>Standard Drinks Estimated</li>
+                    @*<li class="last"><span class="caloriesnumber">73</span><br>Calories Estimated</li>*@
+                </ul>
+                <div class="btn btn-primary reset-values">Reset</div>
+                <div class="btn btn-success close-results">Close</div>
+            </div>
+
+            <h1>Standard Drinks Calculator</h1>
+            <h2 class="drinkname" style="display: block;">Spirit Pre-mixed</h2>
+
+            <div class="calculator-carousel">
+                <ul>
+                    <li class="single-drink beer-small current" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-small.png&quot;); margin-left: -7612px;" data-drinkname="Small Beer" data-drinktypes="Pony 140mL 2.7%|lightbeer|140,Pony 140mL 3.5%|midbeer|140,Pony 140mL 4.8%|heavybeer|140,Pot/Middy 285mL 2.7%|lightbeer|285,Pot/Middy 285mL 3.5%|midbeer|285,Pot/Middy 285mL 4.8%|heavybeer|285" data-currenttype="0" data-quantity="0" data-index="0" data-position="0"></li>
+                    <li class="single-drink beer-large" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-large.png&quot;); margin-left: -6660.5px;" data-drinkname="Large Beer" data-drinktypes="Schooner 425mL 2.7%|lightbeer|425,Schooner 425mL 3.5%|midbeer|425,Schooner 425mL 4.8%|heavybeer|425,Pint 570mL 2.7%|lightbeer|570,Pint 570mL 3.5%|midbeer|570,Pint 570mL 4.8%|heavybeer|570" data-currenttype="0" data-quantity="0" data-index="1" data-position="1"></li>
+                    <li class="single-drink beer-can" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-can.png&quot;); margin-left: -5709px;" data-drinkname="Beer Can" data-drinktypes="Can 375mL 2.7%|lightbeer|375,Can 375mL 3.5%|midbeer|375,Can 375mL 4.8%|heavybeer|375" data-currenttype="0" data-quantity="0" data-index="2" data-position="2"></li>
+                    <li class="single-drink beer-bottle" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-bottle.png&quot;); margin-left: -4757.5px;" data-drinkname="Beer Bottle" data-drinktypes="Stubbie 375mL 2.7%|lightbeer|375,Stubbie 375mL 3.5%|midbeer|375,Stubbie 375mL 4.8%|heavybeer|375,Long neck 750mL 2.7%|lightbeer|750,Long neck 750mL 3.5%|midbeer|750,Long neck 750mL 4.8%|heavybeer|750" data-currenttype="0" data-quantity="0" data-index="3" data-position="3"></li>
+                    <li class="single-drink wine-red" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/wine-red.png&quot;); margin-left: -3806px;" data-drinkname="Red Wine" data-drinktypes="Glass 150mL 13.5%|redwine|150,Bottle 750mL 13.5%|redwine|750" data-currenttype="0" data-quantity="0" data-index="4" data-position="4"></li>
+                    <li class="single-drink wine-white" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/wine-white.png&quot;); margin-left: -2854.5px;" data-drinkname="White Wine" data-drinktypes="Glass 150mL 11.5%|whitewine|150,Bottle 750mL 11.5%|whitewine|750" data-currenttype="0" data-quantity="0" data-index="5" data-position="5"></li>
+                    <li class="single-drink champagne" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/champagne.png&quot;); margin-left: -1903px;" data-drinkname="Champagne" data-drinktypes="Glass 150mL 12%|champagne|150,Bottle 750mL 12%|champagne|750" data-currenttype="0" data-quantity="0" data-index="6" data-position="6"></li>
+                    <li class="single-drink spirit-straight" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/spirit-straight.png&quot;); margin-left: -951.5px;" data-drinkname="Spirit Straight" data-drinktypes="Shot 30mL 40%|spirit40|30,Shot 30mL 45%|spirit45|30,Shot 30mL 50%|spirit50|30" data-currenttype="0" data-quantity="0" data-index="7" data-position="7"></li>
+                    <li class="single-drink spirit-premix" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/spirit-premixed.png&quot;); margin-left: 0px;" data-drinkname="Spirit Pre-mixed" data-drinktypes="Bottle 300mL 5%|readytodrink|300,Can 375mL 5%|readytodrink|375" data-currenttype="0" data-quantity="0" data-index="8" data-position="8"></li>
+                    <li class="single-drink spirit-premix" style="margin-left: 0px;" data-drinkname="Customise Your Drinks and Calculate the Standard Drink" data-drinktypes="" data-currenttype="0" data-quantity="0" data-index="9" data-position="9">
+                        <div class="chen-table">
+                            <table class="table" style="display:inline-block;">
+                                @*<tr>
+                                    <td>Drink Name</td>
+                                    <td>Quantity</td>
+                                    <td>Volume(ml)</td>
+                                    <td>Alcohol By Volume (%)</td>
+                                </tr>*@
+                                <tr>
+                                    <td><input type="text" name="DrinkName" class="DrinkName" value="" placeholder="Drink Name" /></td>
+                                    <td><input type="number" name="Quantity" class="Quantity" value="" placeholder="Quantity" /></td>
+                                    <td><input type="number" name="Volume" class="Volume" value="" placeholder="Volume(ml)" /></td>
+                                    <td><input type="number" name="AlcoholByVolume" class="AlcoholByVolume" value="" placeholder="Alcohol By Volume (%)" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="carousel-nav">
+                <ul class="mobile-nav">
+                    <li class="" data-index="0">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="1" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="2" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="3" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="4" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="5" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="6" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="7" class="">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                    <li data-index="8" class="active">
+                        <svg height="20" width="20">
+                            <circle cx="10" cy="10" r="7" fill="#ffffff"></circle>
+                        </svg>
+                    </li>
+                </ul>
+                <div class="left disabled">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </div>
+                <div class="right">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </div>
+            </div>
+
+            <div class="options">
+                <ul class="types"><li class="active" data-type="readytodrink|300" data-index="0">Bottle 300mL 5%</li><li class="" data-type="readytodrink|375" data-index="1">Can 375mL 5%</li></ul>
+                <div class="quantity">
+                    <div class="control minus">-</div>
+                    <span class="count">0</span>
+                    <div class="control plus">+</div>
+                </div>
+                <div class="btn btn-success calculate AddRow-chen" style="        display: none;
+        margin-right: 20px;
+        background-color: #3260ae;
+        border-color: #3260ae;">ADD Rows</div>
+                <div class="btn btn-success calculate">Calculate</div>
+            </div>
+
+        </div>
+    </div>
+ 
+</body>
+</html>

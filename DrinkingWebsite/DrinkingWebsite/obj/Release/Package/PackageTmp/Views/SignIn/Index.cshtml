@@ -12,20 +12,23 @@
 
     <title>Signin</title>
 
-
+    <link rel="bookmark" type="image/x-icon" href="~/images/logo.ico" />
+    <link rel="shortcut icon" href="~/images/logo.ico">
+    <link rel="icon" href="~/images/logo.ico">
 
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
         .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active.focus, .btn-primary:active:focus,
         .btn-primary.disabled:hover,
         .btn-primary[disabled]:hover,
@@ -39,24 +42,25 @@
             background-color: #ffcd3c;
             border-color: #ffcd3c;
         }
+
         .btn-primary {
             background-color: #ffcd3c;
             border-color: #ffcd3c;
         }
+
         .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
             outline: 5px auto #fff;
             outline-offset: -2px;
         }
-    
     </style>
-  
+
 
     <link href="~/Content/signin.css" rel="stylesheet" />
 </head>
 <body class="text-center">
-    <form class="form-signin" action="@Url.Action("Index")" method="post">
+    <form class="form-signin" action="@Url.Action("Index", "SignIn")" method="post">
         <img class="mb-4" src="~/images/logo.png" alt="" width="200" height="80">
-        <h1 class="h3 mb-3 font-weight-normal">sign in</h1>       
+        <h1 class="h3 mb-3 font-weight-normal">Sign In</h1>       
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" name="Password" class="form-control" placeholder="Password">      
         <div class="form-group" style="color:red;">

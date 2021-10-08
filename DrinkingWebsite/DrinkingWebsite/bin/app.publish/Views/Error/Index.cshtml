@@ -1,0 +1,21 @@
+﻿
+@{ ViewBag.Title = "Index";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content="5; url = @Url.Action("Index", "Home")" />
+    <title>Error</title>
+</head>
+<body style="text-align:center; margin-top:5rem;">
+    <h2>Hi there.</h2>
+    <p>It seems like the page you are looking for does not exist.</p>
+    <p>We will redirect you to the homepage in 5 seconds.</br>If it doesn't work please click on the button below.</p>
+    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Home")" role="button">Home</a></p>
+</body>
+<script src='~/Scripts/jquery-3.4.1.min.js'></script>
+</html>
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Text;
 
 namespace DrinkingWebsite.Controllers
 {
@@ -15,6 +16,7 @@ namespace DrinkingWebsite.Controllers
         /// <returns>Alcoholism view</returns>
         public ActionResult Index()
         {
+           
             return View();
         }
     }

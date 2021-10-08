@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace DrinkingWebsite.Controllers
 {
+ 
     public class SignInController : Controller
     {
         DataContext db = new DataContext();
