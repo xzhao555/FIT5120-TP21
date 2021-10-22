@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="~/Content/b.css">
     <link rel="stylesheet" href="~/Content/carousel.css">
     <link rel="stylesheet" href="~/Content/Index.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Montserrat|Open+Sans">
 
 </head>
 <style>
@@ -69,15 +71,21 @@
         margin-top: 100px;
     }
 
+    a, .a {
+        color: #e0a100;
+    }
+
     /* customise navbar */
     .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link {
         font-family: Roboto Condensed, sans-serif;
         color: #405d7e;
-        font-weight: bold;
+        font-weight: 900;
+        font-size: 0.9rem;
     }
     .nav-link:hover {
         color: #f0ad00 !important;
     }
+
     body {
         background-color: #fff !important;
     }
@@ -135,6 +143,12 @@
     .navbar-nav li {
         display:flex;
     }
+    .modal.fade .modal-dialog {
+        margin: 0px;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+    }
 </style>
 <body>
     @* 主页的navigation bar *@
@@ -191,7 +205,7 @@
             <form class="mt-2 mt-md-0" style="text-align:center;color:#405d7e;">
                 @*<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
-                <p style="margin:0px;display:inline-block;"><a href="tel:100"><b>Urgent Helpline</b></p></a><br />
+                <p class="helpline" style="margin:0px;display:inline-block;"><a href="tel:100"><b>Urgent Helpline</b></p></a><br />
                 <p style="margin:0px;display:inline-block;"><i><a href="tel:100"><img src="~/images/phone.png" style="width: 20px; margin-right: 5px; vertical-align: middle;" alt="Alternate Text" /></i><b>100</b></a></p>
             </form>
             <!--<form class="form-inline mt-2 mt-md-0">-->
@@ -222,7 +236,6 @@
             </div>
         </div>*@
     @RenderBody()
-    @* footer *@
     <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-white" style="text-align: center; display: inherit;position:inherit;">
         @*<h3>Tools</h3>*@
         <div class="row" style="display:inline-block;">
@@ -239,7 +252,7 @@
                             <a class="nav-link" href="@Url.Action("Index", "AboutPage")">About Us</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="@Url.Action("Index", "ContactUs")">Contact Us</a>
+                            <a class="nav-link" id="Contact" style="cursor:pointer;">Contact Us</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="@Url.Action("Index", "PrivacyPolicy")">Privacy Policy</a>
@@ -256,10 +269,10 @@
                             <a class="nav-link" href="@Url.Action("Index", "Question")">Self-Assessment<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="@Url.Action("Index", "Guide")">Standard Drinks Calculator</a>
+                            <a class="nav-link" href="@Url.Action("Index", "SDCalculate")">Standard Drinks Calculator</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="@Url.Action("Index", "BACalculate")">Blood Alcohol Calculator</a>
+                            <a class="nav-link" href="@Url.Action("Index", "BAC")">Blood Alcohol Calculator</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav mr-auto" style="flex-direction:column;width:21rem;">
@@ -307,7 +320,39 @@
     @*@Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", required: false)*@
+
+    <div class="modal fade" id="myModal-chen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #edab00; text-align: center; display: inline-block;color:#fff;">
+                    @*<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>*@
+                    <h4 class="modal-title" id="myModalLabel-chen">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group blog-chen">
+                        <p >
+                            Email us with any questions or inquiries. We would be happy to answer your questions.
+                        </p>
+                        <p style="font-weight:bold;"><span><img src="~/images/email.png" style="width:30px;padding:0 5px;" alt="Alternate Text" /></span>info.wecaresocial@gmail.com</p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="text-align: center; display: inline-block;">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" style="        font-size: 24px;
+        background-color: #ccc;
+">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script>
+        $("#Contact").click(function () {
+            $("#myModalLabel-chen").text("Contact Us");
+            $('#myModal-chen').modal();
+        })       
+    </script>
 </body>
 
 </html>

@@ -69,11 +69,20 @@
             margin-top: 100px;
         }
 
+        a {
+            color: #e0a100;
+        }
+
+        .helpline {
+            color: #e0a100 !important;
+        }
+
         /* customise navbar */
         .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link {
             font-family: Roboto Condensed, sans-serif;
             color: #405d7e;
             font-weight: bold;
+            font-size:1.4rem;
         }
 
         .nav-link:hover {
@@ -238,7 +247,7 @@
                     <li><span class="drinksnumber">0.9</span><br>Standard Drinks Estimated</li>
                     @*<li class="last"><span class="caloriesnumber">73</span><br>Calories Estimated</li>*@
                 </ul>
-                <div class="btn btn-primary reset-values">Reset</div>
+                <div class="btn btn-primary reset-values" style=" background-color: rgb(50, 96, 174); border-color: rgb(50, 96, 174);">Reset</div>
                 <div class="btn btn-success close-results">Close</div>
             </div>
 
@@ -247,15 +256,23 @@
 
             <div class="calculator-carousel">
                 <ul>
-                    <li class="single-drink beer-small current" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-small.png&quot;); margin-left: -7612px;" data-drinkname="Small Beer" data-drinktypes="Pony 140mL 2.7%|lightbeer|140,Pony 140mL 3.5%|midbeer|140,Pony 140mL 4.8%|heavybeer|140,Pot/Middy 285mL 2.7%|lightbeer|285,Pot/Middy 285mL 3.5%|midbeer|285,Pot/Middy 285mL 4.8%|heavybeer|285" data-currenttype="0" data-quantity="0" data-index="0" data-position="0"></li>
-                    <li class="single-drink beer-large" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-large.png&quot;); margin-left: -6660.5px;" data-drinkname="Large Beer" data-drinktypes="Schooner 425mL 2.7%|lightbeer|425,Schooner 425mL 3.5%|midbeer|425,Schooner 425mL 4.8%|heavybeer|425,Pint 570mL 2.7%|lightbeer|570,Pint 570mL 3.5%|midbeer|570,Pint 570mL 4.8%|heavybeer|570" data-currenttype="0" data-quantity="0" data-index="1" data-position="1"></li>
-                    <li class="single-drink beer-can" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-can.png&quot;); margin-left: -5709px;" data-drinkname="Beer Can" data-drinktypes="Can 375mL 2.7%|lightbeer|375,Can 375mL 3.5%|midbeer|375,Can 375mL 4.8%|heavybeer|375" data-currenttype="0" data-quantity="0" data-index="2" data-position="2"></li>
-                    <li class="single-drink beer-bottle" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/beer-bottle.png&quot;); margin-left: -4757.5px;" data-drinkname="Beer Bottle" data-drinktypes="Stubbie 375mL 2.7%|lightbeer|375,Stubbie 375mL 3.5%|midbeer|375,Stubbie 375mL 4.8%|heavybeer|375,Long neck 750mL 2.7%|lightbeer|750,Long neck 750mL 3.5%|midbeer|750,Long neck 750mL 4.8%|heavybeer|750" data-currenttype="0" data-quantity="0" data-index="3" data-position="3"></li>
-                    <li class="single-drink wine-red" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/wine-red.png&quot;); margin-left: -3806px;" data-drinkname="Red Wine" data-drinktypes="Glass 150mL 13.5%|redwine|150,Bottle 750mL 13.5%|redwine|750" data-currenttype="0" data-quantity="0" data-index="4" data-position="4"></li>
-                    <li class="single-drink wine-white" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/wine-white.png&quot;); margin-left: -2854.5px;" data-drinkname="White Wine" data-drinktypes="Glass 150mL 11.5%|whitewine|150,Bottle 750mL 11.5%|whitewine|750" data-currenttype="0" data-quantity="0" data-index="5" data-position="5"></li>
-                    <li class="single-drink champagne" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/champagne.png&quot;); margin-left: -1903px;" data-drinkname="Champagne" data-drinktypes="Glass 150mL 12%|champagne|150,Bottle 750mL 12%|champagne|750" data-currenttype="0" data-quantity="0" data-index="6" data-position="6"></li>
-                    <li class="single-drink spirit-straight" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/spirit-straight.png&quot;); margin-left: -951.5px;" data-drinkname="Spirit Straight" data-drinktypes="Shot 30mL 40%|spirit40|30,Shot 30mL 45%|spirit45|30,Shot 30mL 50%|spirit50|30" data-currenttype="0" data-quantity="0" data-index="7" data-position="7"></li>
-                    <li class="single-drink spirit-premix" style="background-image: url(&quot;https://drinkwise.org.au/wp-content/themes/drinkwise/assets/images/drinks-calculator/spirit-premixed.png&quot;); margin-left: 0px;" data-drinkname="Spirit Pre-mixed" data-drinktypes="Bottle 300mL 5%|readytodrink|300,Can 375mL 5%|readytodrink|375" data-currenttype="0" data-quantity="0" data-index="8" data-position="8"></li>
+                    <li class="single-drink beer-small current" style="background-image: url(../../images/beer-small.png); margin-left: -7612px;" data-drinkname="Small Beer" data-drinktypes="Pony 140mL 2.7%|lightbeer|140,Pony 140mL 3.5%|midbeer|140,Pony 140mL 4.8%|heavybeer|140,Pot/Middy 285mL 2.7%|lightbeer|285,Pot/Middy 285mL 3.5%|midbeer|285,Pot/Middy 285mL 4.8%|heavybeer|285" data-currenttype="0" data-quantity="0" data-index="0" data-position="0"></li>
+                    <li class="single-drink beer-large" style="        background-image: url(../../images/beer-large.png);
+        margin-left: -6660.5px;" data-drinkname="Large Beer" data-drinktypes="Schooner 425mL 2.7%|lightbeer|425,Schooner 425mL 3.5%|midbeer|425,Schooner 425mL 4.8%|heavybeer|425,Pint 570mL 2.7%|lightbeer|570,Pint 570mL 3.5%|midbeer|570,Pint 570mL 4.8%|heavybeer|570" data-currenttype="0" data-quantity="0" data-index="1" data-position="1"></li>
+                    <li class="single-drink beer-can" style="        background-image: url(../../images/beer-can.png);
+        margin-left: -5709px;" data-drinkname="Beer Can" data-drinktypes="Can 375mL 2.7%|lightbeer|375,Can 375mL 3.5%|midbeer|375,Can 375mL 4.8%|heavybeer|375" data-currenttype="0" data-quantity="0" data-index="2" data-position="2"></li>
+                    <li class="single-drink beer-bottle" style="        background-image: url(../../images/beer-bottle.png);
+        margin-left: -4757.5px;" data-drinkname="Beer Bottle" data-drinktypes="Stubbie 375mL 2.7%|lightbeer|375,Stubbie 375mL 3.5%|midbeer|375,Stubbie 375mL 4.8%|heavybeer|375,Long neck 750mL 2.7%|lightbeer|750,Long neck 750mL 3.5%|midbeer|750,Long neck 750mL 4.8%|heavybeer|750" data-currenttype="0" data-quantity="0" data-index="3" data-position="3"></li>
+                    <li class="single-drink wine-red" style="        background-image: url(../../images/wine-red.png);
+        margin-left: -3806px;" data-drinkname="Red Wine" data-drinktypes="Glass 150mL 13.5%|redwine|150,Bottle 750mL 13.5%|redwine|750" data-currenttype="0" data-quantity="0" data-index="4" data-position="4"></li>
+                    <li class="single-drink wine-white" style="        background-image: url(../../images/wine-white.png);
+        margin-left: -2854.5px;" data-drinkname="White Wine" data-drinktypes="Glass 150mL 11.5%|whitewine|150,Bottle 750mL 11.5%|whitewine|750" data-currenttype="0" data-quantity="0" data-index="5" data-position="5"></li>
+                    <li class="single-drink champagne" style="        background-image: url(../../images/champagne.png);
+        margin-left: -1903px;" data-drinkname="Champagne" data-drinktypes="Glass 150mL 12%|champagne|150,Bottle 750mL 12%|champagne|750" data-currenttype="0" data-quantity="0" data-index="6" data-position="6"></li>
+                    <li class="single-drink spirit-straight" style="        background-image: url(../../images/spirit-straight.png);
+        margin-left: -951.5px;" data-drinkname="Spirit Straight" data-drinktypes="Shot 30mL 40%|spirit40|30,Shot 30mL 45%|spirit45|30,Shot 30mL 50%|spirit50|30" data-currenttype="0" data-quantity="0" data-index="7" data-position="7"></li>
+                    <li class="single-drink spirit-premix" style="        background-image: url(../../images/spirit-premixed.png);
+        margin-left: 0px;" data-drinkname="Spirit Pre-mixed" data-drinktypes="Bottle 300mL 5%|readytodrink|300,Can 375mL 5%|readytodrink|375" data-currenttype="0" data-quantity="0" data-index="8" data-position="8"></li>
                     <li class="single-drink spirit-premix" style="margin-left: 0px;" data-drinkname="Customise Your Drinks and Calculate the Standard Drink" data-drinktypes="" data-currenttype="0" data-quantity="0" data-index="9" data-position="9">
                         <div class="chen-table">
                             <table class="table" style="display:inline-block;">

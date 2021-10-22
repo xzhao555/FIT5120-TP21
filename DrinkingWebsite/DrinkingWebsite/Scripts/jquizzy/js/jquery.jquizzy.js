@@ -39,8 +39,8 @@
 	
     var superContainer = $(this),
     answers = [],
-        introFob = '	<div class="intro-container slide-container"><div class="question-number">' + config.startText + '</div><div class="question-number1">我们不会记录你的个人信息请放心回答</div><a class="nav-start" href="#"><img src="'+config.splashImage+'" /></a></div>	',
-        exitFob = '<div class="results-container slide-container"><div class="question-number" style="right: 30%;border:none;background-color: rgba(240, 173, 0, 1);"><a href="" style="padding: 10px;">'+config.endText+'</a></div><div class="result-keeper"></div></div><div class="notice">Please select an option</div><div class="progress-keeper" ><div class="progress"></div></div>',
+        introFob = '	<div class="intro-container slide-container"><div class="question-number">' + config.startText + '</div><div class="question-number1"></div><a class="nav-start" href="#"><img src="'+config.splashImage+'" /></a></div>	',
+        exitFob = '<div class="results-container slide-container"><div class="question-number" style="right: 0;     left: 50%;   transform: translate(-50%, 0%);border:none;background-color: rgba(240, 173, 0, 1);"><a href="" style="padding: 10px;">'+config.endText+'</a></div><div class="result-keeper"></div></div><div class="notice">Please select an option</div><div class="progress-keeper" ><div class="progress"></div></div>',
     contentFob = '';
 	 superContainer.addClass('main-quiz-holder');
 
@@ -131,15 +131,15 @@
         function currentInfo(score) {
             var currentInfo = "";                    
             if (score <= 7) {
-                currentInfo = "LOW SCORE";               
+                currentInfo = "RESULT";               
                 return currentInfo;
             }
             else if (score >= 8 && score <= 15) {
-                currentInfo = "MEDIUM SCORE";
+                currentInfo = "RESULT";
                 return currentInfo;
             }
             else if (score >= 16) {
-                currentInfo = "HIGH SCORE";
+                currentInfo = "RESULT";
                 return currentInfo;
             }
         }

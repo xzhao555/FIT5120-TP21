@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{43C7DA34-CD6F-4FF5-857C-4839C70D8EA3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DrinkingWebsite/Views/Guide/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrinkingWebsite/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="DrinkingWebsite/Views/BAC/Index.cshtml" Line="1" Column="1" />
-      <File FileName="DrinkingWebsite/Views/Shared/_Layout.cshtml" Line="49" Column="5" />
-      <File FileName="DrinkingWebsite/Views/Guide/Index.cshtml" Line="201" Column="19" />
+      <File FileName="DrinkingWebsite/Views/Home/Index.cshtml" Line="118" Column="119" />
+      <File FileName="DrinkingWebsite/Views/Shared/_Layout.cshtml" Line="208" Column="35" />
+      <File FileName="DrinkingWebsite/Views/SDCalculate/Index.cshtml" Line="77" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DrinkingWebsite" expanded="True">
             <Node name="DrinkingWebsite" expanded="True">
+              <Node name="Content" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="AboutAlcohol" expanded="True" />
                 <Node name="BAC" expanded="True" />
                 <Node name="BACalculate" expanded="True" />
-                <Node name="Guide" expanded="True">
+                <Node name="Guide" expanded="True" />
+                <Node name="Home" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
+                <Node name="Resources" expanded="True" />
+                <Node name="SDCalculate" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>

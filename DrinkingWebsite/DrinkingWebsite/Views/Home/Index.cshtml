@@ -3,7 +3,8 @@
 }
 <link href="~/Content/video-js.min.css" rel="stylesheet" />
 <link href="~/Content/b3.css" rel="stylesheet" />
-@*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />*@
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Montserrat|Open+Sans">
 <style>
     .video-js .vjs-big-play-button {
         left: 50%;
@@ -55,8 +56,8 @@
             <div class="container">
                 <div class="carousel-caption text-left" style="color:#405d7e;">
                     <h1 style="background: rgba(255, 255, 255, 0.9);  padding: 5px; margin: 5 0 10px; color: #f0ad00;font-weight:700;margin:0px;padding-right: 54px;">Rethink your drinking</h1>
-                    <p style="background: rgba(255, 255, 255, 0.9);  padding: 5px;font-weight:600;">Your life is in your hands. The progress starts with the very first step.</p>
-                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Question")" role="button">Alcohol Checker</a></p>
+                    <p style="background: rgba(255, 255, 255, 0.9);  padding: 5px;font-weight:600;">Start by understanding your drinking habit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Question")" role="button">Alcohol Consumption Checker</a></p>
                 </div>
             </div>
         </div>
@@ -65,8 +66,8 @@
             <div class="container">
                 <div class="carousel-caption text-left" style="color:#405d7e;">
                     <h1 style="background: rgba(255, 255, 255, 0.9);  padding: 5px; margin: 5 0 10px; color: #f0ad00;font-weight:700;margin:0px;padding-right: 54px;">Rethink your drinking</h1>
-                    <p style="background: rgba(255, 255, 255, 0.9); padding: 5px;font-weight:600;">Your life is in your hands. The progress starts with the very first step.</p>
-                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Guide")" role="button">Standard Drinks</a></p>
+                    <p style="background: rgba(255, 255, 255, 0.9); padding: 5px;font-weight:600;">Understand how much should you drink.</p>
+                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "SDCalculate")" role="button">Calculate Standard Drinks</a></p>
                 </div>
             </div>
         </div>
@@ -75,8 +76,8 @@
             <div class="container">
                 <div class="carousel-caption text-left" style="color:#405d7e;">
                     <h1 style="background: rgba(255, 255, 255, 0.9);  padding: 5px; margin: 5 0 10px; color: #f0ad00;font-weight:700;margin:0px;padding-right: 54px;">Rethink your drinking</h1>
-                    <p style="background: rgba(255, 255, 255, 0.9); padding: 5px;font-weight:600;">Your life is in your hands. The progress starts with the very first step.</p>
-                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "BACalculate")" role="button">Blood Alcohol Content</a></p>
+                    <p style="background: rgba(255, 255, 255, 0.9); padding: 5px;font-weight:600;">Get to know how alcohol affects your body.</p>
+                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "BAC")" role="button">Calculate Blood Alcohol</a></p>
                 </div>
             </div>
         </div>
@@ -85,7 +86,7 @@
             <div class="container">
                 <div class="carousel-caption text-left" style="color:#405d7e;">
                     <h1 style="background: rgba(255, 255, 255, 0.9);  padding: 5px; margin: 5 0 10px; color: #f0ad00;font-weight:700;margin:0px;padding-right: 54px;">Rethink your drinking</h1>
-                    <p style="background: rgba(255, 255, 255, 0.9);  padding: 5px;font-weight:600;">Your life is in your hands. The progress starts with the very first step.</p>
+                    <p style="background: rgba(255, 255, 255, 0.9);  padding: 5px;font-weight:600;">For professional support and advice.</p>
                     <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Resources")" role="button">Get Support</a></p>
                 </div>
             </div>
@@ -102,77 +103,138 @@
     </div>
 
 <div class="container marketing">
-    <h2 class="featurette-heading" style="margin:0rem 0rem 0.5rem;text-align:center;">Understand your drinking habit</h2>
+    <h2 class="featurette-heading" style="margin:0rem 0rem 0.5rem;text-align:center;">Your life is in your hand</h2>
+    <h3 class="h4" style="text-align:center;font-weight:400;">We are here to support you. Take control of your drinking today.</h3>
     <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;margin:2rem auto;"></span>
-    <p style="text-align: center;">Here is where you can start understanding your relationship with alcohol. </br> According to a report from Australian Institute of Health and Welfare, in 2019:</p>
+    <p style="text-align: center;">
+        Did you know?</br></br>
+        Alcohol is the most popular substance in Australia.
+        According to a report from Australian Institute of Health and Welfare, in 2019:
+    </p>
     <!-- Three columns of text below the carousel -->
     <div class="row" style="margin-bottom:20px;">
         <div class="col-lg-3" style="text-align: center;">
             <h1 style="color: #f0ad00; font-family: Montserrat;"> 21.1%</h1>
-            <p style="font-size: 20px; font-family: Roboto Condensed;">People have recovered </br> from alcohol</p>
+            <p style="font-size: 20px; font-family: Roboto Condensed;">Alcohol drinkers have </br>completely recovered </br> from alcohol</p>
         </div>
         <div class="col-lg-3" style="text-align: center;">
             <h1 style="color: #f0ad00; font-family: Montserrat; ">21%</h1>
-            <p style="font-size: 20px; font-family: Roboto Condensed; "> Young Australian</br> did not drink </br>alcohol</p>
+            <p style="font-size: 20px; font-family: Roboto Condensed; "> Young Australian age 18-25</br> did not drink </br>alcohol</p>
         </div>
         <div class="col-lg-3" style="text-align: center;">
             <h1 style="color: #f0ad00; font-family: Montserrat; ">35%</h1>
-            <p style="font-size: 20px; font-family: Roboto Condensed;">Person drinks in a way</br> that reduced</br> lifetime risks</p>
+            <p style="font-size: 20px; font-family: Roboto Condensed;">People drink in a way</br> that reduced</br> lifetime risks</p>
         </div>
         <div class="col-lg-3" style="text-align: center;">
             <h1 style="color: #f0ad00; font-family: Montserrat; ">40%</h1>
-            <p style="font-size: 20px; font-family: Roboto Condensed; ">People are in excellent</br> mental health</p>
+            <p style="font-size: 20px; font-family: Roboto Condensed; ">Australians are in excellent</br> mental health</p>
         </div>
     </div>
     <!-- /.row -->
 
     <p style="text-align: center;">What about you? Are you drinking in a healthy manner? Let's check out:</p>
-    <p style="text-align: center;"><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Question")" role="button">Alcohol Consumption Checker</a></pstyle="text-align:>
+    <p style="text-align: center;">
+        <a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Question")" role="button">Alcohol Consumption Checker</a></pstyle="text-align:>
 
-    <!-- START THE FEATURETTES -->
+        <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <div style="width:100%">
-                <video id="my-video" class="video-js" controls preload="auto" style="display:inline-block;"
-                       poster="" data-setup="{}">
-                    <source src="~/images/QuitDrinking.mp4" type="video/mp4">
-                    @*<p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p>*@
-                </video>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <div style="width:100%">
+                    <video id="my-video" class="video-js" controls preload="auto" style="display:inline-block;"
+                           poster="" data-setup="{}">
+                        <source src="~/images/QuitDrinking.mp4" type="video/mp4">
+                        @*<p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p>*@
+                    </video>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">Our Purpose</h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="">
+                    We care for your well-being. We are here to listen and support.
+                    Alcohol addiction is very common but could be misunderstood. In this site, we prepare the most important information and supports that you may find helpful in your journey toward healthy drinking habit.
+                </p>
+            </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">About Alcohol </h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="margin-bottom: 2rem;">Get to know basic information about alcohol, different type of alcoholic drinks in Australia and understand the drinking habit trend and statistics over the years. </p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "AboutAlcohol")" style="display:inline-block;" role="button">Learn more</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="~/images/aboutalcohol.jpeg" alt="Learn more about alcohol" />
             </div>
         </div>
-        <div class="col-md-5 order-md-1">
-            <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">Our purpose</h2>
-            <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
-            <p class="lead" style="">
-                We care for your well-being. We are here to listen and support.
-                Alcohol addiction is very common but could be misunderstood. In this site, we prepare the most important information and supports that you may find helpful in your journey toward healthy drinking habit.
-            </p>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-1">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">About Addiction </h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="margin-bottom: 2rem;">Learn more about what is alcohol addiction, what are the factors influencing it and potential risks that it may cause to your health and body</p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "AboutAddiction")" style="display:inline-block;" role="button">Learn more</a></p>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <img src="~/images/aboutaddiction.jpeg" alt="Learn more about alcohol addiction" />
+            </div>
         </div>
 
-    </div>
+        <hr class="featurette-divider">
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">About addiction </h2>
-            <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
-            <p class="lead" style="margin-bottom: 2rem;">Learn more about what is alcoholism, what are the factors influencing it and potential risks that it may cause to your health and body</p>
-            <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "AboutAddiction")" style="display:inline-block;" role="button">Learn more</a></p>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">Standard Drink </h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="margin-bottom: 2rem;">Start to take  control of your drinking by understanding about standard drink measurement, and the measurement of standard drinks in different types of beverages, in addition to a customised tool to calculate standard drinks.</p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Guide")" style="display:inline-block;" role="button">Check the guideline</a></p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "SDCalculate")" style="display:inline-block;" role="button">Calculate standard drinks</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="~/images/sddrink.jpeg" alt="Standard drink" />
+            </div>
         </div>
-        <div class="col-md-5 order-md-1">
-            <img src="~/images/img1.jpg" alt="Learn more about alcohol addiction" />
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-1">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">Blood Alcohol Concentration</h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="margin-bottom: 2rem;">Understand how alcohol level in your blood impact your body and health, with a tool to calculate blood alcohol level and further advise.</p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "BACalculate")" style="display:inline-block;" role="button">Learn more</a></p>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <img src="~/images/bachome.jpeg" alt="Blood alcohol content" />
+            </div>
         </div>
-    </div>
 
-    <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading" style="margin:1rem 0rem 0.5rem;text-align:left;">Get Support </h2>
+                <span style="margin-bottom: 1.5rem; display: block; width: 20%; height: 5px; background-color: #edab00;"></span>
+                <p class="lead" style="margin-bottom: 2rem;">There is a range of services available to you, whenever you are in Australia. Please contact the service in the provided list here.</p>
+                <p><a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Guide")" style="display:inline-block;" role="button">Learn more</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="~/images/getsupport.jpeg" alt="Get support" />
+            </div>
+        </div>
 
+        <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
 </div>
 

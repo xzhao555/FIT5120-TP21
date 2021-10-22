@@ -33,6 +33,12 @@
         background-color: rgb(50, 96, 174);
         border-color: rgb(50, 96, 174);
     }
+    .modal.fade .modal-dialog {
+        margin:0px;
+        transform:translate(-50%,-50%);
+        top:50%;
+        left:50%;
+    }
 </style>
 <div class="container" style="margin-top:40px;margin-bottom:110px;">
     <div class="row">
@@ -72,16 +78,16 @@
             </div>
             <div class="mb-3">
                 <h4 class="mb-3 Weight-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weight in Kilograms(Kg) :</h4>
-                <input type="text" class="form-control Weight-chen" placeholder="" required="">
+                <input type="number" class="form-control Weight-chen" placeholder="" required="">
             </div>
             <div class="mb-3">
                 <h4 class="mb-3 Number-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of Standard Drinks :</h4>
-                <input type="text" class="form-control Number-chen" placeholder="" required="" ><br/>
-                <a href="@Url.Action("Index", "SDCalculate")" style="margin-left: 330px; color: #FFF;">Click here to calculate standard drink</a>
+                <input type="number" class="form-control Number-chen" placeholder="" required="" ><br/>
+                <a href="@Url.Action("Index", "SDCalculate")" style="margin-left: 240px; color: #FFF;">Click here to calculate standard drink</a>
             </div>
             <div class="mb-3">
                 <h4 class="mb-3 Hours-info">Hours of Drinking&nbsp;: </h4>
-                <input type="text" class="form-control Hours-chen" placeholder="" required="">
+                <input type="number" class="form-control Hours-chen" placeholder="" required="">
             </div>
             <button class="btn btn-primary btn-lg btn-block Calculate-chen" type="button">Calculate</button>
         </div>
@@ -147,6 +153,11 @@
             };
         });
         if (Weight == "" || Number == "" || Hours == "") {
+            alert("Please enter a valid value in the input box");
+            return;
+        }
+        if (Weight < 1 || Weight > 500)
+        {
             alert("Please enter a valid value in the input box");
             return;
         }

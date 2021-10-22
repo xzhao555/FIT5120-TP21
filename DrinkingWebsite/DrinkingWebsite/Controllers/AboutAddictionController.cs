@@ -16,7 +16,6 @@ namespace DrinkingWebsite.Controllers
         /// <returns>Alcoholism view</returns>
         public ActionResult Index()
         {
-           
             return View();
         }
     }

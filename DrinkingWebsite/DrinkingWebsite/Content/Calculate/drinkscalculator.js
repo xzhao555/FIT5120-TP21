@@ -109,8 +109,7 @@ var app = app || {};
 			calories += $(this).data('quantity') * (currentDrinkType[2] / 100) * drinkDefinitions[currentDrinkType[1]]['calories'];
 			//Only render if the values change
 			var renderId = String(servings) + "," + String(standardDrinks) + "," + String(calories);
-			if (renderId != calculationId) {
-				
+			if (renderId != calculationId) {			
 				
 				renderResults(servings, standardDrinks, calories);
 			}
@@ -295,27 +294,43 @@ var app = app || {};
 					$('.chen-table table').append("<tr><td><input type=\"text\" name=\"DrinkName\" class=\"DrinkName\" placeholder=\"Drink Name\" value=\"\"/></td>                                    <td><input type=\"number\" name=\"Quantity\" placeholder=\"Quantity\" class=\"Quantity\" value=\"\" /></td>                                 <td><input type=\"number\" name=\"Volume\" class=\"Volume\" placeholder=\"Volume(ml)\" value=\"\" /></td><td><input type=\"number\" name=\"AlcoholByVolume\" class=\"AlcoholByVolume\" placeholder=\"Alcohol By Volume(%)\" value=\"\" /></td></tr>");
 				}
 				else {
-					$('.chen-table').hide();
-					$('.results').addClass('reveal');
+					var flag = true;
 					if ($('.carousel-nav .right').hasClass("disabled")) {
-						servings = 0;
-						standardDrinks = 0;
 						$('.chen-table tr').each(function () {
 							if ($(this).find(".Quantity").val() != undefined) {
 								console.log(parseInt($(this).find(".Quantity").val()));
 								console.log(parseInt($(this).find(".Volume").val()));
 								console.log(parseInt($(this).find(".AlcoholByVolume").val()));
-								servings += parseInt($(this).find(".Quantity").val());
-								standardDrinks += parseInt($(this).find(".Quantity").val()) * 0.798 * parseInt($(this).find(".Volume").val()) / 1000 * parseInt($(this).find(".AlcoholByVolume").val());
-							}							
+								if ($(this).find(".Quantity").val() <= 0 || $(this).find(".Volume").val() <= 0 || $(this).find(".AlcoholByVolume").val() <= 0) {
+									flag = false;
+									alert("Please enter a valid value in the input box");
+									return;
+								}
+							}
 						})
-						if (servings == NAN || standardDrinks == NAN) {
-							renderResults(0, 0, 0);
-						}
-						else {
+					}
+					
+					if (flag) {
+						$('.chen-table').hide();
+						$('.results').addClass('reveal');
+						if ($('.carousel-nav .right').hasClass("disabled")) {
+							servings = 0;
+							standardDrinks = 0;
+							$('.chen-table tr').each(function () {
+								if ($(this).find(".Quantity").val() != undefined) {
+									console.log(parseInt($(this).find(".Quantity").val()));
+									console.log(parseInt($(this).find(".Volume").val()));
+									console.log(parseInt($(this).find(".AlcoholByVolume").val()));
+									servings += parseInt($(this).find(".Quantity").val());
+									standardDrinks += parseInt($(this).find(".Quantity").val()) * 0.798 * parseInt($(this).find(".Volume").val()) / 1000 * parseInt($(this).find(".AlcoholByVolume").val());
+								}
+							})
+							console.log(servings);
+							console.log(standardDrinks);
 							renderResults(servings, standardDrinks, 0);
 						}
 					}
+					
 				}
 				
 			});
@@ -338,7 +353,7 @@ var app = app || {};
 				$(".chen-table tr td").each(function () {
 					$(this).find("input").val("");
 				})
-
+				$(".chen-table table").html("<tr><td><input type=\"text\" name=\"DrinkName\" class=\"DrinkName\" placeholder=\"Drink Name\" value=\"\"/></td>                                    <td><input type=\"number\" name=\"Quantity\" placeholder=\"Quantity\" class=\"Quantity\" value=\"\" /></td>                                 <td><input type=\"number\" name=\"Volume\" class=\"Volume\" placeholder=\"Volume(ml)\" value=\"\" /></td><td><input type=\"number\" name=\"AlcoholByVolume\" class=\"AlcoholByVolume\" placeholder=\"Alcohol By Volume(%)\" value=\"\" /></td></tr>");
 				$('.chen-table').show();
 				setTimeout(function(){
 					renderResults(0, 0, 0);
